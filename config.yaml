@@ -1,0 +1,80 @@
+baseURL: 'https://mnemonicrpg.com/'
+languageCode: en-us
+title: Deadwood Jedi
+theme: mnemonic2
+googleAnalytics: UA-123-45
+year: 2020
+copyrightHolder: Deadwood Jedi
+module:
+  imports:
+    - path: github.com/platenio/hugo-platen
+paginatePath: blog
+privacy:
+  disqus:
+    disable: false
+  googleAnalytics:
+    anonymizeIP: true
+    disable: false
+    respectDoNotTrack: true
+    useSessionStorage: true
+  instagram:
+    disable: false
+    simple: false
+  twitter:
+    disable: false
+    enableDNT: false
+    simple: false
+  vimeo:
+    disable: false
+    enableDNT: false
+    simple: false
+  youtube:
+    disable: false
+    privacyEnhanced: true
+params:
+  description: The world of memory, a fantasy setting for stories and games.
+  # stain: https://images.pexels.com/photos/5556698/pexels-photo-5556698.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260
+  copyright:   '2020, Deadwood Jedi'
+  warnOnMissingAltText: false
+  scss:
+    # Default site variables
+    site:
+      font-stack:          'EB Garamond, sans-serif'
+      # primary-color:       'transparent'
+      # primary-color-text:  '#bbb'
+      # primary-color-light: 'gold'
+      # primary-color-hover: 'transparent'
+      # secondary-color:     'green'
+      # tertiary-color:      'orange'
+      # desktop-width:       '768px'
+      # site-nav-height:     '4em'
+    # Default Game variables (these can be overwritten per-game)
+    # games:
+      # font-stack: foo
+      # primary-color: '#6F468F'
+      # primary-color-text: '#FFF'
+      # primary-color-light: '#C4ABD8'
+      # primary-color-hover: '#A264D2'
+      # secondary-color:
+      # secondary-color-text:
+      # secondary-color-light:
+      # secondary-color-hover:
+      # tertiary-color:
+      # tertiary-color-text:
+      # tertiary-color-light:
+      # tertiary-color-hover:
+      # nav-height: 4em
+menu:
+  main:
+    - name: Speed Tunes
+      url: /speed-tune-list/
+    - name: Clan Boss Calculator
+      url: https://deadwoodjedi.info/cb
+    - name: Resources
+      url: /resources/
+    - name: Arena Calculator
+      url: /calculator/
+    - name: FAQ
+      url: /help/
+    - name: Privacy Policy
+      url: /privacy/

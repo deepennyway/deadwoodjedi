@@ -1,0 +1,9 @@
+{{ with $.Page.Params.downloads }}
+	<blockquote>
+		{{ range . }}
+		<ul>
+			<li><a href="{{ . }}">{{ .}}</a></li>
+		</ul>
+		{{ end }}
+	</blockquote>
+{{end}}

@@ -1,0 +1,18 @@
+{{ define "main" }}
+  {{ .Content }}
+
+      
+  <dl>
+    {{ range .Pages }}
+    <dt><a href="{{ .Permalink }}">{{ .Title }}
+        {{ with .Params.byline }}
+                {{ $code := . }}
+                <span class="byline">by 
+                    {{ range where $.Site.Data.authors.list "code" $code }}
+                        {{ .byline }}
+                    {{ end}}</span>
+        {{ end}}
+		<dd>{{ .Description }}</dd>
+    {{ end }}
+  </dl>
+{{ end }}

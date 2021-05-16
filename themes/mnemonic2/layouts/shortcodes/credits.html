@@ -1,0 +1,30 @@
+
+{{if $.Page.Params.team }}
+    <dl class="credits">
+        <dt>Core Team:</dt>
+        {{ range sort $.Page.Params.team }}
+            {{$code := . }}
+            {{ range where $.Site.Data.authors.list "code" $code }}
+                {{ if ne .show false }}
+                    <dd>{{ .fullname }} {{with .pronouns }}({{ . }}){{ end }}</dd>
+                {{ end }}
+            {{ end}}
+        {{ end }}
+    </dl>
+{{ end }}
+
+{{if $.Page.Params.contributors }}
+<dl class="credits">
+        <dt>Contributors:</dt>
+        {{ range sort $.Page.Params.contributors }}
+            {{$code := . }}
+            {{ range where $.Site.Data.authors.list "code" $code }}
+                {{ if ne .show false }}
+                    <dd>{{ .fullname }} {{with .pronouns }}({{ . }}){{ end }}</dd>
+                {{ end }}
+            {{ end}}
+        {{ end }}
+    </dl>
+{{ end }}
+    
+</dl>

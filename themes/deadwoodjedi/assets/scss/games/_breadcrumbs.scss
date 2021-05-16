@@ -1,0 +1,42 @@
+article.game,
+article.blog {
+  nav.breadcrumb {
+    font-family: $header-font;
+    padding-top: 1em;
+    border-image: $breadcrumb-border;
+    border-image-width: 0 10em 1.5em 1.5em;
+    border-image-outset: 0 0 .35em 1.5em;
+    border-image-repeat: round;
+    margin-bottom: -.3em;
+    ol {
+      margin: 0;
+      padding-left: 0;
+      list-style: none;
+    }
+    li {
+      display: inline;
+      font-family: $header-font;
+      font-size: .8em;
+      a {
+        text-decoration: none;
+      }
+      + {
+        li {
+          &::before {
+            display: inline-block;
+            margin: 0 0.25em;
+            transform: rotate(15deg);
+            border-right: 0.1em solid currentColor;
+            height: 0.8em;
+            content: '';
+          }
+        }
+      }
+    }
+    [aria-current="page"] {
+      color: #000;
+      font-weight: 700;
+      text-decoration: none;
+    }
+  }
+}

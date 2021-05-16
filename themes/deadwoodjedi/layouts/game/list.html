@@ -1,0 +1,21 @@
+{{ define "main" }}
+    <header>
+        {{ partial "games/breadcrumbs" . }}
+        <h1>{{ .Title }} <span class="byline">by {{ .Params.byline }}</span></h1>
+        <blockquote>{{ .Description | markdownify }}</blockquote>
+        <hr>
+    </header>
+    <figure>
+        <figcaption>Details:</figcaption>
+        <dl>
+            <dt>Team:</dt>
+                {{ range .Params.team }}<dd>{{ . }}</dd>{{ end }}
+            <dt>Tags:</dt>
+                {{ range .Params.tags }}<dd>{{ . }}</dd>{{ end }}
+            <dt>Price: {{ .Params.price }}</dt>
+        </dl>
+    </figure>
+    {{ .Content }}
+    <footer>
+    </footer>
+{{ end }}

@@ -1,0 +1,61 @@
+@import 'games/nav';
+@import 'games/breadcrumbs';
+
+article.game,
+article.blog {
+  max-width: 80ch;
+  min-height: 100%;
+  padding: 2ch 5ch 5ch 10ch;
+  box-sizing: border-box;
+  margin: 0 0 0 1em;
+  a {
+  	color: $link-color;
+  	opacity: .8;
+  	transition: .4s ease;
+  	&:hover {
+  		opacity: 1;
+  	}
+  }
+  header + p,
+  header + figure + p {
+    margin-top: .1em;
+  }
+  @media screen and (max-width: 1069px) {
+    padding-top: 3em;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 1069px) {
+  #site-nav-list.menu.show {
+    background: black;
+  }
+  header#site-header .menu.dropdown {
+    width: auto;
+  }
+}
+
+  aside.game-nav {
+    overflow-x: show;
+    nav#game-nav {
+      background-color: $nav-bg;
+      border-image: $nav-texture;
+      border-image-width: 0 3em 0 2em;
+      border-image-outset: 0;
+      border-image-repeat: repeat;
+      padding-right: 2em;
+      color: $nav-text;
+
+      a {
+        color: $nav-text;
+      }
+      * {
+      }
+
+      button {
+        color: $nav-text;
+        background-color: transparent;
+      }
+    }
+  }
+

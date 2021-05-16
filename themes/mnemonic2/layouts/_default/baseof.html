@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+    {{- partial "site/head.html" . -}}
+    <body>
+        {{- partial "site/header.html" . -}}
+        {{ with $.Site.Params.stain }}
+            <texture class='bottom'>
+              <img src="{{ . }}">
+            </texture>
+        {{ end }}
+          {{ if ne .Params.ads "no" }}
+              {{- partial "site/ad.html" . -}}
+          {{ end }}
+
+        <main id="content">
+        	<article>
+              <header><h1>{{ .Title }}</h1>
+              {{with .Params.lastupdated}}<blockquote>Last updated on {{ dateFormat "January 1, 2011" . }}</blockquote>{{end}}
+</header>
+		        {{- block "main" . }}{{- end }}
+		    </article>
+        </main>
+        {{- partial "site/footer.html" . -}}
+    </body>
+</html>

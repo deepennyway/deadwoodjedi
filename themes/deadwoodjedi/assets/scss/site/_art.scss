@@ -1,0 +1,53 @@
+figure.art {
+  border-image-source: none;
+  filter: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  &.full {
+    width: 100%;
+    mix-blend-mode: multiply;
+    margin-top: 1px;
+    border: 1px solid rgba(120,40,0,.1);
+    box-sizing: border-box;
+  }
+  &.header {
+    width: 100%;
+    mix-blend-mode: multiply;
+    margin-top: 1px;
+    border: 1px solid rgba(120,40,0,.1);
+    box-sizing: border-box;
+    mask-image: linear-gradient(15deg, transparent, transparent 10%, black 50%);
+    margin-bottom: -1.65em;
+    max-height: 13em;
+  }
+  &.half {
+    width: 40%;
+    float: right;
+    mix-blend-mode: multiply;
+  }
+  img {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: scale-down;
+  }
+  figcaption {
+    padding: 1em 2em;
+    font-style: italic;
+  }
+}
+
+article figure.art.full:nth-child(1) {
+  border: none;
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+
+@media print {
+  .full,
+  .half {
+    mix-blend-mode: normal !important;
+  }
+}

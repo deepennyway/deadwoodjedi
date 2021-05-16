@@ -1,0 +1,41 @@
+table.rolltable {
+  width: 100%;
+  th {
+    text-align: center;
+    font-weight: bold;
+    background-color: $nav-bg;
+    color: $nav-text;
+  }
+  th:hover,
+  td:hover {
+    background-color: $primary-color-hover;
+    color: $nav-text;
+  }
+  td {
+    text-align: center;
+    border: 0;
+    &.selected {
+      background-color: $nav-bg;
+      color: $nav-text;
+      font-weight: bold;
+    }
+  }
+  tr:nth-child(even) {
+    background-color: $primary-color-light;
+  }
+
+  caption {
+    button {
+      padding: 5px;
+      color: $primary-color-hover;
+      float: left;
+      left: 10px;
+    }
+    p.table-caption {
+      background: #eeeeee;
+      font-style: italic;
+      font-size: 0.75rem;
+      display: flow-root;
+    }
+  }
+}

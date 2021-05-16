@@ -1,0 +1,70 @@
+{{- if .IsNamedParams -}}
+  {{- $.Scratch.Set "name"    (.Get "name") -}}
+  {{- $.Scratch.Set "caption" (.Get "caption") -}}
+  {{- $.Scratch.Set "type"    (.Get "type") -}}
+{{- else -}}
+  {{- $.Scratch.Set "name"    (.Get 0) -}}
+  {{- $.Scratch.Set "caption" (.Get 1) -}}
+  {{- $.Scratch.Set "type"    (.Get 2) -}}
+{{- end -}}
+
+{{ $name    := $.Scratch.Get "name" }}
+{{ $caption := $.Scratch.Get "caption" }}
+{{ $type    := $.Scratch.Get "type" }}
+
+{{ $url := printf "static/tables/%s.csv" $name}}
+{{ $separator := "," }}
+{{ $tableData := getCSV $separator $url }}
+
+{{ $id := printf "rolltable-%s" (replace $name '/' '-')}}
+
+{{ $headers := first 1 $tableData}}
+{{ $headers := index $headers 0}}
+
+{{ $prefixes := after 1 $tableData | first 1 }}
+{{ if lt 2 (len $prefixes) }}
+  {{ $.Scratch.Set "prefixes" (index $prefixes 0) }}
+{{ else }}
+  {{ $.Scratch.Set "prefixes" (index $prefixes 0 | after 1) }}
+{{ end }}
+
+<table class="rolltable" id="{{ $id }}">
+  <caption>
+    <p class="table-caption">
+      <button onclick="toggleTableCollapse({{ $name }})" id="{{ $id }}-collapser"><i class="fa fa-caret-down"></i></button>
+      {{$caption}} Click on the <strong>Result</strong> header to roll automatically. Click on any other header to reroll for that column.
+    </p>
+    <p class="result" id="result-{{ $name }}"></p>
+  </caption>
+  <thead>
+    <tr>
+    {{ $.Scratch.Set "columnCount" 0 }}
+    {{ range $headers }}
+    {{ $column := $.Scratch.Get "columnCount" }}
+      {{if eq "result" (lower .) }}
+      {{ $function := (cond (eq $type "singular") "getRandomRow" "getRandomEntries") }}
+      {{ $function := printf `onClick=%v("%v")` $function $name | safeHTMLAttr }}
+      <th {{$function}}>{{ . }}</th>
+      {{else}}
+      <th onClick="getRandomEntry({{$name}},{{$column}})">{{ . }}</th>
+      {{end}}
+    {{ $.Scratch.Set "columnCount" (add $column 1) }}
+    {{ end }}
+    </tr>
+  </thead>
+  <tbody>
+  {{ $.Scratch.Set "rowCount" 1 }}
+  {{ range $data := after 2 $tableData }}
+  {{ $row := $.Scratch.Get "rowCount" }}
+  {{ $.Scratch.Set "columnCount" 0 }}
+    <tr>
+      {{ range $data }}
+      {{ $column := $.Scratch.Get "columnCount" }}
+      <td onClick="selectEntry({{$name}},{{$.Scratch.Get "rowCount"}},{{$column}})" data-prefix="{{index ($.Scratch.Get "prefixes") (add $column -1)}}" >{{ . }}</td>
+      {{ $.Scratch.Set "columnCount" (add $column 1) }}
+      {{ end }}
+    </tr>
+  {{ $.Scratch.Set "rowCount" (add $row 1) }}
+  {{ end }}
+  </tbody>
+</table>

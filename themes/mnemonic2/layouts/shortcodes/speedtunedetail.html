@@ -1,0 +1,39 @@
+{{ $url := "/data/speedtunes.csv"}}
+{{ range $i, $r := getCSV "," $url }}
+
+	{{ if eq (index $r 10) ( $.Page.Params.title)}}
+		{{ if ne (index $r 29) ""}}
+			{{ $youtube := strings.TrimPrefix "https://youtu.be/" (index $r 29) }}
+			<iframe class="video" src="https://www.youtube.com/embed/{{$youtube}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		{{ else}}
+		{{ $youtube := "vH9-Ha9bTRo" }}
+			<iframe class="video"  src="https://www.youtube.com/embed/{{$youtube}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>		
+		{{ end }}	
+
+		<section class="composition">
+			<ul>
+				<li>{{ index $r 14 }}</li>
+				<li>{{ index $r 15 }}</li>
+				<li>{{ index $r 16 }}</li>
+				<li>{{ index $r 17 }}</li>
+				<li>{{ index $r 18 }}</li>
+			</ul>
+			<h2>Basic Guidance</h2>
+			{{ markdownify (index $r 11) }}
+
+			{{ if ne (index $r 22) "" }}<p><a class="button" href="{{ index $r 22 }}">ULTRA-NIGHTMARE</a></p>{{ end }}
+			{{ if ne (index $r 24) "" }}<p><a class="button" href="{{ index $r 24 }}">NIGHTMARE</a></p>{{ end }}
+			{{ if ne (index $r 26) "" }}<p><a class="button" href="{{ index $r 26 }}">BRUTAL</a></p>{{ end }}
+			{{ if ne (index $r 28) "" }}<p><a class="button" href="{{ index $r 28 }}">Advanced Guide</a></p>{{ end }}
+			<h2>More Videos</h2>
+			{{ if ne (index $r 30) ""}}
+				{{ $youtube := strings.TrimPrefix "https://youtu.be/" (index $r 29) }}
+				<iframe class="video" src="https://www.youtube.com/embed/{{$youtube}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>		
+			{{ end }}
+			{{ if ne (index $r 31) ""}}
+				{{ $youtube := strings.TrimPrefix "https://youtu.be/" (index $r 29) }}
+				<iframe class="video" src="https://www.youtube.com/embed/{{$youtube}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>		
+			{{ end }}
+		</section>
+	{{ end }}
+{{end}}

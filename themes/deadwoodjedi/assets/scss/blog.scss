@@ -1,0 +1,46 @@
+@import 'games/nav';
+@import 'blog/pagination';
+
+article.blog {
+  width: 90%;
+  min-height: 100%;
+  max-width: 70ch;
+  margin: 0;
+  a {
+    color: rgb(120,0,0);
+    opacity: .5;
+    transition: .4s ease;
+    &:hover {
+      color: rgb(200,0,0);
+      opacity: 1;
+    }
+  }
+  @media screen and (max-width: 1069px) {
+    padding-top: 3em;
+  }
+}
+aside.blog-nav {
+  nav#blog-nav {
+    background-color: $nav-bg;
+    border-image: $nav-texture;
+    border-image-width: 0 2em;
+    border-image-outset: .2em;
+    border-image-repeat: round;
+    padding-right: 2em;
+    color: $nav-text;
+
+    a {
+      color: $nav-text;
+    }
+    * {
+    }
+
+    button {
+      color: $nav-text;
+      background-color: transparent;
+    }
+  }
+}
+
+main {
+}

@@ -1,0 +1,225 @@
+
+aside.game-nav,
+aside.blog-nav {
+  margin-left: 0;
+  filter: drop-shadow(0 0 1.5em rgba(0,0,0,1));
+  height: 100%;
+  top: $site-nav-height;
+  z-index: 1;
+  width: 30ch;
+  @media screen and (max-width: 1069px) {
+    height: $site-nav-height;
+
+    &.wide {
+      width: 100%;
+    }
+  }
+  @media screen and (min-width: 1070px) {
+    width: 20em;
+  }
+  nav#game-nav,
+  nav#blog-nav {
+    background-color: $nav-bg;
+    box-sizing: border-box;
+    color: $nav-text;
+    padding-left: 1em;
+    padding-right: 2.5em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    height: auto;
+    min-height: 100%;
+
+
+
+    @media screen and (min-width: 1070px) {
+      height: auto;
+    }
+
+    a {
+      color: $nav-text;
+      text-decoration: none;
+    }
+    /* Force accessible focus state */
+    * {
+      box-sizing: content-box;
+
+      &:focus {
+        color: $primary-color-light;
+      }
+    }
+
+    > .menu {
+      display: none;
+
+      &.show {
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+      }
+
+      &.current {
+        color: $secondary-color;
+      }
+    }
+
+    button {
+      color: $nav-text;
+      background-color: transparent;
+    }
+
+    > .menu-toggle {
+      position: relative;
+      display: inline-block;
+      background: transparent;
+      border: 0;
+      font-size: 2rem;
+      padding: 0.5rem 2rem;
+    }
+
+    > .branding {
+      display: inline-block;
+      text-align: left;
+      font-size: 1.5em;
+      width: 100%;
+      .logo {
+        max-width: 100%;
+        height: auto;
+        transition: .3s ease;
+        // opacity: .8;
+        margin-bottom: -.2em;
+        filter: sepia(0);
+
+        &:hover {
+          // transform: scale(1.02);
+          filter: sepia(1);
+          color: $primary-color-hover;
+          opacity: 1;
+        }
+      }
+
+      a {
+        display: inline-block;
+      }
+      @media screen and (max-width: 1069px) {
+        display: none;
+      }
+    }
+    hr {
+      margin: -.7em 0 1.3em 0;
+      border-image: $nav-hr;
+      border-image-width: 0 20em 3em 0;
+      border-image-outset: 0 1em 1.3em 1.5em;
+      border-image-repeat: round;
+      opacity: .9;
+    }
+
+    @media screen and (max-width: 1069px) {
+      > .menu {
+        width: 100%;
+      }
+    }
+
+    @media screen and (min-width: 1070px) {
+      > .menu {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+      }
+
+      > .menu-toggle {
+        display: none;
+      }
+    }
+
+    .visually-hidden {
+      position: absolute !important;
+      width: 1px !important;
+      height: 1px !important;
+      padding: 0 !important;
+      margin: -1px !important;
+      overflow: hidden !important;
+      clip: rect(0, 0, 0, 0) !important;
+      white-space: nowrap !important;
+      border: 0 !important;
+    }
+
+    ul {
+      padding-left: 0;
+      font-family: $header-font;
+      font-weight: normal;
+      letter-spacing: .08em;
+      ul {
+        padding-left: 1em;
+        font-family: $font-stack;
+        letter-spacing: 0;
+        ul {
+          font-style: italic;
+        }
+      }
+    }
+
+    .menu {
+      background-color: transparent;
+      list-style: none;
+      margin: 0;
+
+      &.show {
+        display: flex;
+        flex-direction: column;
+      }
+
+      &.dropdown {
+        display: none;
+        flex-direction: column;
+      }
+
+      .menu-link,
+      .menu-toggle {
+        display: block;
+        background-color: transparent;
+        text-decoration: none;
+        border: none;
+        padding: .15em;
+
+        .menu-item {
+          padding-left: 1rem;
+        }
+
+        .menu-item.dropdown > ul {
+          padding-left: 1rem;
+        }
+
+
+        &:hover {
+          color: $primary-color-hover;
+        }
+      }
+
+      .menu-link:active {
+        color: $primary-color-light;
+      }
+
+      .menu-item {
+        position: relative;
+        width: 100%;
+
+        &.dropdown > .dropdown-toggle {
+          &[aria-expanded="true"]::after {
+            content: "-";
+            margin-left: 0.5rem;
+            display: inline-block;
+          }
+          &[aria-expanded="false"]::after {
+            content: "+";
+            margin-left: 0.5rem;
+            display: inline-block;
+          }
+        }
+
+        .menu.dropdown.show {
+          display: flex;
+        }
+      }
+    }
+  }
+}

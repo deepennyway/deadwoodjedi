@@ -1,0 +1,20 @@
+{{ range $.Site.Data.products.games.list }}
+  <figure>
+    <h2 id="{{ .id }}"><a href="{{.product_url}}">{{ .name }} - ${{ .price }}</a></h2>
+    <img src="{{ .image }}">
+    {{ markdownify .description }}
+   <div class="product__button-container">
+        <div class="product__price">${{ .price }}</div>
+        <button
+          class="snipcart-add-item buy-button"
+          data-item-id="{{ .id }}"
+          data-item-name="{{ .name }}"
+          data-item-price="{{ .price }}"
+          data-item-url="{{ .product_url }}"
+          data-item-description="{{ .description }}">
+          Add to cart
+      </button>
+    </div>
+  </figure class="product">
+
+ {{ end }}

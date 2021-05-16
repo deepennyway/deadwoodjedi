@@ -1,0 +1,28 @@
+body {
+  filter: greyscale(1); }
+
+h1, h2, dt {
+  font-family: "Fredericka the Great" !important;
+  border-image-outset: 0 0 .35em .1em !important;
+  margin-bottom: 0 !important; }
+
+figure {
+  display: none; }
+
+h1 {
+  line-height: 1.2em;
+  margin-bottom: 0 !important; }
+
+h2 {
+  margin-top: .5em !important; }
+
+blockquote {
+  filter: greyscale() !important; }
+
+.breadcrumb {
+  display: none; }
+
+p + table,
+ul + table {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important; }

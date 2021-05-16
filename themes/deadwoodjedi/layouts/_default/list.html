@@ -1,0 +1,22 @@
+{{ define "main" }}
+<section>
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+    {{ range .Pages }}
+
+  <dl>
+    <dt><a href="{{ .RelPermalink }}">{{ .Title }}</a></dt>
+    {{ if .Params.price }}
+        <dd class="price">{{ .Params.price }}</dd>
+      {{ end }}
+      {{ if .Params.description }}
+		    <dd>
+		      {{ .Params.description }}
+		    </dd>
+	  {{ end }}
+  </dl>
+{{ end }}
+
+
+</section>
+{{ end }}

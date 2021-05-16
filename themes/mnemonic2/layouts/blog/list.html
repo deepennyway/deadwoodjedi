@@ -1,0 +1,98 @@
+{{ define "main" }}
+<!--   <h2>Recent Posts</h2>
+ -->  {{/* If you're at the blog root, grab all the blog posts, otherwise just this section's */}}
+  {{if eq .FirstSection . }}
+    {{- $paginator := .Paginate (where .Site.RegularPages "Section" "blog") -}}
+    {{ range $paginator.Pages }}
+      {{ template "previewCard" . }}
+    {{ end }}
+    {{- if gt $paginator.TotalPages $paginator.Pages -}}
+      {{ template "paginationNav" dict "paginator" $paginator }}
+    {{- end -}}
+  {{else}}
+    {{- $paginator := .Paginator}}
+    {{ range sort $paginator.Pages .Params.date }}
+      {{ template "previewCard" . }}
+    {{ end }}
+    {{- if gt $paginator.TotalPages $paginator.Pages -}}
+      {{ template "paginationNav" dict "paginator" $paginator }}
+    {{- end -}}
+  {{end}}
+{{ end }}
+
+{{- define "previewCard" -}}
+  <dl>
+    {{ range .Pages }}
+    <dt><a href="{{ .Permalink }}">{{ .Title }}
+        {{ with .Params.byline }}
+                {{ $code := . }}
+                <span class="byline">by 
+                    {{ range where $.Site.Data.authors.list "code" $code }}
+                        {{ .byline }}
+                    {{ end}}</span>
+        {{ end}}
+    <dd>{{ .Description }}</dd>
+    {{ end }}
+  </dl>
+
+<table class="listing paginated-post">
+  <thead>
+    <tr>
+    <th><a href="{{ .RelPermalink }}">{{ .Title }}</a> <span class="byline">{{ dateFormat "January 2, 2006" .Params.date }}</span></th>
+      {{ if .Params.byline }}<th>
+        <span class="byline">by {{ .Params.byline }}</span></th>
+      {{ end }}
+    </tr>
+  </thead>
+  <tbody>
+    {{with .Params.tags }}
+        <tr>
+            <td colspan="2" style="padding: 0;">{{ range . }}<span class="tags">{{ . }}</span>{{ end}}</td>
+        </tr>
+    {{ end }}
+    <tr><td colspan="2">
+      {{ .Summary | markdownify }}
+      {{- if .Truncated -}}
+        <a href="{{ .RelPermalink }}" class="read-more">Read More...</a>
+      {{- end -}}
+    </td></tr>
+  </tbody>
+</table>
+{{- end -}}
+
+{{- define "paginationNav" -}}
+{{- $paginator   := .paginator -}}
+<nav aria-label="Blog Pagination Navigation" class="pagination">
+  <ul>
+    {{ template "paginationControl" dict "type" "previous" "active" $paginator.HasPrev "pager" $paginator.Prev }}
+    {{- range $paginator.Pagers -}}
+      {{ template "paginationItem" dict "paginator" $paginator "pager" . }}
+    {{- end -}}
+    {{ template "paginationControl" dict "type" "next" "active" $paginator.HasNext "pager" $paginator.Next }}
+  </ul>
+</nav>
+{{- end -}}
+
+{{- define "paginationItem" -}}
+{{- $paginator   := .paginator -}}
+{{- $pager       := .pager -}}
+{{- $pageNumber  := $pager.PageNumber -}}
+{{- $ariaCurrent := eq $pager $paginator -}}
+<li>
+  <a href="{{ $pager.URL }}" aria-label="Goto Page {{ $pageNumber }}" aria-current="{{ $ariaCurrent }}">
+    {{ $pageNumber }}
+  </a>
+</li>
+{{- end -}}
+
+{{- define "paginationControl" -}}
+  {{- $type := .type -}}
+  {{- $active := .active -}}
+  {{- $pager := .pager -}}
+  {{- $iconClass := cond (eq $type "previous") "fa fa-step-backward" "fa fa-step-forward"}}
+  {{- if $active -}}
+    <li><a href="{{ $pager.URL }}" aria-label="Goto {{ $type }} page"><i class="{{ $iconClass }}"></i></a></li>
+  {{- else -}}
+    <li><a aria-disabled="true" aria-label="Goto {{ $type }} page"><i class="{{ $iconClass }}"></i></a></li>
+  {{- end -}}
+{{- end -}}

@@ -1,0 +1,26 @@
+{{ define "main" }}
+  <header>
+      {{ partial "games/breadcrumbs" . }}
+
+      {{ if .Params.art }}
+        <figure class="art header">
+          <img src="{{ .Params.art }}"
+               alt="{{ .Params.arttext }}"
+               title="{{ .Params.arttext }}">
+        </figure>
+      {{ end }}
+
+      <h1>{{ .Title }}</h1>
+      
+      </header>
+        {{ if .Params.byline }}
+            <byline class="byline">written by {{ .Params.byline }}</byline>
+          {{ end }}
+        {{ if .Params.artist }}
+          <byline class="byline">illustrated by {{ .Params.artist }}</byline>
+        {{ end }}
+        {{ if .Params.date }}
+          <byline class="byline">{{ dateFormat "January 2, 2006" .Params.date }}</byline>
+        {{ end }}
+  {{ .Content }}
+{{ end }}

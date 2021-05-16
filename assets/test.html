@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+	<head>
+	  <title>Mnemonic | Beyond the Rift</title>
+	  <meta charset = "UTF-8" />
+	  <style>
+	  	body {
+	  		height: 100%;
+	  		width: 100%;
+	  		margin: 0;
+	  		display: grid;
+	  		grid-template-areas: "header header header" "toc main .";
+	  		grid-template-rows: auto 1fr;
+	  		grid-column-gap: 0;
+	  		grid-template-columns: 20em 80ch 1fr;
+	  		border-image: url(velvet.png) 300 fill;
+	  		border-image-repeat: round;
+	  		border-image-outset: 0em;
+	  		border-image-width: 6em;
+	  		position: fixed;
+	  		top: 0;
+	  		left: 0;
+	  	}
+	  	article {
+	  		margin-left: 0;
+	  		grid-area: main;
+	  		color: #222;
+	  		padding: 1em 0 0 8em;
+	  		height: 100%;
+	  		width: 100%;
+	  		border-image: url(paper.png) 300 fill;
+	  		border-image-repeat: stretch round;
+	  		border-image-outset: 3em;
+	  		border-image-width: 3em;
+	  		box-shadow: 3.2em 1.5em 2.5em 2em rgba(0,0,0,.3),
+	  		 	3.3em 1em 2em 2em rgba(0,0,0,.3);
+	  		color: #222;
+	  	}
+	  	header {
+	  		grid-area: header;
+	  		color: #bbb;
+	  		height: auto;
+	  		padding: 1em;
+	  		z-index: 5;
+	  		border-image: url('https://mnemonicrpg.com/textures/desk.png') 15 300 15 300 fill;
+	  		border-image-repeat: round stretch;
+	  		border-image-outset: 0;
+	  		border-image-width: 10% 2%;
+	  		box-shadow: 0em .5em .5em 5px rgba(0,0,0,.4),
+	  		0 .2em .5em 3px rgba(0,0,0,.7);
+	  	}
+	  	aside {
+	  		grid-area: toc;
+	  		color: #bbb;
+	  		padding: 2.5em 2.5em 2em 1.5em;
+	  		height: 100%;
+	  		width: 20em;
+	  		z-index: 4;
+	  		border-image: url(book.png) 300 fill;
+	  		border-image-repeat: round;
+	  		border-image-outset: .5em;
+	  		border-image-width: 0 2em 0 0;
+	  		box-shadow: 2.5em 0 1em 5px rgba(0,0,0,.4),
+	  			2.2em 0 .5em 7px rgba(0,0,0,.5);
+	  	}
+
+	  	aside::before {
+	  		content: "";
+	  		border-image: url(band.png) 300 fill;
+	  		border-image-repeat: round;
+	  		border-image-outset: 0;
+	  		border-image-width: 0 2em 0 0;
+	  		height: 100%;
+	  		width: 22em;
+	  		display: block;
+	  		position: absolute;
+	  		pointer-events: none;
+	  		bottom: 0;
+	  		right: left;
+	  		opacity: .6;
+	  		filter: grayscale();
+	  	}
+
+	  	blockquote {
+	  		border-image: url(blockquote.png) 300 fill;
+	  		border-image-repeat: round;
+	  		border-image-width: 3em;
+	  		border-image-outset: 0;
+	  		padding: .5em;
+	  	}
+
+	  	h1 + blockquote {
+	  		border-image-width: 0 3em 3em 3em;
+	  		margin: 0;
+	  		padding-top: .5em;
+	  	}
+	  	h1 {
+	  		color: #330000;
+	  		padding: 0;
+	  		border-bottom: 2px solid rgba(90,0,0,.7);
+	  		margin-bottom: 0;
+	  	}
+
+	  	p {
+	  		padding: 0;
+	  		margin: 0;
+	  	}
+	  </style>
+	</head>
+<body>
+	<header>
+		<p>Top of Site</p>
+	</header>
+		<article>
+			<h1>Heading</h1>
+			<blockquote>
+				<p>Hello</p>
+				<p>Hello</p>
+			</blockquote>
+		</article>
+	<aside>
+		<p>Table of Contents</p>
+	</aside>
+</body>

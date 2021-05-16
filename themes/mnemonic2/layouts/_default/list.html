@@ -1,0 +1,47 @@
+{{ define "main" }}
+<section>
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+
+
+
+    {{ range where .Pages "Params.publish" "true" }}
+
+      <table class="listing" >
+        <thead>
+          <tr>
+            <th><a href="{{ .RelPermalink }}"> {{ .Title}}</a></th>
+          </tr>
+        </thead>
+        <tbody>
+              {{ if or (.Params.tags) (.Params.price) }}
+                {{with .Params.tags }}
+                    <tr>
+                        <td colspan="2" style="padding: 0;">{{ range . }}<span class="tags">{{ . }}</span>{{ end}}</td>
+                      </tr>
+                {{ end }}
+              {{end}}
+
+                <tr>
+                  <td>
+                    {{ with .Params.product_logo}}<img src="{{ . }}">{{end}}
+                    {{ with .Params.description }}{{ markdownify . }}{{end}}
+                    {{ if or (.Params.price) (.Params.communitycopies) }}
+                      <p>{{ with .Params.price }}
+                            <span class="price">Buy Now for {{ . }}</span>
+                        {{ end }}
+                      {{ if gt .Params.communitycopies 0 }}
+                        {{ $cc := (int .Params.communitycopies) }}
+                            <span class="price">Claim a Community Copy ({{ print $cc }} remaining)</span>
+                        {{ end }}
+                      </p>
+                    {{ end }}
+                  </td>
+                </tr>
+        </tbody>
+       </table>
+    {{ end }}
+
+
+</section>
+{{ end }}

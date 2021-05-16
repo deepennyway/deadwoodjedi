@@ -1,0 +1,31 @@
+h1, h2, dt {
+  border-image: url("/images/Beyond the Rift/border-smoke.png") !important;
+  border-image-slice: 0 300 300 300 !important;
+  border-image-outset: 0 0 .1em .1em !important;
+  border-image-width: 0 0 2em 0 !important;
+  margin-bottom: -.05em !important; }
+
+h2 {
+  margin-top: .5em !important; }
+
+blockquote {
+  border-image: url("/images/Beyond the Rift/blockquote.png") 300 fill !important;
+  border-image-outset: 0 0 0 .1em !important;
+  border-image-width: 2em !important;
+  border-image-repeat: round; }
+
+nav#game-nav {
+  border-image-source: url("/images/Beyond the Rift/book.png") !important; }
+
+article.game {
+  border-image-source: url("/images/paper-white.png") !important;
+  border-image-slice: 900 fill !important;
+  background-color: #2a2a2a !important; }
+  article.game byline + p:first-of-type:first-letter,
+  article.game header + p:first-of-type:first-letter {
+    font-style: normal; }
+
+p + table,
+ul + table {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important; }

@@ -1,0 +1,186 @@
+{{ if eq (.Get "filter") "recommended" }}
+	{{ $.Scratch.Set "filter" "recommended" }}
+{{ end }}
+
+{{ if eq (.Get "filtertype") "general" }}
+	{{ else if eq (.Get "filter") "standard"}}
+		{{ $.Scratch.Set "get" 7 }}
+	{{ else if eq (.Get "filter") "unkillable"}}
+		{{ $.Scratch.Set "get" 9 }}
+	{{ else if eq (.Get "filter") "slow"}}
+		{{ $.Scratch.Set "get" 8 }}
+	{{ else if eq (.Get "filter") "4:3"}}
+		{{ $.Scratch.Set "get" 2 }}
+	{{ else if eq (.Get "filter") "2:1"}}
+		{{ $.Scratch.Set "get" 0 }}
+	{{ else if eq (.Get "filter") "3:2"}}
+		{{ $.Scratch.Set "get" 1 }}
+	{{ else if eq (.Get "filter") "3:1"}}
+		{{ $.Scratch.Set "get" 3 }}
+	{{ end}}
+
+{{ if eq (.Get "filtertype") "champion" }}
+	{{ $.Scratch.Set "champion" (.Get "filter") }}
+	{{ if eq ($.Scratch.Get "champion") "Tower" }}
+		{{ $.Scratch.Set "index" 34 }}
+		{{ $.Scratch.Set "champion" "Roschard the Tower"}}
+	{{ else if eq ($.Scratch.Get "champion") "Sir Nicholas" }}
+		{{ $.Scratch.Set "index" 35 }}
+	{{ else if eq ($.Scratch.Get "champion") "Maneater" }}
+		{{ $.Scratch.Set "index" 36 }}
+	{{ else if eq ($.Scratch.Get "champion") "Warcaster" }}
+		{{ $.Scratch.Set "index" 37 }}
+	{{ else if eq ($.Scratch.Get "champion") "Valkyrie" }}
+		{{ $.Scratch.Set "index" 38 }}
+	{{ else if eq ($.Scratch.Get "champion") "Krisk" }}
+		{{ $.Scratch.Set "index" 39 }}
+	{{ else if eq ($.Scratch.Get "champion") "Ma'Shalled" }}
+		{{ $.Scratch.Set "index" 40 }}
+	{{ else if eq ($.Scratch.Get "champion") "Seeker" }}
+		{{ $.Scratch.Set "index" 41 }}
+	{{ end }}
+{{ end}}
+
+{{ $url := "/data/speedtunes.csv"}}
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+{{ range $i, $r := getCSV "," $url }}
+	{{ if gt $i 0 }}
+		{{if eq ($.Scratch.Get "filter") "recommended" }}
+			{{ $.Scratch.Set "get" 5 }}
+			{{ if eq (index $r 6) "DWJ Recommended" }}
+				{{ $.Scratch.Set "show" "true" }}
+			{{ end }}
+		{{ else if ($.Scratch.Get "get") }}
+			{{ if ($.Scratch.Get "get") }}
+				{{ if eq (index $r ($.Scratch.Get "get")) "x" }}
+					{{ $.Scratch.Set "show" "true" }}
+				{{ end }}
+			{{ end }}
+		{{ else if ($.Scratch.Get "champion") }}
+			{{ if eq (index $r ($.Scratch.Get "index")) ($.Scratch.Get "champion") }}
+				{{ $.Scratch.Set "show" "true" }}
+			{{ end }}
+		{{ else }}
+			{{ $.Scratch.Set "show" "true" }}
+		{{ end }}
+	{{ end }}
+
+	{{ if eq ($.Scratch.Get "show") "true" }}
+		<h2>{{ index $r 10 }}</h2>
+		<ul class="categories">
+			{{ if ne (index $r 6) ""}}
+				<li class="recommended">DWJ Recommended</li>
+			{{ end }}
+			{{ if ne (index $r 7) ""}}
+				<li>Standard</li>
+			{{ end }}
+			{{ if ne (index $r 8) ""}}
+				<li>Slow</li>
+			{{ end }}
+			{{ if ne (index $r 9) ""}}
+				<li>Unkillable</li>
+			{{ end }}
+			{{ if ne (index $r 0) ""}}
+				<li>2:1 Ratio</li>
+			{{ end }}
+			{{ if ne (index $r 1) ""}}
+				<li>3:2 Ratio</li>
+			{{ end }}
+			{{ if ne (index $r 2) ""}}
+				<li>4:3 Ratio</li>
+			{{ end }}
+			{{ if ne (index $r 3) ""}}
+				<li>3:1 Ratio</li>
+			{{ end }}
+		</ul>
+		<ul class="categories c-champions">
+			{{ if ne (index $r 34) "" }}
+				<li>{{ index $r 34 }}</li>
+			{{ end }}
+			{{ if ne (index $r 35) "" }}
+				<li>{{ index $r 35 }}</li>
+			{{ end }}
+			{{ if ne (index $r 36) "" }}
+				<li>{{ index $r 36 }}</li>
+			{{ end }}
+			{{ if ne (index $r 37) "" }}
+				<li>{{ index $r 37 }}</li>
+			{{ end }}
+			{{ if ne (index $r 38) "" }}
+				<li>{{ index $r 38 }}</li>
+			{{ end }}
+			{{ if ne (index $r 39) "" }}
+				<li>{{ index $r 39 }}</li>
+			{{ end }}
+			{{ if ne (index $r 40) "" }}
+				<li>{{ index $r 40 }}</li>
+			{{ end }}
+			{{ if ne (index $r 41) "" }}
+				<li>{{ index $r 41 }}</li>
+			{{ end }}
+		</ul>
+		{{ if ne (index $r 29) ""}}
+			{{ $youtube := strings.TrimPrefix "https://youtu.be/" (index $r 29) }}
+				<iframe loading="lazy" class="video" src="https://www.youtube-nocookie.com/embed/{{$youtube}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>		
+		{{end}}
+		<table>
+				<tbody>
+					<tr>
+						<td>Difficulty:</td><td>{{ index $r 20 }}</td>
+					</tr>
+					<tr>
+						<td>Found By:</td><td>{{ index $r 10 }}</td>
+					</tr>
+					<tr>
+						<td>UNM Description:</td><td>{{ index $r 12 }}</td>
+					</tr>
+					<tr>
+						<td>NM Description:</td><td>{{ index $r 13 }}</td>
+					</tr>
+					<tr>
+						<td>Specific Champions:</td>
+						<td>{{ index $r 33 }}</td>
+					</tr>
+				</tbody>
+			</table>
+			<script>
+				$(document).ready(function(){
+				  $("#{{urlize (index $r 10)}}toggle").click(function(){
+				    $("#{{urlize (index $r 10)}}Composition").fadeToggle();
+				  });
+				});
+			</script>
+			<button class="compositiontoggle" id="{{urlize (index $r 10)}}toggle">Composition</button>
+			<section loading="lazy" class="composition" id="{{ urlize (index $r 10)}}Composition">
+				<ul class="champions">
+					<li>{{ index $r 14 }}</li>
+					<li>{{ index $r 15 }}</li>
+					<li>{{ index $r 16 }}</li>
+					<li>{{ index $r 17 }}</li>
+					<li>{{ index $r 18 }}</li>
+				</ul>
+				<h3>Basic Guidance</h3>
+				{{ markdownify (index $r 11) }}
+
+				{{ if ne (index $r 22) "" }}<p><a class="button" href="{{ index $r 22 }}">ULTRA-NIGHTMARE</a></p>{{ end }}
+				{{ if ne (index $r 24) "" }}<p><a class="button" href="{{ index $r 24 }}">NIGHTMARE</a></p>{{ end }}
+				{{ if ne (index $r 26) "" }}<p><a class="button" href="{{ index $r 26 }}">BRUTAL</a></p>{{ end }}
+				{{ if ne (index $r 28) "" }}<p><a class="button" href="{{ index $r 28 }}">Advanced Guide</a></p>{{ end }}
+				<h3>More Videos</h3>
+				{{ if ne (index $r 30) ""}}
+					{{ $youtube := strings.TrimPrefix "https://youtu.be/" (index $r 29) }}
+					<iframe class="video" src="https://www.youtube-nocookie.com/embed/{{$youtube}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>		
+				{{ end }}
+				{{ if ne (index $r 31) ""}}
+					{{ $youtube := strings.TrimPrefix "https://youtu.be/" (index $r 29) }}
+					<iframe class="video" src="https://www.youtube-nocookie.com/embed/{{$youtube}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>		
+				{{ end }}
+			</section>
+	{{ end }}
+{{end }}
+
+
+

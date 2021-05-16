@@ -1,0 +1,1629 @@
+﻿"2:1","3:2","4:3","3:1","Order","CATEGORY","DeadwoodJedi Recommended","Standard","Slow Tunes","Unkillable","Title","Instructions","UNM Description","NM Description","Champ 1","Champ 2","Champ 3","Champ 4","Champ 5","Comp creator","Difficulty","UNM","UNM Build Link","NM","NM Build Link","Brutal","BRUTAL Build Link","Advanced Guide","Guide Link","Video Link","Alternate Video","Alt Vid 2","Tune","Specific Champions","Tower","Sir Nicholas","Maneater","Warcaster","Valkyrie","Krisk","Ma'Shalled","Seeker","Speed Tunes (DeadwoodJedi Recommended)","Speed Tunes (Tower)","Speed Tunes (Maneater)","Speed Tunes (Sir Nicholas)","Speed Tunes (Warcaster)","Speed Tunes (Seeker)","Speed Tunes (Ma'Shalled)","Speed Tunes (Krisk)","Speed Tunes (Valkyrie)"
+,"x",,,92,"3:2 Ratio",,,,,"2x 32 Champ","239+ champs both move at a 3:2 turn ratio, alternating double turns. 
+ Useful for keeping 3-turn cooldown skills up permanently/semi-permanently. 
+ 
+ As always variations within ranges may alter the turn order.","Two 3:2 turn ratio champions, alternating double-turns.",,"258-285","239-285","171-178","171-178","171-172",,"UNM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/dfc5e7f3e203cd9a7439a90f43406dbf7a5bf445",,,,,,,,,"https://youtu.be/vH9-Ha9bTRo",1,,,,,,,,,,,,,,,,,,
+,,"x",,45,"4:3 Ratio",,,,,"Affinity Valkyrie with two Fast Champs","Note: Calculator currently does not show Valkyrie's passive TM gain.
+ 
+ UNM - All Affinities including Void
+ 
+ 247-251 Champion will go First/Last after the Stun. 
+ 239-242 Champion will go First/Last between AOEs starting from turn count 4. Must navigate the first stun.
+ Use Sepulcher (or Duchess or other champ) Block debuff on turn count 1.
+ 191 - Valkyrie
+ 
+ Does NOT work on NM.
+ 
+ Regardless of affinity this turn order will maintain. There is VERY little leeway with these speeds, so check true speeds.","Speed ranges to maintain turn order with Valkyrie's Passive against affinity or void CB with two 4:3 Champion",,"247-251","239-242","191","188-189","179-185","DeadwoodJedi","UNM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/770479bc6e30e16016106e186840b7bb3c8463b9",,,,,,,"https://youtu.be/iQAOKKEd3MM","https://youtu.be/nRvXhBY1H44","https://youtu.be/ltF5dDXkLC8",1,"Valkyrie",,,,,"Valkyrie",,,,,,,,,,,,"/speed-tunes-19/valkyrie"
+"x",,,,237,"2:1 Ratio","DWJ Recommended",,,"x","The Dark Knight - aka, WarCrusher","The chassis of this team is the very well documented Batman composition.  This is an alternate version of that team, so if you're struggling you may wish to read up on those to better understand potential issues. 
+
+The key to this team is utilizing Renegades cooldown reduction skill to reset the abilities of your Unkillable champion. You still must bring in a champion to tank the stun - typically Skullcrusher.  Another important note is you must NOT book the cooldown of Renegades A3 skill, so it remains on a 6 turn cooldown.  You can use Kymar instead of Renegade, but the speed requirements become slightly highert for Skullcrusher, Renegade and significantly higher for your Unkillable Champ.  Lastly you can use a FULLY BOOKED Sir Nicholas in this comp!
+
+Also, because there's no speed buffs, extra turn champions such as Rotos can be used without fear of breaking the speed tune - they may however throw off the stun targeting.
+ 
+ 265-285 - Unkillable Champ (Warcaster, Sir Nicholas, Roschard the Tower - goes last)
+ 248-254 - Seeker (goes second)
+ 245-247 - Renegade (must be faster than Stun champ and slower than Seeker - goes third)
+ 245-247 - Stun Target (Typically Skullcrusher, though in theory any 3 turn cooldown Unkillable champ can work - goes second to last)
+ 218-227 - DPS / Support (goes first)
+
+*Stun Targeting is essential, so a negative or neutral affinity champ is ideal for that purpose.
+*Avoid negative affinity DPS champions.
+*Does not work well for Spirit affinity without a cleanser in the DPS slot or Block Debuffs - which will likely tank damage output.
+*Set up is essentially the same as the Batman series of compositions.","Using Un-Booked Renegade and Warcaster/Skullcrusher to stay unkillable","Using Un-Booked Renegade and Warcaster/Skullcrusher to stay unkillable","265","248","247","246","220","Various","UNM / NM / Brutal","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/0869e5faaa47f04231ae9911b54fbe94a257c19d","NIGHTMARE","https://deadwoodjedi.info/cb/1594e515668fef2a5ee8e8b99caba95c4a3799ea","BRUTAL","https://deadwoodjedi.info/cb/fc48e0eee68fe2a134f1ac00fed47d4a84ee417f",,,"https://youtu.be/sk-qv8yhtB4","https://youtu.be/1fbHJfozJAk",,1,"Renegade, Seeker, Warcaster/Sir Nicholas/Tower, Skullcrusher or other Unkillable stun Target","Roschard the Tower","Sir Nicholas",,"Warcaster",,,,"Seeker","/speed-tunes-11/dwj-recommended","/speed-tunes-12/roschard-the-tower",,"/speed-tunes-14/sir-nicholas","/speed-tunes-15/warcaster","/speed-tunes-16/seeker",,,
+,,"x",,58,"4:3 Ratio",,,,,"Fast Valkyrie and Sepulcher","Note: Calculator currently does not show Valkyrie's passive TM gain.
+ 
+ Build designed to have Sepulcher block all debuffs and maintain Valkyrie going last to maximize counter-attacks. Speeds differ for Void CB.
+ Full block debuff coverage from the start (not including Void poisons).
+ 
+ Non-Void Affinity
+ 256 - Sepulcher, 2-turn delay on A2 (Should be used at the END of turn count 1)
+ 194 - DPS, this spot to be subbed for Void, so pick a less critical role here
+ 192 - DPS/Support
+ 191 - Valkyrie
+ 178 - DPS/Support
+ 
+ Void Affinity
+ From above, replace 194 champ with 177 champ
+ 
+ As always rotation may vary if true speeds differ.","Sepulcher going First/Last after AOE1 to block debuffs and Stun, while accomodating Valkyrie's passive and keeping her going last for max CA.",,"256","194/177","192","191","178","Bobo","UNM","UNM-AFFINITY","https://deadwoodjedi.info/cb/3845f0dd0c09aec95dd93dabd3526c2bf7ad686b","UNM-VOID","https://deadwoodjedi.info/cb/72dbacdb042436a0a9c6c3f68096df0a22eeab74",,,,,"https://youtu.be/s-uKWPks0UA","https://youtu.be/B5EqRs3AWPM","https://youtu.be/vH9-Ha9bTRo",1,"Valkyrie",,,,,"Valkyrie",,,,,,,,,,,,"/speed-tunes-19/valkyrie"
+,,,,150,"Unkillable","DWJ Recommended",,,"x","Santa Unkillable","239-241 - Pain Keeper
+ 205-210 - Stun Tank (Skullcrusher/Taurus)
+ 188 - Cleanser/DPS
+ 171-178 - DPS (faster than Sir Nicholas)
+ 171-176 - Sir Nicholas
+ 
+ UNM
+ Skill orders:
+ Pain Keeper - A1, A3, A2, auto
+ Sir Nicholas - A2, A1, A3, auto
+ Skullcrusher - A2, auto
+ Cleanser - A1, cleanse
+ 
+ NM
+ Skill orders:
+ Pain Keeper - A1, A1, A3, A1, A2, auto
+ Sir Nicholas - A3, A2, A1, A3, auto
+ Skullcrusher - A2, auto
+ Cleanser - A1, A1, cleanse
+ 
+ Stun targeting is always an issue, so avoid Lifedrinker mastery on your stun target. Champions like Bad-el-Kazar can provide too much healing and should be carefully considered before using. 
+ Using Rust's Stun Calculator can certainly help in setting it up, however it's only an approximation, not exact. 
+ All the speeds listed are true speeds. When tuning for only a single difficulty, there is considerably more of a speed range available.","Unkillable team centered around Sir Nicholas, Skullcrusher, and Pain Keeper","Unkillable team centered around Sir Nicholas and Skullcrusher and Pain Keeper","241","205","188","177","175","DeadwoodJedi","UNM / NM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/f1d4437070f7fb2a71fa12992a386bca49a76d3c","NIGHTMARE","https://deadwoodjedi.info/cb/7f823ca5b1672254185c3abb0d59a40fd32825da",,,,,"https://youtu.be/n3NkBvyR5So",,"https://youtu.be/vH9-Ha9bTRo",1,"Sir Nicholas, Pain Keeper, Skullcrusher, Cleanser",,"Sir Nicholas",,,,,,,"/speed-tunes-11/dwj-recommended",,,"/speed-tunes-14/sir-nicholas",,,,,
+"x",,,,207,"2:1 Ratio",,,,"x","Heaven and Hell","252-253 Ma'Shalled
+ 251-252 Maneater
+ 224-239 Stun Target (Skullcrusher/warcaster/etc)
+ 201-212 Belanor
+ 186-207 Kymar
+ 
+ Speed ranges are VERY tight for the top two speeds, so CHECK THE CALCULATOR!
+ 
+ To make this affinity friendly you will need to manual through turn count 7: 
+ Ma'Shalled - A1, A2.
+ Maneater - A1, A3. 
+ Skullcrusher - A2.
+ Kymar - Don't use A3 until first attack of turn count 7. After that it should be full auto.","Ma'Shalled 2:1 team using Kymar, Maneater, and Skullcrusher to be unkillable, while Belanor rains holy wrath.",,"252","251","224-239","201-211","186-207","DeadwoodJedi","UNM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/624c1702a935537f27570e4e9eaff84567c02017",,,,,,,"https://youtu.be/roe6GGvtdnI","https://youtu.be/EtF4K5htj_8","https://youtu.be/VIMqzaXmluc",1,"Ma'Shalled, Kymar, Maneater, Belanor",,,"Maneater",,,,"Ma'Shalled",,,,"/speed-tunes-13/maneater",,,,"/speed-tunes-17/ma'shalled",,
+"x",,,,203,"2:1 Ratio",,,,,"White Whale - Endless Speed","Speeds will be less if you use a Speed Aura
+ 
+ 268 - Speed Champion (High Khatun/Apothecary/etc)
+ 245- Buff Extender (Sandlashed Survivor/Valerie)
+ 244 - DPS
+ 212 - DPS / Debuff Blocker (3-turn cooldown)
+ 196 - DPS / Cleanser
+ 
+ UNM / NM Setup:
+ Speed Champion can auto*
+ Buff Extender can auto*
+ Debuff Blocker has an additional 2-turn delay compared to the others if you want to align it with buff extensions
+ *Equal delays can be added to both the speed buff and buff extension to adjust where in the cycle you want buff extensions.
+ 
+ To avoid time cleansing the stun with Valerie and HK as the lead champion, both Valerie and HK need a 1 turn delay for their abilities.
+ Valerie's AI is trash and must be run on manual
+ 
+ There is plenty of leeway when it comes to speed.","2:1 turn ratio using a speed booster and a buff extender","2:1 turn ratio using a speed booster and a buff extender","268","244","244","212","196","DeadwoodJedi","UNM / NM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/4c80e5054b1cc7837725aa30017e1315bf6433f0","NIGHTMARE","https://deadwoodjedi.info/cb/3d18fa083a9377a58607a3e7d22790354bd9d3da",,,,,"https://youtu.be/zqRXH16V6OA",,"https://youtu.be/vH9-Ha9bTRo",1,"High Khatun, Sandlashed or Valerie",,,,,,,,,,,,,,,,,
+"x",,,,232,"2:1 Ratio","DWJ Recommended",,,"x","Batman Forever"," 265-285 - Warcaster/Tower/Santa*
+ 248-254 - Seeker
+ 245-247 - DPS (faster than the below Tower/Santa if you want to run Relentless)
+ 245-246 - Tower/Santa*
+ 218-227 - DPS / Doompriest
+ 
+UNM/NM/Brutal Rotation:
+ Turn 0 - Warcaster A3, Seeker A1, Roshcard A1, press auto. It works on UNM, NM and Brutal.
+ 
+ *For Spirit, you can run Doompriest at the slowest speed. 
+ *Both DPS can have relentless (as long as the 247 DPS is faster than the 246 Tower/Santa)
+ *Santa has to be manual unless you lucked out and didn't reduce his A2 cooldown
+ *DPS must be lead and take stun - no lifedrinker!
+
+============
+Advanced Notes
+============
+Champion 1 (C1)
+    > 264.490     (for UNM)
+    > C5 * 7/6
+    < C4 * 7/6
+    < 285.714
+Seeker
+    > 244.286     (for UNM)
+    < C5 * 7/6
+Champion 3 (C3)
+    > C4
+    < Seeker
+Champion 4 (C4)
+    > 238.096
+    > C1 * 6/7
+    > 244.20     (iff cleansing vs Spirit)
+    < C3
+Champion 5 (C5)
+    > 217.143     (for UNM)
+    > Seeker * 6/7
+    < C1 * 6/7
+    < 238.095
+","Unkillable Batman comp","Unkillable Batman comp","265","248","247","246","220","Napoleon Camembert","UNM / NM / Brutal","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/d3edeec70427190fdf16fd1a8f2a39e22a603cd5","NIGHTMARE","https://deadwoodjedi.info/cb/a13f12722f41ea60a25346fb3d7cec1dc0467a4f","BRUTAL","https://deadwoodjedi.info/cb/5258c436ddd51c1f0432a42595307f6f2cb7de27",,,"https://youtu.be/KZW3L3OJXcY","https://youtu.be/gGIb5gsWx9M","https://youtu.be/Dfa5viMPbvo",1,"Seeker, Tower or Santa, Warcaster or Tower or Santa","Roschard the Tower","Sir Nicholas",,"Warcaster",,,,"Seeker","/speed-tunes-11/dwj-recommended","/speed-tunes-12/roschard-the-tower",,"/speed-tunes-14/sir-nicholas","/speed-tunes-15/warcaster","/speed-tunes-16/seeker",,,
+,,"x",,53,"4:3 Ratio",,,,,"Fast 3x 43 Champs","241-257 Champions will go at a 4:3 turn ratio. Syncs up on turn count 3.
+ 
+ UNM
+ 257 champ goes Twice/Last after Stun.
+ 241 champ goes Twice/First after Stun.
+ 242 champ goes First/Last after AOE2.
+ 
+ NM
+ 257 champ goes Twice/Last between AOEs.
+ 241 champ goes Twice/First between AOEs.
+ 242 champ goes Twice/Last after Stun.
+ 
+ This is useful for having three champs on a 4-turn cooldown using their abilities every cycle and have their buffs cover multiple clan boss turns. As always variations within ranges may alter the turn order.","Three 4:3 turn ratio champions: Twice/First after Stun, Twice/Last after Stun, and First/Last after AOE2.","Three 4:3 turn ratio champions: Twice/First after AOE1, Twice/Last after AOE1, and Twice/Last after Stun.","257","242","241","192","191",,"UNM / NM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/8366bb120c3083d0ed18f27bcbbc098e904b9906","NIGHTMARE","https://deadwoodjedi.info/cb/a0f44eda82469db101bec010f7a77e1db8233a18",,,,,"https://youtu.be/B5EqRs3AWPM","https://youtu.be/VKOCMvWH1iI","https://youtu.be/vH9-Ha9bTRo",1,,,,,,,,,,,,,,,,,,
+"x",,,,210,"2:1 Ratio",,,,,"A Girl and Her Turtle","WORK IN PROGRESS
+
+","2:1 turn ratio using Lydia and Krisk","2:1 turn ratio using Lydia and Krisk","268","245","244","218","199",,"UNM / NM / BRUTAL","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/87daf5d8451981954d4817cc01755dc2533c8eed","NIGHTMARE","https://deadwoodjedi.info/cb/3343de6c23074a5d5ab6b111f63e5bdb25da6243","BRUTAL","https://deadwoodjedi.info/cb/bc3825a693dd8e22f2547f74f7f0ed0800b4853b",,,,,,1,"Lydia, Krisk",,,,,,,,,,,,,,,,,
+,,,,117,"Unkillable",,,,"x","ManTower","*Must avoid Stuns to Maneater and Tower till you are fully in tune.
+
+UNM
+287 - Maneater
+239 - Tower / Santa(A2 Unbooked)
+221 - DPS
+181 - DPS 
+171 - DPS
+*Fully Unkillable starting Turn Count 3
+*1 Turn delay on Maneater, 3 Turn Delay on Tower
+*any DPS works, no relentless/extra turns/turn meter boosts
+
+NM
+287 - Maneater
+244 - Tower / Santa(A2 Unbooked) / Warcaster
+221 - DPS 
+169 - DPS
+171 - DPS
+*Fully Unkillable starting Turn Count 6
+*2 Turn delay on Maneater
+*To use Warcaster, add 1 Turn delay on Turn Count 6
+*any DPS works, no relentless/extra turns/turn meter boosts
+
+Brutal
+287 - Maneater
+239 - Tower / Santa(A2 Unbooked) / Warcaster
+178 - DPS
+169 - DPS 
+171 - DPS
+*Fully Unkillable starting Turn Count 3
+*2 Turn delay on Maneater, add 1 Turn delay on Turn Count 4
+*To use Warcaster, add 1 Turn delay on Turn Count 3
+*any DPS works, no relentless/extra turns/turn meter boosts
+","Fast Tower and Maneater Stays Unkillable and Affinity Friendly","Fast Tower and Maneater Stays Unkillable and Affinity Friendly","287","239","221","181","171","iAanGGaming","UNM / NM / Brutal","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/9d9c3d32755672fc95ca8580c0dd0a27f651c2c5","NIGHTMARE","https://deadwoodjedi.info/cb/6a67d0d8b6abf6e3a886d47adcaba3686dff297d","BRUTAL","https://deadwoodjedi.info/cb/9b992c17c2804892d6493ccb69f2e33736eedca8",,,"https://www.youtube.com/watch?v=RH-OBce9ZRg",,"https://youtu.be/vH9-Ha9bTRo",1,"Maneater, Tower","Roschard the Tower",,"Maneater",,,,,,,"/speed-tunes-12/roschard-the-tower","/speed-tunes-13/maneater",,,,,,
+"x",,,,206,"2:1 Ratio","DWJ Recommended",,,"x","Man Salad","Bobo Variant
+ Same for UNM and NM:
+ 252-253 Ma'Shalled - A1, A2
+ 250.55-252 Pain Keeper - A3, A1, A1, A2
+ 224-229 Fast Maneater - A2, A3
+ 203-209 Slow Maneater - A2, A1, A3
+ 186-192 DPS
+ So long as the stun does NOT target Ma'Shalled or Pain Keeper, this team can hit auto after Pain Keeper's A2 right before the first stun.
+*NO Relentless sets
+
+ =====
+
+Original
+ 252-253 Ma'Shalled
+ 251-252 Fast Maneater
+ 224-239 Slow Maneater
+ 201-212 DPS
+ 186 Pain Keeper
+ 
+ Speed ranges are VERY tight for the top two speeds and especially for Pain Keeper, so CHECK THE CALCULATOR!
+*NO Relentless sets
+ 
+ UNM Setup (all affinity friendly):
+ Ma'Shalled - A1, A2
+ Fast Maneater - A2, A1, A3, ...don't use A3 again until his 2nd attack of turn count 5
+ Slow Maneater - A2, A1, A2, A1, A1, A3 (A3 should be at the start of turn count 4)
+ Pain Keeper - A3, A1, A1, A2
+ Auto after Fast Maneater's A3 on turn count 5.
+ First stun is unprotected. Do NOT let Ma'Shalled or the Slow Maneater get hit by it.
+ 
+ NM Setup (all affinity friendly):
+ Ma'Shalled - A1, A2
+ Fast Maneater - A2, A1, A1, A3
+ Slow Maneater - A2, A1, A3, A2, A1, A2, A1, A1, A3 (this A3 should be the Maneater's first action of turn count 5)
+ Pain Keeper - A2, A1, A1, A3
+ Auto after Slow Maneater's A3 on turn count 5.
+ First stun is unprotected for Ma'Shalled; do NOT let him get hit by it.","Using Double Maneater and Ma'Shalled to achieve an affinity friendly 2:1 unkillable team.","Using Double Maneater and Ma'Shalled to achieve an affinity friendly 2:1 unkillable team.","252","251","224-239","201-211","186-207","DeadwoodJedi","UNM / NM","UNM-BOBO","https://deadwoodjedi.info/cb/12170c9b954566f27a62301b2efcbfaf5dbd315b","UNM","https://deadwoodjedi.info/cb/4aa620936fe7247d55744eab0c71122e69d7939b","NM","https://deadwoodjedi.info/cb/ead2d9a8d74c8e749b11560821c154004758ed22",,,"https://youtu.be/roe6GGvtdnI","https://youtu.be/EtF4K5htj_8","https://youtu.be/VIMqzaXmluc",1,"Ma'Shalled, Maneater x2, Pain Keeper",,,"Maneater",,,,"Ma'Shalled",,"/speed-tunes-11/dwj-recommended",,"/speed-tunes-13/maneater",,,,"/speed-tunes-17/ma'shalled",,
+,,"x",,11,"4:3 Ratio",,,,,"1 Champ after AOE2","UNM
+ 230-237 champ takes their double turn and goes first after AOE2
+ 
+ NM
+ 230-237 champ takes their double turn and goes first between AOEs
+ 
+ Slowest champ is last
+ 
+ This is useful for having one champ on a 4-turn cooldown using their abilities every cycle while allowing your CA champion to still go last.
+ 
+ The numbers may have more leeway than shown. As always variations within ranges may alter the turn order.","Double turn after AOE2","Double turn between AOEs","230-237","172-177","172-177","172-177","172-177",,"UNM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/e4143c2c32d87ede848b04b7fe74fe6e457bbf03",,,,,,,"https://youtu.be/B5EqRs3AWPM","https://youtu.be/VKOCMvWH1iI","https://youtu.be/vH9-Ha9bTRo",1,,,,,,,,,,,,,,,,,,
+,,,,2,"STANDARD",,"x",,,"Double Counter-Attack","When using Skullcrusher make the other Counter-Attack Champion last in the turn order. The CA champ last in the turn order must use their skill before AOE1, the other before AOE2.
+ 
+ Skullcrusher can be placed in either CA position - BUT when using Skullcrusher as the second CA champion, and to ensure the stun goes to a champion other than your CA champs, you must have the tank slower than Skullcrusher. They also must be in a higher team order than the CA champions. This is to ensure the buff falls off that champion before the stun, forcing him to be targeted.
+ 
+ If not using Skullcrusher, one CA must be the last in the turn order. That CA champ should use their ability before the AOE2.","1:1 turn ratio w/ double counter-attack","1:1 turn ratio w/ double counter-attack","171-189, 191-209","171-189, 191-209","171-189, 191-209","171-189, 191-209","171-189, 191-209",,"UNM / NM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/44e5e748161ef8ac917676f622f1fb62e90b0260","NIGHTMARE","https://deadwoodjedi.info/cb/9f877ac4013f566270c2184d8fb0412eaabb51e9",,,,,"https://youtu.be/AJj9VPHEnvs","https://youtu.be/s9i4FDKJHBY","https://youtu.be/Szmxiru2NHU",1,"2 Counter-Attack Champions",,,,,,,,,,,,,,,,,
+,,,,132,"Unkillable","DWJ Recommended",,,"x","New Budget Maneater - 3 Bosses only 1 Comp","UNM
+ 240-241 - Maneater
+ 218-222 - Pain Keeper
+ 175-178 - DPS
+ 175-178- DPS
+ 111-118 - Stun Target/DPS
+ Rotation:
+ Maneater - A3
+ Pain Keeper - A3, A1, A2, auto
+ Everyone else - auto
+ For Spirit affinity, wait to use PK's A2 till turn count 5.
+ 
+ NM
+ 240-241 - Maneater
+ 218-222 - Pain Keeper
+ 175-178 - DPS
+ 175-178- DPS
+ 121 -Stun Target/DPS
+ Rotation:
+ Maneater - A1, A3, auto
+ Pain Keeper - A3, A1, A1, A2, auto
+ Everyone else - auto
+ 
+ Brutal
+ 240-241 - Maneater
+ 218-222 - Pain Keeper
+ 175-178 - DPS
+ 175-178- DPS
+ 111-118 - Stun Target/DPS
+ Rotation:
+ Maneater - A1, A1, A3, auto
+ Pain Keeper - A1, A3, A1, A2, auto
+ Everyone else - auto
+ It is recommended you manual the first 2-3 cycles of the fight to ensure you stay in sync.
+ 
+ HP of Stun Target should be the highest of the team, but not more than 125% of PK's HP.
+ PK should be second highest HP.
+ (ex. If PK has 40K HP, then your Stun Target needs to be between 41K-50K).
+ A good target to aim for is 10% more than PK. (so 44K in the above example)
+ Stun Target's DEF should be as low as possible, at least several hundred lower than anyone else on the team.
+ When facing affinities, the Stun Target ideally should be the weak affinity (vs Magic have a spirit one), or otherwise there should be no weak affinity champions on the team. 
+ *Avoid having a strong affinity Stun Target! It's just not worth it.
+ 
+ Example HP/DEF Tuning:
+ Aim for 1k DEF and 35k-40k HP on the Stun Target, at least 2k DEF and 30-35k HP on the rest. Pain Keeper should have 2nd highest HP on team.
+ Affinities will screw up your run - use a weak affinity for the Stun Target!
+ Watch your runs! Hard to know how to fix it if you don't know where it went wrong...
+ Ally/Counter-Attack can work, but it can add complication if not tuned right for each difficulty. NOT RECOMMENDED for the faint of heart!","Maneater + Pain Keeper unkillable team, using a 2:3 turn ratio champion as the stun target. Change speed of the stun target to work on Brutal, NM, and UNM","Maneater + Pain Keeper unkillable team, using a 2:3 turn ratio champion as the stun target. Change speed of the stun target to work on Brutal, NM, and UNM","240-241","218-222","175-178","175-178","111-118 and 121","DeadwoodJedi and Rust","UNM / NM / Brutal","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/d7c74e2629b8eda47925b37b26389ee27a43105e","NIGHTMARE","https://deadwoodjedi.info/cb/03d1c072e03ee9cf2713aea771528761a9374c18","BRUTAL","https://deadwoodjedi.info/cb/8a876815d3a8728550232879129e3212891de5de","ADVANCED GUIDE","https://www.deadwoodjedi.com/easy-unkillable-guide-by-rust","https://youtu.be/urY8i33WHkM","https://youtu.be/2S4J3jWF5VM","https://youtu.be/CAoDIppQaWc",1,"Maneater, Pain Keeper",,,"Maneater",,,,,,"/speed-tunes-11/dwj-recommended",,"/speed-tunes-13/maneater",,,,,,
+,,,,135,"Unkillable",,,,"x","Budget Maneater - NM-Only Edition","219+ - Maneater
+ 213-214 - Pain Keeper
+ 161-169 - DPS
+ 161-169 - DPS
+ 103-109 - Stun Target / 2:3 DPS
+ 
+ Rotation for both versions: 
+ Maneater - A3
+ Pain Keeper - A3, A1, A2. 
+ 
+ HP of Stun Target should be the highest of the team, but not more than 125% of PK's HP.
+ PK should be second highest HP.
+ (ex. If PK has 40K HP, then your Stun Target needs to be between 41K-50K).
+ A good target to aim for is 10% more than PK. (so 44K in the above example)
+ Stun Target's DEF should be as low as possible, at least several hundred lower than anyone else on the team.
+ When facing affinities, the Stun Target ideally should be the weak affinity (vs Magic have a spirit one), or otherwise there should be no weak affinity champions on the team. 
+ *Avoid having a strong affinity Stun Target! It's just not worth it.
+ 
+ Example HP/DEF Tuning:
+ Aim for 1k DEF and 35k-40k HP on the Stun Target, at least 2k DEF and 30-35k HP on the rest. Pain Keeper should have 2nd highest HP on team.
+ Affinities will screw up your run - use a weak affinity for the Stun Target!
+ Watch your runs! Hard to know how to fix it if you don't know where it went wrong...
+ Ally/Counter-Attack can work, but it can add complication if not tuned right for each difficulty. NOT RECOMMENDED for the faint of heart!",,"Budget Maneater with lower speeds specifically for Nightmare","219+","213-214","161-169","161-169","103-109","DeadwoodJedi","NM",,,"NIGHTMARE","https://deadwoodjedi.info/cb/6d3afbf007f7d4c6740d7aba084056021dcf98ee",,,"ADVANCED GUIDE","https://www.deadwoodjedi.com/easy-unkillable-guide-by-rust","https://youtu.be/CAoDIppQaWc","https://youtu.be/CAoDIppQaWc","https://www.youtube.com/watch?v=K3sr5k6wYHI",1,"Maneater, Pain Keeper",,,"Maneater",,,,,,,,"/speed-tunes-13/maneater",,,,,,
+"x",,,,239,"2:1 Ratio",,,,"x","What in the Hellmut","*I do not especially recommend this composition.  It is not affinity friendly and difficult to set up and build.
+*Stun MUST hit your DPS champion.
+*Same speeds and setup can be used for non-unkillable teams as well.
+
+UNM
+301 - Archmage Hellmut: a3, a1, a2
+243 - Seeker
+225 - Warcaster: a2, a3
+200 - Tower: a2, a1, a3
+186 - DPS
+Syncs by turn 8
+
+NM
+301 - Archmage Hellmut: a1, a2, a3
+243 - Seeker
+225 - Warcaster: a2, a3
+200 - Tower: a2, a1, a3
+186 - DPS
+Syncs by turn 7
+
+Brutal
+301 - Archmage Hellmut: a3, a1, a2
+243 - Seeker
+225 - Warcaster: a2, a3
+200 - Tower: a2, a1, a3
+186 - DPS
+Syncs by turn 8","Runs Archmage Hellmut at 3:1 Ratio with Seeker to provide permanent suite of buffs for your DPS champion.","Runs Archmage Hellmut at 3:1 Ratio with Seeker to provide permanent suite of buffs for your DPS champion.","301","243","225","200","186","Ilbey","UNM / NM / Brutal","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/c0c91f3760f37c014a337065af556dce6a3e9e23","NIGHTMARE","https://deadwoodjedi.info/cb/6579c6f69c5847a247ded6f06fd42c59d360e4b7","BRUTAL","https://deadwoodjedi.info/cb/8636f29eebee09aa608a41a8075acd635816974c",,,"https://youtu.be/-vfSL0BcgVQ",,,1,"Archmage Hellmut, Seeker","Roschard the Tower",,,"Warcaster",,,,"Seeker",,"/speed-tunes-12/roschard-the-tower",,,"/speed-tunes-15/warcaster","/speed-tunes-16/seeker",,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"x",,15,"4:3 Ratio","DWJ Recommended",,,,"1 Champ Sepulcher or Duchess Build","239 champ takes their double turn between AOEs and goes First/Last. Ideal for Sepulcher Sentinel or Duchess to block both the affinity debuff and the Stun.
+ 
+ This is useful for having one champ on a 4-turn cooldown using their abilities every cycle to block debuffs while allowing your CA champion to still go last before AOEs.
+ 
+ The numbers have more leeway than shown. As always variations within ranges may alter the turn order.","First/Last after AOE1","3:2 Fast Champ, alternating double turns.","239","192","182","177","175",,"UNM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/55f338ec8f3b8d14a59e838a4cb319faf2481e4c",,,,,,,"https://youtu.be/B5EqRs3AWPM","https://youtu.be/VKOCMvWH1iI","https://youtu.be/vH9-Ha9bTRo",1,,,,,,,,,,"/speed-tunes-11/dwj-recommended",,,,,,,,
+,,"x",,14,"4:3 Ratio",,,,,"Fast 1 Champ Last after AOE2","Fast 4:3 Build, good to place Block Debuffs, Increase DEF or other such buffs before the Stun.
+ 
+ UNM
+ Fastest is First/Last before the Stun
+ 
+ NM
+ Fastest is on 3:2 ratio, alternating double turns going First/Last
+ 
+ As always variations within ranges may alter the turn order.","First/Last after AOE2","Fastest in on 3:2 ratio, alternating double turns going First/Last","255","205","192","191","180","Vodka7up","UNM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/3d4944c6018a84fcea6aa69ac151de58b9ac5b1a",,,,,,,"https://youtu.be/B5EqRs3AWPM","https://youtu.be/VKOCMvWH1iI","https://youtu.be/vH9-Ha9bTRo",1,,,,,,,,,,,,,,,,,,
+,,,,101,"Unkillable","DWJ Recommended",,,"x","Slow Skullcrusher and Tower","248 - Tower
+ 186 - Doompriest or alternate cleanser
+ 175-178 - DPS
+ 174 - Skullcrusher
+ 173 - Grizzled Jarl or alternate 3 turn debuff blocker
+ 
+ Note: This differs slightly from u/abscity's original guide. Here, both DPS are in the 175-178 range; this gets into fully unkillable faster, and avoids having TM ties between Tower and Doompriest that can wreak havoc.
+ 
+ The 186 will always go first after AOE2 to cleanse debuffs and before Skullcrusher to cleanse the Stun. Doompriest can cleanse both and as such is an ideal fit to make this affinity friendly.
+ 
+ If you're using Grizzled Jarl instead of Doompriest, then you want to replace the 186 Doompriest with a 186 DPS and one of the other DPS champs with a 173 Grizzled Jarl.
+ 
+ Roshcard's A3 needs to be fully booked out to a 4-turn cooldown. (2 books)
+ 
+ For UNM:Start with Rosh's A3, and then at the end of Round 2 use Skullcrusher's A2, then you can hit auto.
+ 
+ For NM: Start with Rosh's A3, and similarly at the end of Round 2 use Skullcrusher's A2. The key difference is that at the start of Round 3, you want to use Rosh's A1 then you can hit auto.
+ 
+ To run this against affinities and for thorough insight on this composition, read the incredibly detailed guide by Abscity!","Tower + Skullcrusher Unkillable that allows a cleanser or debuff blocker keep your team stun friendly against affinity CB","Tower + Skullcrusher Unkillable that allows a cleanser or debuff blocker keep your team stun friendly against affinity CB","248","186/173","178","177","174","abscity","UNM / NM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/a66f2f9dd30d2f6d864e049063b2ed53b2af6ce0","NIGHTMARE","https://deadwoodjedi.info/cb/bbe8308821d0c30dfdfb4d590be33e5978e4fdc3",,,"Tower/Skullcrusher Affinity Guide","https://www.deadwoodjedi.com/tower-skullcrusher-affinity-guide",,"https://youtu.be/hViG7xhh08k","https://youtu.be/vH9-Ha9bTRo",1,"Tower, Skullcrusher","Roschard the Tower",,,,,,,,"/speed-tunes-11/dwj-recommended","/speed-tunes-12/roschard-the-tower",,,,,,,
+,,,,141,"Unkillable",,,,"x","Pain-Eater","*Much like the Budget Unkillable, you must guide the stun till fully in tune.  You have to avoid the stun hitting Warcaster, Maneater or PainKeeper.
+
+*Works for all three difficulties and allows use of counterattack or Ally Attack
+*Full range of speeds have not been sorted - just check in the calculator
+*Nightmare, PK will be vulnerable, so MUST do targeting like one would with the Budget Unkillable teams
+
+Maneater - 241
+245 - Warcaster (speedsets and lore of steel is ok, but he needs exactly that speed - at 246 or 244 it will not work)
+241 - Maneater
+215 - Painkeeper
+174 - DPS
+173 - DPS/CounterAttack
+
+UNM Skill Order:
+*Maneater a1, a3
+*PK - a1, a2, a1, a3
+
+NM Skill Order:
+*Maneater a1, a1, a3
+*PK - a1, a1, a1, a2, a3
+*Warcaster - a1, a3
+
+Brutal Skill Order:
+*Maneater a1, a1, a3, then auto till Turn Count 7 - add 1 turn delay
+*PK - a1, a1, a1, a1, a2, a3","Maneater and Warcaster Unkillable team where you can use Counter-Attack and Ally Attack Freely","Maneater and Warcaster Unkillable team where you can use Counter-Attack and Ally Attack Freely","245","241","215","174","173","Icy Floe","UNM / NM / Brutal","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/50dcdb1d3f9d4ea6fe89499f42929ecd31ce6793","NIGHTMARE","https://deadwoodjedi.info/cb/96dc4f547b2ed717d00fffa45e841b32b11fb670","BRUTAL","https://deadwoodjedi.info/cb/09a9c132c54f9664fb62befac914cd7d3f8c855c",,,,,"https://youtu.be/vH9-Ha9bTRo",1,"Maneater, Warcaster","Roschard the Tower",,"Maneater","Warcaster",,,,,,"/speed-tunes-12/roschard-the-tower","/speed-tunes-13/maneater",,"/speed-tunes-15/warcaster",,,,
+,,"x",,59,"4:3 Ratio",,,,,"4x 43 Champs","*The 250-253 champion needs to be at least 35 speed faster than the 215-217 champion
+ 
+ Two fastest champions get in tune from turn 6. The next two fall into tune on turn 9 on UNM and turn 5 on NM.
+ 
+ UNM and NM:
+ - Fastest champ goes Twice/Last after STUN
+ - 2nd fastest champ goes Twice/Last after AOE2
+ - 3rd fastest champ goes Twice/First after STUN
+ - 4th fastest champ goes Twice/First after AOE2
+ 
+ As always variations within ranges may alter the turn order.","Four 4:3 turn ratio champions: Twice/First and Twice/Last after Stun, Twice/First and Twice/Last after AOE2.","Four 4:3 turn ratio champions: Twice/First and Twice/Last after Stun, Twice/First and Twice/Last after AOE2.","250-253","238","224-237","215-217","169-174","Cyborg","UNM / NM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/0f1bdea3513bf0e047048c43d7080e5539f050a5","NIGHTMARE","https://deadwoodjedi.info/cb/cbac5237bc82a73aa73b7f59164e806ac61aa593",,,,,,,"https://youtu.be/vH9-Ha9bTRo",1,,,,,,,,,,,,,,,,,,
+,,,,134,"Unkillable","DWJ Recommended",,,"x","Un-Kreelable","*Calculator Note: Kreela's Ally Attack is not a guaranteed attack for everyone. For the sake of the calculator, it is implemented as a guaranteed ally attack for all. Beware of this when experimenting and make sure the turn order is the same as when you take off the ally attack.
+ 
+ UNM
+ 248 - Maneater
+ 232 - 4:3 DPS
+ 223 - Pain Keeper
+ 172 - Kreela (or other Ally Attack/DPS)
+ 123 - Stun Target
+ Turn Order:
+ Maneater - A3, auto
+ Pain Keeper - A1, A2, A1, A3
+ Kreela- A1, A3, A2
+ Spirit Affinity:
+ Drop the Speed of the 232 champion by 40 speed (speed boots anyone?) to 192. 
+ Pain Keeper - Use her A1 instead of the A2 for the first cycle. Don't use her A2 until the start of Turn Count 5.
+ Kreela - Use her A1 instead of the A2 on Turn Count 6. Do not use her A2 again until Turn Count 9. (Can auto after the A1 use on Turn Count 7.)
+ 
+ NM (all affinities)
+ 248 - Maneater
+ 232 - 4:3 DPS
+ 223 - Pain Keeper
+ 181 - Kreela (or other Ally Attack/DPS)
+ 123 - Stun Target
+ Turn Order:
+ Maneater - A1, A3, auto
+ Pain Keeper - A3, A1, A1, A2
+ Kreela - A1, A1, A3, A2
+ Pain Keeper - Verify she uses her A2 off cooldown; if not, you need to manually cast it the first few cycles.
+ Kreela - If Stun tank cannot survive the Turn 12 hit, then use Kreela's A1 instead of the A2 on Turn Count 6. Do not use her A2 again until Turn Count 9. (Can auto after the A1 use on Turn Count 7.)
+ 
+ Brutal
+ 248 - Maneater
+ 232 - 4:3 DPS
+ 223 - Pain Keeper
+ 172 - Kreela (or other Ally Attack/DPS)
+ 123 - Stun Target
+ Turn Order:
+ Maneater - A1, A1, A3, auto
+ Pain Keeper - A1, A3, A1, A2
+ Kreela - A1, A1, A3, A2
+ Pain Keeper - Verify she uses her A2 off cooldown; if not, you need to manually cast it the first few cycles.
+ Need to survive through Turn 10 before the team is fully unkillable.
+ 
+ HP of Stun Target should be the highest of the team, but not more than 125% of PK's HP.
+ PK should be second highest HP.
+ (ex. If PK has 40K HP, then your Stun Target needs to be between 41K-50K).
+ A good target to aim for is 10% more than PK. (so 44K in the above example)
+ Stun Target's DEF should be as low as possible, at least several hundred lower than anyone else on the team.
+ When facing affinities, the Stun Target ideally should be the weak affinity (vs Magic have a spirit one), or otherwise there should be no weak affinity champions on the team. 
+ *Avoid having a strong affinity Stun Target! It's just not worth it.
+ 
+ Example HP/DEF Tuning:
+ Aim for 1k DEF and 35k-40k HP on the Stun Target, at least 2k DEF and 30-35k HP on the rest. Pain Keeper should have 2nd highest HP on team.
+ Affinities will screw up your run - use a weak affinity for the Stun Target!
+ Watch your runs! Hard to know how to fix it if you don't know where it went wrong...
+ Ally/Counter-Attack can work, but it can add complication if not tuned right for each difficulty. NOT RECOMMENDED for the faint of heart!","Adds a 4:3 champion and Ally Attack to the Budget Maneater Unkillable","Adds a 4:3 champion and Ally Attack to the Budget Maneater Unkillable","248","232","223","172","123","Bobo & Wystix","UNM / NM / Brutal","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/595b05942cf8f23a4b26e3cf4f63430d74be73b6","NIGHTMARE","https://deadwoodjedi.info/cb/6a89c1db693eff826ed3d5caa0ece2d2bc2cfce0","BRUTAL","https://deadwoodjedi.info/cb/8bfd57406c4f7d054b422e6b612a3061053eaa11","ADVANCED GUIDE","https://www.deadwoodjedi.com/easy-unkillable-guide-by-rust","https://youtu.be/wXlgQGeCbr4","https://youtu.be/urY8i33WHkM","https://youtu.be/2S4J3jWF5VM",1,"Maneater, Pain Keeper, Kreela (or other Ally Attacker)",,,"Maneater",,,,,,"/speed-tunes-11/dwj-recommended",,"/speed-tunes-13/maneater",,,,,,
+,,"x",,110,"Unkillable",,,,"x","Slow Tuned Maneater Unkillable","UNM
+ 255-257 - Maneater
+ 214-217 - Tower/Warcaster/Santa
+ 205-209 - 4:3 turn ratio DPS
+ 157-158 - DPS
+ 130 - Apothecary/High Khatun
+ Rotation:
+ Maneater - A1, A1, A3.
+ Tower - A3
+ Speed boost right away.
+ 4:3 DPS can be as low as 191 speed, but only with slower Tower/Warcaster speeds (which can dip as low as 212) ; Maneater speeds can dip down to 248. Always check your speeds in the calculator to make sure your combination works!
+ 
+ NM
+ 255-257 - Maneater
+ 214-217 - Tower/Warcaster/Santa
+ 214-219 - 4:3 turn ratio DPS -- MUST BE FASTER THAN UNKILLABLE CHAMPION
+ 157-158 - DPS
+ 130 - Apothecary/High Khatun
+ Rotation:
+ Maneater - A1, A1, A3
+ Tower - A3
+ Speed boost right away.
+ If you keep the 4:3 DPS champ 1 speed faster than the 4:3 Unkillable champ, you shouldn't have to worry about any affinity issues.
+ 
+ UNM - TURVOLD VERSION
+ 248-267 - Maneater
+ 214-217 - Tower/Warcaster/Santa
+ 191-206 - Turvold
+ 157-158 - DPS
+ 130 - Apothecary/High Khatun
+ Rotation:
+ Maneater - A1, A1, A3
+ Tower - A3
+ Turvold - A3, A2
+ Speed boost right away.
+ 
+ As always, there is WAY more range available than shown, but these are generally safe speeds. Do be aware that altering the speeds of one champion may necessitate a change for other champions to keep in tune. USE THE CALCULATOR. 
+ Santa is NOT auto friendly. In the video he works like a charm, but it's not 100%, so be aware. 
+ 
+ Turvold version is UNM only.","Use a Maneater and Tower/Warcaster/Santa with a speed booster to achieve Unkillable.","Use a Maneater and Tower/Warcaster/Santa with a speed booster to achieve Unkillable.","255","215","205","158","130","Deadwoodjedi","UNM / NM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/fc7a77280f4da78383152b44a30041ce2c364447","NIGHTMARE","https://deadwoodjedi.info/cb/30661bd8facab4c7f54b25f22458b9c62a90b38f","UNM-TURVOLD","https://deadwoodjedi.info/cb/4f61b7c8e75ee6b3b973a519d4cdedab4b4f1b40",,,"https://youtu.be/0tReYOiADFo",,"https://youtu.be/vH9-Ha9bTRo",1,"Maneater, Tower/Santa/Warcaster, Apothecary/High Khatun","Roschard the Tower","Sir Nicholas","Maneater",,,,,,,"/speed-tunes-12/roschard-the-tower","/speed-tunes-13/maneater","/speed-tunes-14/sir-nicholas",,,,,
+,,"x",,17,"4:3 Ratio",,,,,"Affinity Friendly Valkyrie with 43","Note: Calculator currently does not show Valkyrie's passive TM gain.
+ 
+ Vakyrie must be 171 and the rest of the team between 187 and 189, with your fast champion at 252. This will allow Valkyrie to go last each turn while the rest of the team goes before her and still have a champ go at a 4:3 ratio.
+ 
+ UNM - Affinity
+ 251, champion will go first/twice between the AOEs. Syncs from the very beginning. Use Sepulcher (or Duchess or other champ) Block debuff on turn count 1.
+ 
+ UNM - Void
+ 251 needs to drop to 245 or 246 speed (1 or no speed sets with base 98 speed). Champion will go first/twice between the AOEs. Syncs turn count 7. Use Sepulcher (or Duchess or other champ) Block debuff on turn count 1.
+ 
+ NM
+ 251, champion will EVENTUALLY go first/twice between the AOEs. Sync's turn count 10. Use Sepulcher (or Duchess or other champ) Block debuff on 2nd attack on turn count 1 (A1, A1, A2). On turn count 10, delay the A2 skill 1 time till 2nd attack. You will have to navigate the stun until then. 
+ For Void, 189 champion will go last and the comp syncs on turn count 7 - simply use the same delay as above, but on turn count 7 instead of 10.
+ 
+ Regardless of affinity this turn order will maintain. There is VERY little leeway with these speeds, so check true speeds.","Speed ranges to maintain turn order with Valkyrie's Passive against affinity or void CB with one 4:3 Champion","Speed ranges to maintain turn order with Valkyrie's Passive against affinity or void CB with one 4:3 Champion","251","189","185-188","185-188","171","DeadwoodJedi","UNM / NM","UNM-AFFINITY","https://deadwoodjedi.info/cb/33d076bca6104b8b7adf436f730629877d6e1b9b","UNM-VOID","https://deadwoodjedi.info/cb/a731af5f2843def32357cd9cab3c7c188bac1a8a","NIGHTMARE","https://deadwoodjedi.info/cb/89f18b59e9fdc9fec5d5b28b13898ed11d375fed",,,"https://youtu.be/nRvXhBY1H44","https://youtu.be/ltF5dDXkLC8","https://youtu.be/iQAOKKEd3MM",1,"Valkyrie",,,,,"Valkyrie",,,,,,,,,,,,"/speed-tunes-19/valkyrie"
+,,"x",,43,"4:3 Ratio",,,,,"2x 43 Champs with Cleanse","UNM all affinities EXCEPT Spirit:
+ - 240 champ takes their double turn and goes First/Last after AOE1.
+ - 239 champ takes their double turn and goes First/Last after AOE2.
+ - 186 champ goes first after STUN.
+ 
+ UNM Spirit affinity: (falls in tune on Turn 9)
+ - 240 champ takes their double turn and goes first/fifth after AOE2.
+ - 239 champ takes their double turn and goes first/fifth after AOE1.
+ - 186 champ goes first after STUN.
+ 
+ NM all affinities EXCEPT Spirit: (Turn 6)
+ - 240 champ takes their double turn and goes second/last after AOE1.
+ - 239 champ takes their double turn and goes second/last after STUN.
+ - 186 champ goes first starting Turn 5.
+ 
+ NM Spirit affinity: (Turn 8)
+ - 240 champ takes their double turn and goes second/last after AOE2.
+ - 239 champ takes their double turn and goes second/last after AOE1.
+ - 186 champ goes first starting from Turn 8. Goes second during most early turns.
+ 
+ This is useful for having two champs on a 4-turn cooldown using their abilities every cycle while allowing your cleanser to still go first each turn.
+ 
+ The numbers have more leeway than shown. As always variations within ranges may alter the turn order.","Double Turns after AOE1 and AOE2, cleanser first after Stun","Twice/Last after Stun and AOE, cleanser goes first","240","239","186","180","179",,"NM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/04fed3aecc759bf00c14507d0555f069a533141b","NIGHTMARE","https://deadwoodjedi.info/cb/0c366ec2117f07f5126ab82310dfe3fbbf3d4dae",,,,,"https://youtu.be/B5EqRs3AWPM","https://youtu.be/VKOCMvWH1iI","https://youtu.be/vH9-Ha9bTRo",1,,,,,,,,,,,,,,,,,,
+,,"x",,44,"4:3 Ratio",,,,,"2 Champs v3","UNM - Encompasses three different tunes, depending on how many of the 1:1 champs are between 185-189:
+ 0-1: 246 First/Last after STUN; 239 First/Last after AOE1
+ 2: 246 First/Last after AOE1; 239 First/Last after AOE2
+ 3: 246 First/Last after AOE2; 239 First/Last after STUN
+ 
+ Depending on the speeds of the three slow champs the double turns can vary greatly","Two 4:3 champions, various double-turn locations",,"246","239","180-189","180-189","180-189",,"UNM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/7f7b5f5f31323cc8f0988be373aa67a0656bbb8d",,,,,,,"https://youtu.be/B5EqRs3AWPM","https://youtu.be/VKOCMvWH1iI","https://youtu.be/vH9-Ha9bTRo",1,,,,,,,,,,,,,,,,,,
+,,"x",,54,"4:3 Ratio",,,,,"3x 43 Champs v3","225-228 Champions will go at a 4:3 turn ratio. Syncs up on turn count 9 for UNM, and turn count 5 for NM.
+ 
+ UNM
+ 228 champ goes Twice/First after AOE2.
+ Faster 225 champ goes Twice/First after Stun. 
+ Slower 225 champ goes Twice/First after AOE1.
+ 
+ NM
+ 228 champ goes Twice/Last after Stun.
+ Faster 225 champ goes First/Last after AOE2.
+ Slower 225 champ goes Twice/First after Stun.
+ 
+ This is useful for having three champs on a 4-turn cooldown using their abilities every cycle and having their buffs cover multiple clan boss turns. As always variations within ranges may alter the turn order.","Three 4:3 turn ratio champions: Twice/First each turn; slowest goes last","Three 4:3 turn ratio champions: Twice/First after Stun, Twice/Last after Stun, First/Last after AOE2","228","225","225","176","172",,"UNM / NM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/ddd572a7b01343a8839a06bdde41da9dc9bd084d","NIGHTMARE","https://deadwoodjedi.info/cb/cef1c57c23979cd019c3326145d0730f7c6ac347",,,,,"https://youtu.be/B5EqRs3AWPM","https://youtu.be/VKOCMvWH1iI","https://youtu.be/vH9-Ha9bTRo",1,,,,,,,,,,,,,,,,,,
+,,,,115,"Unkillable",,,,"x","Drokgul Unkillable","UNM
+ 286-287 - Maneater
+ 205-210 - DPS
+ 172-178 - DPS
+ 172-178 - DPS
+ 172-176 - Drokgul
+ Drokgul must be slowest. There is more range for all the speeds, but they affect each other - check in the calculator. 
+ ME uses A3 on turn count 1
+ Drokgul uses A2 on turn count 3, after the stun.
+ 
+ NM
+ 286-287 - Maneater
+ 179-189 - DPS
+ 160-169 - DPS
+ 159 - DPS - EXACTLY THIS SPEED, NO SPEED SETS
+ 172-178 - Drokgul
+ Drokgul must be slower than fast DPS.
+ ME uses A3 on his second attack of turn count 1. 
+ Drokgul uses A2 on turn count 3, after the stun.","Unkillable team using Drokgul and Maneater","Unkillable team using Drokgul and Maneater","287","207","177","177","172","DeadwoodJedi","UNM / NM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/13dc320a523c65953af4e58698a8ead13ea64a0a","NIGHTMARE","https://deadwoodjedi.info/cb/bd7be56a2558e205cf09716a604bc00181d7fea1",,,,,"https://youtu.be/xt3X0ESNa80",,"https://youtu.be/vH9-Ha9bTRo",1,"Drokgul, Maneater",,,"Maneater",,,,,,,,"/speed-tunes-13/maneater",,,,,,
+"x",,,,238,"2:1 Ratio","DWJ Recommended",,,,"One Hellmut of a Team","*Setup is the same for all difficulties, though you may need to make adjustments to ensure the stun goes to the proper target.
+*You can use counter-attack champions, but timing will affect the tune as Archmage Hellmut gets a Turn Meter boost on his a1 skill
+*This is not a particularly affinity friendly composition.  The TM boost from Archmage is dependent on crits and as such can have some significant swing.
+*Stun cannot hit Archmage or your extender.
+*If you use a speed buff champ instead of extender, should not have a TM boost...if they do then you'll need to adjust the speeds.
+*You can also use a Lydia in place of Archmage with minimal adjustments.
+
+268 - Archmage Hellmut; a1, a3, auto
+262 - Counter-Attacker/Unkillable champion
+238 (faster) - Extender/Speed Buffer (Godseeker Aniri, Sandlashed Survivor, Lydia)
+238 (slower) - DPS/Unkillable Champion
+217 - DPS/Cleanser","Use Archmage Hellmut and an Extender to achieve a 2:1 ratio","Use Archmage Hellmut and an Extender to achieve a 2:1 ratio","268","262","238","238","218","DeadwoodJedi","UNM / NM / Brutal","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/42c04ad9d81bc08a0554ff2bba4bb33d395ae73d","NIGHTMARE","https://deadwoodjedi.info/cb/e5bb2f3e54a68b5cb82ff7eaa4ee4e72f93a3d8f","BRUTAL","https://deadwoodjedi.info/cb/7ea55e3d56a9410d435e2dc91cad0d2a16e15e13",,,"https://youtu.be/W4n1RdkgqS8",,,1,"Archmage Hellmut, Buff Extender",,,,,,,,,"/speed-tunes-11/dwj-recommended",,,,,,,,
+,,"x",,67,"Slow Tune",,,"x",,"Slow 2x 43 Champs v1","192-194 champs will go at 4:3 turn ratio.
+ 133 champ is speed booster.
+ 157 slot is good for counter-attack champ.
+ Takes a while to sync up, up to turn count 20 even.
+ 
+ UNM
+ Double turns after STUN, AOE1, or AOE2 depending on delays and champ speeds within the listed range.
+ 
+ NM
+ Double turn after AOE2 or after STUN depending on delays.
+ 
+ Use appropriate delays for 4:3 champion skills. 
+ 0- or 1-turn delay for speed booster. 
+ 2-turn delay for counter-attacker. 
+ 
+ As always variations within ranges may alter the turn order.","Use a speed booster to run at slower speeds and still achieve two 4:3 turn ratio champions.","Use a speed booster to run at slower speeds and still achieve two 4:3 turn ratio champions.","192-194","192-194","157","132-133","122","Cyborg","UNM / NM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/cf30f5564cb4bd115d16dc0e3fe78f2d4c615f49","NIGHTMARE","https://deadwoodjedi.info/cb/5a8d02163453ae4976905a3eac58dfad1790e9ae",,,,,"https://youtu.be/zLJLqN1lmd4",,"https://youtu.be/vH9-Ha9bTRo",1,"Apothecary/High Khatun",,,,,,,,,,,,,,,,,
+,,,,151,"Unkillable",,,,"x","Santa Unkillable - 43 Stun Target","239-241 - Pain Keeper
+ 228-238 - Stun Tank (Taurus)
+ 188 - DPS/Cleanser (for affinity debuff)
+ 173-178 - DPS (faster than Sir Nicholas)
+ 173-176 - Sir Nicholas
+ 
+ UNM Setup:
+ Pain Keeper - A1, A3, A2, auto
+ Sir Nicholas - A2, A1, A3, auto
+ Taurus - A2, A1, A3, auto
+ Cleanser - A1, cleanse
+ 
+ NM
+ Skill orders:
+ Pain Keeper - A1, A1, A3, A2, auto
+ Sir Nicholas - A3, A2, A1, A3, auto
+ Taurus - A2, A1, A3, auto
+ Cleanser - A1, A1, cleanse
+ 
+ Stun targeting is always an issue, so avoid Lifedrinker mastery on your stun target. Champions like Bad-el-Kazar can provide too much healing and should be carefully considered before using. 
+ Using Rust's Stun Calculator can certainly help in setting it up, however it's only an approximation, not exact. 
+ All the speeds listed are true speeds. When tuning for only a single difficulty, there is considerably more of a speed range available.","Santa Unkillable with a 4:3 turn ratio Stun Target like Taurus","Santa Unkillable with a 4:3 turn ratio Stun Target like Taurus","241","229","188","177","175","DeadwoodJedi","UNM / NM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/c116b53a82355abfc42d378b9e13de14a7862a89","NIGHTMARE","https://deadwoodjedi.info/cb/7eec74e20021f1e52810c9a47d2efc70b3acf455",,,,,"https://youtu.be/OgB4LbNbmoQ","https://youtu.be/n3NkBvyR5So","https://youtu.be/2g_heAdXzwQ",1,"Sir Nicholas (santa), Taurus or other unkillable champ.",,"Sir Nicholas",,,,,,,,,,"/speed-tunes-14/sir-nicholas",,,,,
+,,"x",,12,"4:3 Ratio",,,,,"1 Champ after AOE1","UNM
+ 239-243 champ takes their double turn and goes first after AOE1
+ 
+ NM
+ 239-243 champ takes their double turn and goes first after Stun
+ 
+ Slowest champ is last
+ 
+ This is useful for having one champ on a 4-turn cooldown using their abilities every cycle while allowing your CA champion to still go last.
+ 
+ The numbers may have more leeway than shown. As always variations within ranges may alter the turn order.","Double turn after AOE1","Double turn after Stun","239-243","172-177","172-177","172-177","172-177",,"UNM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/7f7c754cb88dbfa83a9fead7557e84e9dbdd4093",,,,,,,"https://youtu.be/B5EqRs3AWPM","https://youtu.be/VKOCMvWH1iI","https://youtu.be/vH9-Ha9bTRo",1,,,,,,,,,,,,,,,,,,
+,,"x",,104,"Unkillable","DWJ Recommended",,,"x","Slow Skullcrusher and Tower with 43 Champ","This comp allows adding a 4:3 champ into an Unkillable Team.
+ Unkillable from Turn 5.
+ 
+ 240 - Tower
+ 221 - Skullcrusher
+ 220 - DPS moving at 4:3
+ 191 - DPS
+ 171 - DPS
+ 
+ 240 and 220 go twice after the stun, 240 goes last.
+ Use Tower's A3 right from the start.
+ Use Skullcrusher's A2 on turn count 2.
+ 
+ The trick is getting the stun to land on Skullcrusher. He must have SOME HP or the CB won't target him - easiest way is to give him 1 set of Immortal gear, though it's possible without by using the Lifedrinker Mastery and having high crit rate and damage.","Slow Tower + Skullcrusher Unkillable with a 4:3 champ to increase damage or debuffs.",,"241","221","220","191","171",,"UNM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/d18dd04def03874b1db7c1e994173e23e54e432a",,,,,"Tower/Skullcrusher Affinity Guide","https://www.deadwoodjedi.com/tower-skullcrusher-affinity-guide","https://youtu.be/pYlaHpCksLg",,"https://youtu.be/vH9-Ha9bTRo",1,"Tower, Skullcrusher","Roschard the Tower",,,,,,,,"/speed-tunes-11/dwj-recommended","/speed-tunes-12/roschard-the-tower",,,,,,,
+"x",,,,208,"2:1 Ratio",,,,,"Get Nekh-REKT","I do NOT recommend building this team.  It's incredibly difficult to tune with Nekhret.  However, if you choose to there are numerous ways to sync with a wide range of speeds...this is just one option.  The difficulty lies in STAYING in tune and GETTING in tune.  You have been warned!
+
+UNM
+Turn Count 0, Krisk a2, Martyr a2, Mashalled a1, FB a3
+Turn Count 1, Nekhret AP on Ma'Shalled (can't put on anyone else here), Krisk a1, auto
+Turn Count 6, Follow the calculator for everyone else's skills, but use Nekhret's a1 instead of a3
+Turn Count 7, Nekhret a2, a1, then  it's full auto
+
+The Calc shows a 1 turn delay on Martyr's a2 - this is to show how it will look for the majority of the fight - she should take the first stun which will delay her skills by 1.  When actually setting it up you can use her Counter Attack skill right from the jump.
+
+NM
+Turn Count 0, Krisk a3, Martyr a1, MaShalled a2, a3, FB a3, Nekhret a1
+auto
+Turn Count 4, Nekhret a2, a1, Martyr a1, FB a1, Mashalled a2, a3, Krisk a2, Martyr a1, Nekhret a1 (not a3)
+Turn Count 5, FB a3, Krisk a1, Mashalled a1, Martyr a2, Nekhret a3 AP on MaShalled (Stun &CD), Krisk a3, FB a1, Mashalled a2, a3, Martyr a1
+Turn Count 6, Nekhret a1 (not a2), Krisk a2, FB a1, Mashalled a1, Martyr a1, Krisk a1, Nekhret a1 (not a2 or a3)
+full auto
+
+The Calc shows a 2 turn delay on Martyr's a2 - this is to show how it will look for the majority of the fight - she should take the first stun which will delay her skills by 1.  When actually setting it up you can use her Counter Attack skill on Turn Count 1 first attack","Using Nekhret, Krisk, and Ma'Shalled to create a monstrosity","Using Nekhret, Krisk, and Ma'Shalled to create a monstrosity","259","232","221","190","185","DeadwoodJedi","UNM / NM","ULTRA-NIGHTMARE","http://deadwoodjedi.info/cb/1a86d2218b39d31cb0f2343693cbb0f28ce902d7","NIGHTMARE","http://deadwoodjedi.info/cb/a4ae3935ccff9e55c2a80ae5c06b6087741a9360",,,,,"https://youtu.be/8a9OqazNihY",,"https://youtu.be/vH9-Ha9bTRo",1,"Nekhret, Krisk, Ma'Shalled",,,,,,"Krisk","Ma'Shalled",,,,,,,,"/speed-tunes-17/ma'shalled","/speed-tunes-18/krisk",
+,,,"x",301,"3:1 Ratio",,,,,"Fastest Team Ever","Speeds are ridiculous and specific. I take NO responsibility for the silver and time wasted trying to make this composition - but I WILL salute your efforts! All speeds are true speeds and can be lowered with auras...
+ 
+ 340 - Siphi (pre-nerf, any 3 turn cooldown, 2 turn duration 30% speed buff with 15% tm increase will work)
+ 328 - Arbiter
+ 311 - High Khatun (or equivalent speed champ)
+ 282 - DPS
+ 252 - DPS
+ 
+ UNM
+ 340 - A1, A1, A2 (speed skill)
+ 328 Arbiter - a4, A1, A3
+ 311 - speed skill first
+ 
+ NM
+ 340 - A1, A2 (speed skill)
+ 328 Arbiter - A1, a4, A1, A3
+ 311 - A1, A1, A2 (speed skill)
+ 
+ If any of you are crazy enough to run this and make it work LET ME KNOW...we can laugh at our insanity together :D
+ 
+ Also many thanks to everyone in the Raid Illuminati for your help and contributions in theory crafting and pushing me to find this oh so long ago! True heroes don't wear capes...well, maybe some of you do, but you're heroes in my book regardless!","Fastest team ever assembled for Clan Boss, a 3:1 turn ratio","Fastest team ever assembled for Clan Boss, a 3:1 turn ratio","340","328","311","282","252","DeadwoodJedi","UNM / NM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/76bb1bebbd8b92a6b4192dab2db7339eca81ad60","NIGHTMARE","https://deadwoodjedi.info/cb/24d2000d03c4889083f99fb8a0f87b5f29af2389",,,,,"https://youtu.be/fvDhZ5LaEZk",,"https://youtu.be/vH9-Ha9bTRo",1,"Arbiter, 2 speed champs",,,,,,,,,,,,,,,,,
+,,,,100,"Unkillable","DWJ Recommended",,,"x","War Tower","UNM (also works on Brutal)
+246-249 - Warcaster
+240 - Tower 
+176-177 - Doompriest/Cleanser (cleanse on turn count 2 for affinity debuffs, on turn count 3 for stun)
+175-177 - DPS
+171-177 - DPS
+* AUTO from the start.  Syncs Turn 1.
+* Warcaster must not be the stun target.
+
+NIGHTMARE
+246-249 - Warcaster (A1, auto)
+240 - Tower (A1, auto)
+179 - Doompriest/Cleanser (cleanse on turn count 2 for affinity debuffs, on turn count 3 for stun)
+175-177 - DPS
+171-177 - DPS
+* AUTO on Turn 1.  Syncs Turn 1.
+* Warcaster must not be the stun target.
+
+4:3 NIGHTMARE
+246-249 - Warcaster
+240 - Tower
+219-223 - Doompriest/Cleanser (cleanse on turn count 2 for affinity debuffs, on turn count 3 for stun)
+175-177 - DPS
+171-177 - DPS
+* AUTO from the start. Syncs Turn 5.
+* Warcaster and Tower must not be the stun target. 
+","Use Tower, Warcaster and Cleanser to stay unkillable and affinity friendly","Use Tower, Warcaster and Cleanser to stay unkillable and affinity friendly","247","240","177","175","173","Litooth","UNM / NM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/e57042e0f0842133342b7261540aff1cd32bd14f","NIGHTMARE","https://deadwoodjedi.info/cb/83cce1c027f24770d8ede95dfed42d7c0cb43652","4:3 NIGHTMARE","https://deadwoodjedi.info/cb/5b2b5278b637260ecf2665df2984f43883ff80cb",,,"https://youtu.be/oJ3_JfcKPIw","https://www.youtube.com/watch?v=mPnRM0tD3IU",,1,"Tower, Warcaster","Roschard the Tower",,,"Warcaster",,,,,"/speed-tunes-11/dwj-recommended","/speed-tunes-12/roschard-the-tower",,,"/speed-tunes-15/warcaster",,,,
+,,,,133,"Unkillable",,,,"x","New Budget Maneater - Shazar Special","UNM
+ 240-241 - Maneater
+ 218-222 - Pain Keeper
+ 175-178 - DPS
+ 175-178 - Shazar (must be slower than other DPS)
+ 111-118 - Stun Target/DPS
+ Rotation:
+ Maneater - A3
+ PK - A1, A2, A3 (right before stun)
+ 
+ NM
+ 240-241 - Maneater
+ 218-222 - Pain Keeper
+ 175-178 - DPS
+ 175-178 - Shazar (must be slower than other DPS)
+ 121 - Stun Target/DPS
+ Rotation:
+ Maneater - A1, A3
+ PK: A3, A1, A1, A2 (right before stun)
+ 
+ Brutal
+ 240-241 - Maneater
+ 218-222 - Pain Keeper
+ 175-178 - DPS
+ 175-178 - Shazar (must be slower than other DPS)
+ 111-118 - Stun Target/DPS
+ Rotation:
+ Maneater: A1, A1, A3
+ PK: A3, A1, A1, A1, A3, A1, A1, A2 (right before 2nd stun)
+  It is recommended you manual first 2-3 cycles of the CB to ensure you stay in sync.
+ 
+ HP of Stun Target should be the highest of the team, but not more than 125% of PK's HP.
+ PK should be second highest HP.
+ (ex. If PK has 40K HP, then your Stun Target needs to be between 41K-50K).
+ A good target to aim for is 10% more than PK. (so 44K in the above example)
+ Stun Target's DEF should be as low as possible, at least several hundred lower than anyone else on the team.
+ When facing affinities, the Stun Target ideally should be the weak affinity (vs Magic have a spirit one), or otherwise there should be no weak affinity champions on the team. 
+ *Avoid having a strong affinity Stun Target! It's just not worth it.
+ 
+ Example HP/DEF Tuning:
+ Aim for 1k DEF and 35k-40k HP on the Stun Target, at least 2k DEF and 30-35k HP on the rest. Pain Keeper should have 2nd highest HP on team.
+ Affinities will screw up your run - use a weak affinity for the Stun Target!
+ Watch your runs! Hard to know how to fix it if you don't know where it went wrong...
+ Ally/Counter-Attack can work, but it can add complication if not tuned right for each difficulty. NOT RECOMMENDED for the faint of heart!","Maneater + Pain Keeper unkillable team, using a 2:3 turn ratio champion as the stun target. Change speed of the stun target to work on Brutal, NM, and UNM","Maneater + Pain Keeper unkillable team, using a 2:3 turn ratio champion as the stun target. Change speed of the stun target to work on Brutal, NM, and UNM","240-241","218-222","175-178","175-178","111-118 and 121","DeadwoodJedi and Rust","UNM / NM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/9cd660fda73fdae82f34ec9ad93d0eec9903dbc0","NIGHTMARE","https://deadwoodjedi.info/cb/20315736bf424494316328f1d627287423f33a21","BRUTAL","https://deadwoodjedi.info/cb/579a6fc5f742f17923f7f801c5d6982ad855c563","ADVANCED GUIDE","https://www.deadwoodjedi.com/easy-unkillable-guide-by-rust","https://youtu.be/TVeiFJdFLCM","https://youtu.be/urY8i33WHkM","https://youtu.be/CAoDIppQaWc",1,"Maneater, Pain Keeper, Lord Shazar",,,"Maneater",,,,,,,,"/speed-tunes-13/maneater",,,,,,
+,,,,138,"Unkillable",,,,"x","Fast Double Maneater - UNM Only","*For a team that can handle both UNM and NM, please consider using the ""Easy Double Maneater"" (link to the right).
+
+ 248 - Maneater 1
+ 245 - Maneater 2
+ 211-212 - DPS
+ 205-209 - DPS
+ 205-209 - DPS
+ 
+ Rotation - Maneaters combined ability usage:
+ Turn Count 0 - A2, A2​
+ Turn Count 1 - A3, A1, A1
+ Turn Count 2 - A1, A2, A3
+ Auto","Fast Double Maneater Unkillable team that is fully affinity friendly. Unkillable from Turn 1.",,"248","245","211-212","205-209","205-209",,"UNM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/a94676f8b2f53346fc64b87b9f0a74ca4828f4f8",,,,,"Easy Double Maneater","https://www.deadwoodjedi.com/speed-tunes-4/Easy-Double-Maneater","https://www.youtube.com/watch?v=4SPDVppe25E&t=234s","https://youtu.be/6pdmt-ZBPtk","https://youtu.be/iyeUkVQTURs",1,"Double Maneaters",,,"Maneater",,,,,,,,"/speed-tunes-13/maneater",,,,,,
+"x",,,,236,"2:1 Ratio","DWJ Recommended",,,"x","BatManSaladEater","286.92-288.13 - Fast Maneater
+286.92-288.13 - Slow Maneater
+238.10-239.10 - Ma'Shalled
+220.29-238.09 - Seeker
+184.71-191.27 - DPS (*NO Relentless; Relentless variation below)
+
+* DPS champion cannot have random extra turn procs as they can wear down their speed buff prematurely
+* See Advanced Notes below for explicit speed boundaries.
+
+ These narrower speed ranges allow for a single setup to be used across multiple difficulties.
+Speed ranges for each difficulty are wider than shown above. 
+There is a lot of interdependency, and multiple tunes across the different difficulties that will eventually settle into the 2:1 and 5:2 turn ratios.
+This tune may require a bit more effort to get the speeds precise enough for, but greatly simplifies the setup across difficulties.
+CHECK YOUR SPEEDS WITH THE CALCULATOR!
+
+ Maneaters are going at a 5:2 turn ratio, alternating triple turns, while the rest of the team is going at a 2:1 turn ratio.
+The Maneaters keep the team affinity-friendly and unkillable.
+
+ UNM/NM/Brutal/Hard Setup:
+Fast Maneater - A2, A1, A1, A2, A3, auto
+Slow Maneater - A2, A3
+Ma'Shalled - A2
+Seeker - A1, A1, A2
+DPS - any
+ Can auto after Fast Maneater's A3.
+
+==============
+Advanced Notes:
+==============
+  ME1:
+    < 7.8/5*DPS
+    < 170*10/5.9=288.1356
+    > 6/4*DPS
+    > ME2
+
+  ME2:
+    < ME1
+    > 6/5*MaS
+    > 10000/7/5=285.7143 
+
+  MaS:
+    < 5/6*ME2
+    < 8.5/6.5*DPS
+    > 10000/7/6=238.0952 
+
+  Seeker:
+    < 10000/7/6=238.0952
+    > 190*8/6.9=220.2899
+
+  DPS:
+    < 4/6*ME1
+    > 5/7.8*ME1
+    > 6.5/8.5*MaS
+    > 10000/7/7.8=183.1502
+
+==============
+Relentless DPS Variant
+==============
+*Same Speeds will not always work for all difficulties - CHECK IN THE CALCULATOR. You may need to adjust 1 or 2 speed on Ma'Shalled (or other champ) to make work at lower difficulties.
+Example set of speed ranges:
+286.92-288.13 - Fast Maneater
+286.92-288.13 - Slow Maneater
+238.10-239.10 - Ma'Shalled
+229.43-238.09 - Seeker
+239.10-247.07 - DPS
+
+Same setup as above for UNM.
+For NM and Brutal, add a 2-turn delay to Seeker's A2.
+For Hard, add a secondary delay to both Maneaters' A3s after Turn 1.
+(Start as above, then on Turn 2 don't use Fast Maneater's A3 until their third action of the turn; on Turn 3 don't use Slow Maneater's A3 until their third action of the turn.)
+
+Advanced Notes:
+MaS < DPS < 6.2/7.2*ME2
+Seeker > 6.5/7*DPS","BatEater w/ Ma'Shalled instead of Pain Keeper; Maneaters going at a 5:2","Same setup for all difficulties","287-288","287-288","238-239","221-237","186-190","TheDragonsBeard, Optilink, and Bobo","UNM - Hard","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/97027693afa8f81e002dfc66ac4f97058625601e","NIGHTMARE","https://deadwoodjedi.info/cb/8e2ba93c40668c749ba08d40b21692f010922db6","BRUTAL","https://deadwoodjedi.info/cb/116cc147e3d3bc3c456fc01ed55216e77c3e5e6c","TheDragonBeard's Original Guide","https://www.reddit.com/r/RaidShadowLegends/comments/kysyrn/batmansaladeater_21_unkillable_clan_boss_comp/","https://youtu.be/-0MxM3VJSt0","https://youtu.be/fJ1c25INZkE","https://youtu.be/bd-Kn5nlno8",1,"2x Maneater, Seeker, Ma'Shalled",,,"Maneater",,,,"Ma'Shalled","Seeker","/speed-tunes-11/dwj-recommended",,"/speed-tunes-13/maneater",,,"/speed-tunes-16/seeker","/speed-tunes-17/ma'shalled",,
+,,"x",,60,"4:3 Ratio","DWJ Recommended",,,,"Vergis with 43 Champ","Good for both NM and UNM.
+ 
+ 205-210: 4:3 champion
+ 191-194: Counter-attack champion
+ 179-182: DPS/Tank
+ 172-177: Vergis
+ 172-175: DPS
+ 
+ UNM
+ 1-turn delay on 4:3 champion skill. 191-194 champ will be stunned (unless affinity trumps) on first stun attack, so adjust accordingly.
+ 
+ NM
+ 2-turn delay on 4:3 champion skill
+ 1-turn delay on Vergis A2. 191-194 champion will get an extra turn after first stun, then comp will be in sync. Adjust accordingly.
+ 
+ Works especially well with a Sepulcher Sentinel as the 4:3 champion and Skullcrusher as counter-attack champion. As always rotation may vary if true speeds differ.","Vergis speeds up one champ to a 4:3 turn ratio, going First/Last between AOEs.","Vergis speeds up one champ to a 4:3 turn ratio, going First/Last between AOEs.","205","191","182","177","175","DeadwoodJedi","UNM / NM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/fc569ad20a199fe90123119a49ab2a7ce10989b1","NIGHTMARE","https://deadwoodjedi.info/cb/74cd1deb74cc5ed4003b4bb2b236f27a68bdfe73",,,,,"https://youtu.be/ThzZG4Ue6IM","https://youtu.be/_tJeBsUZYSw","https://youtu.be/vH9-Ha9bTRo",1,"Vergis",,,,,,,,,"/speed-tunes-11/dwj-recommended",,,,,,,,
+"x",,,,200,"2:1 Ratio",,,,,"Fanatic White Whale","With Speed Aura (High Khatun) the needed speeds drop considerably.  
+
+*You NEED two 3 turn speed buff champs WITH a 15% turn meter boost.
+*There is plenty of room to make these champions faster, but not slower.
+ 
+ 240 - Speed Booster
+ 226 - DPS
+ 220 - Speed Booster
+ 219 - DPS
+ 135 - Fanatic
+ 
+ Setup:
+ Fast Speed Booster - 1 turn delay (use speed buff on turn count 1)
+ Slow Speed Booster - 2 turn delay (use speed buff on second attack of turn count 1)
+ Fanatic - 3 turn delay (a2, a1, a1, a3 on turn count 3)
+
+ Fastest champion goes last in turn order.  
+ 
+There are multiple variations with similar speeds - play around in the calc to find something more suitable to your particular squad.",,"2:1 turn ratio for NM using two speed boosters and fanatic to cleanse the stun.","240","226","220","219","135","DeadwoodJedi","NM",,,"NIGHTMARE","https://deadwoodjedi.info/cb/19e930cdfeb448aa8745eab71dfa777819ba7fb2","BRUTAL","https://deadwoodjedi.info/cb/1eb015250b468ac01d5b3fd8daba9db0188287ff",,,"https://youtu.be/iey4hwTCJ9M",,,1,"Fanatic, High Khatun, Apothecary (can use other champs with same speed buff and cooldown)",,,,,,,,,,,,,,,,,
+,,,,112,"Unkillable",,,,"x","Santa and Warcaster","* Requires Santa's A2 to NOT be booked, while A3 is booked.
+ 
+ 255 - Warcaster
+ 254 - Santa
+ 200 - DPS
+ 188 - Doompriest (or cleanser)
+ 187 - DPS
+ 
+ Warcaster goes Twice/Last after AOE2
+ Santa goes Twice/Last after Stun
+ 
+ Unkillalble. The cleanser spot can allow for affinity friendly comp - either with a tank soak in one of the DPS roles, or with a doompriest cleansing all debuffs.","Santa + Warcaster Unkillable with slot for cleanser for affinity friendliness.",,"255","254","200","188","187",,"UNM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/dab136e18875c8fda6b035c262f8e93f301e1088",,,,,,,,,"https://youtu.be/vH9-Ha9bTRo",1,"Santa, Warcaster",,"Sir Nicholas",,"Warcaster",,,,,,,,"/speed-tunes-14/sir-nicholas","/speed-tunes-15/warcaster",,,,
+,,"x",,106,"Unkillable",,,,"x","Tower and Valkyrie Unkillable with 43 Champ","Note: Calculator currently does not show Valkyrie's passive TM gain.
+ 
+ 240 - Tower, double turn going last after Stun
+ 226 - DPS, double turn going first after Stun
+ 172-175 DPS
+ 172-175 DPS
+ 171 - Valkyrie, goes last most turns, except after the stun (Void only).
+ 
+ Full Auto, but can be finessed when bringing in Sandlashed Survivor to up damage. Sepulcher Sentinel is another excellent addition in the 225 slot to make it affinity friendly.
+ 
+ Key is using Valkyrie's shield to soak the stun. Having increase def up before she uses it is KEY.
+ 
+ On affinity Clan Boss, if you do not have Block Buffs up, Valkyrie will slowly move up in the turn order until she is going first after the AOEs. If you bring Sepulcher Sentinel, you will eventually want to delay Valkyrie's shield cast by a turn to benefit from the DEF up.
+ 
+ The ranges of these speeds is much wider than shown, so as always CHECK IN THE CALCULATOR. Enjoy!","Use Tower to block the AOEs and Valkyrie shield to tank the stun.",,"240","226","174","172","171",,"UNM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/eafb0c01d9a5266eadac54167f3542a415cba8d3",,,,,,,"https://youtu.be/WDFi3pA3Bqc",,"https://youtu.be/vH9-Ha9bTRo",1,"Roshcard the Tower, Valkyrie","Roschard the Tower",,,,"Valkyrie",,,,,"/speed-tunes-12/roschard-the-tower",,,,,,,"/speed-tunes-19/valkyrie"
+,,"x",,66,"Slow Tune",,,"x",,"NM Slow 3x 43 Champs v1","197, 185, 184 champs will go at a 4:3 turn ratio.
+ 197 goes First/Last after Stun.
+ 185 goes Twice/First after AOE2.
+ 184 goes Twice/Last after AOE2.
+ 138 - Speed booster (Apothecary)
+ 137 - Counter-attack or affinity debuff blocker
+ 
+ Use appropriate delays for 4:3 champion skills. 
+ 1-turn delay for speed booster. 
+ 2-turn delay for counter-attacker. 
+ 
+ As always variations within ranges may alter the turn order.",,"Use a speed booster to run at slower speeds and still achieve three 4:3 turn ratio champions.","197","185","184","138","137","DeadwoodJedi","NM",,,"NIGHTMARE","https://deadwoodjedi.info/cb/09ea36b652246807d2130d32d223757ef38f7824",,,,,"https://youtu.be/zLJLqN1lmd4",,"https://youtu.be/vH9-Ha9bTRo",1,"Apothecary/High Khatun",,,,,,,,,,,,,,,,,
+"x",,,,233,"2:1 Ratio","DWJ Recommended",,,"x","BatEater","265-285 - Fast Maneater
+248-254 - Seeker
+239-247 - Slow Maneater
+239-247 - Pain Keeper
+218-227 - DPS
+ 
+Ranges are actually slightly wider than what is shown above. As always, double-check your speeds the calculator!
+
+ UNM/NM/Brutal Setup:
+Turn 0 -
+Fast Maneater A3, 
+Seeker A2, 
+Seeker A1,
+Slow Maneater A2, Pain Keeper A3 (these two can be swapped depending on which of the two is faster)
+Auto
+ 
+* Make sure Pain Keeper uses her A2 on turn count 1. If the team does not take enough damage from the first AOE, you might need to manually use PK's A2 before auto-ing.
+ 
+* Pain Keeper can run Retribution mastery if she is at least 7.94 speed slower than Seeker.
+* DPS can proc extra turns and even have a self-speed buff; it does not alter the speed requirement
+ 
+* Anax Variant:
+Fast Maneater needs to have at least 276.9 SPD.
+Seeker needs to have at least 253.34 SPD.
+Slow Maneater needs to have at least 245.24 SPD.
+Pain Keeper needs to have at least 245.24 SPD.
+All other SPD rules still apply.
+
+============
+Advanced Notes
+============
+ME1
+    > 264.490     (UNM)
+    > DPS * 7/6
+    < PK * 7/6
+    < 285.714
+Seeker
+    > 244.286     (UNM)
+    > (PK * 5 + 2000/7) / 6 (iff PK has Retribution)
+    < DPS * 7/6
+ME2
+    > 238.096
+    < Seeker
+PK
+    > 238.096
+    > ME1 * 6/7
+    < Seeker
+    < (Seeker * 6 - 2000/7) / 5 (iff PK has Retribution)
+DPS
+    > 217.143     (UNM)
+    > Seeker * 6/7
+    < ME1 * 6/7
+    < 238.095
+ ","Batman comp meets Maneater = BatEater. Good for all affinities on UNM, NM, and Brutal CB.","Batman comp meets Maneater = BatEater. Good for all affinities on UNM, NM, and Brutal CB.","265","248","247","240","220","Rust","UNM / NM / Brutal","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/514dc9498952ac2690ba8a23eadb25a9b707e9c7","NIGHTMARE","https://deadwoodjedi.info/cb/d93799441bc6a15f07b49491617242e50f57154d","BRUTAL","https://deadwoodjedi.info/cb/7f3b4656ace5242b5d39d79c0d80c9c78ad1eaa6",,,"https://youtu.be/Dfa5viMPbvo","https://www.youtube.com/watch?v=EQzaayitTP8","https://www.youtube.com/watch?v=odkkgjaMWOg",1,"Seeker, Maneater, Maneater, Pain Keeper",,,"Maneater",,,,,"Seeker","/speed-tunes-11/dwj-recommended",,"/speed-tunes-13/maneater",,,"/speed-tunes-16/seeker",,,
+"x",,,,204,"2:1 Ratio","DWJ Recommended",,,,"White Whale - Ma'Shalled","252-253 - Ma'Shalled goes second to last
+ 251-252 - Champ goes last
+ 224-239 - Champ goes third
+ 201-211 - Champ goes second
+ 186-207 - Champ goes first
+ 
+ Ma'Shalled must be fastest
+ 
+ The top two speeds have almost no leeway and not all speeds within the ranges work with each other...very finicky, so CHECK THE CALCULATOR!
+ 
+ 2nd fastest speed will go last in turn order - this is where you want your counter-attacker or debuff blocker.
+ Slowest speed goes first in turn order - this is where you want you debuff cleanser or weaken/decrease def champ.
+ 
+ Setup (can run full auto, but doing the below gets it into the 2:1 tune faster):
+ Ma'Shalled - A1, A2
+ 
+ This also achieves a 2:1 turn ratio on NM, but with a different turn order.
+ 
+ Only NEED to avoid stun on Ma'Shalled in order to stay in tune.","Famous 1-key team that goes at a 2:1 turn ratio",,"252","251","224-239","201-211","186-207","DeadwoodJedi","UNM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/44a2a36437a375b3dff980eb8fb4c98a8af3b1a1",,,,,,,"https://youtu.be/roe6GGvtdnI","https://youtu.be/EtF4K5htj_8","https://youtu.be/VIMqzaXmluc",1,"Ma'Shalled",,,,,,,"Ma'Shalled",,"/speed-tunes-11/dwj-recommended",,,,,,"/speed-tunes-17/ma'shalled",,
+,"x",,,91,"3:2 Ratio",,,,,"1x 32 Champ","258+ champion moves at a 3:2 ratio, alternating double turns with single turns. 
+ 
+ As always variations within ranges may alter the turn order.","One 3:2 turn ratio champion.",,"258","171-209","171-200","171-200","171-172",,"UNM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/b3d8b8930faa7e77f3eeb6f1bc7f6c39a8e18832",,,,,,,,,"https://youtu.be/vH9-Ha9bTRo",1,,,,,,,,,,,,,,,,,,
+,,,,131,"Unkillable",,,,"x","Budget Maneater","253-255 - Maneater
+ 240 - Pain Keeper
+ 181-189 - DPS
+ 181-188 - DPS
+ 122-126 - Stun Target/DPS
+ 
+ 122-126 goes at a 2:3 turn ratio
+ 
+ HP of Stun Target should be the highest of the team, but not more than 125% of PK's HP
+ PK should have the second highest HP.
+ (ex. If PK has 40K HP, then your Stun Target needs to be between 41K-50K).
+ A good target to aim for is 10% more than PK. (so 44K in the above example)
+ Stun Target's DEF should be as low as possibl, at least several hundred lower than anyone else on the team.
+ When facing affinities, the Stun Target ideally should be the weak affinity (vs Magic have a spirit one), or otherwise there should be no weak affinity champions on the team. 
+ *Avoid having a strong affinity Stun Target! It's just not worth it.
+ 
+ Rotation:
+ ME - A3 right away
+ PK - A3, A1, A2","Maneater + Pain Keeper unkillable team, using a 2:3 turn ratio champion as the stun target",,"254","240","189","188","124","ColdBrew Gaming","UNM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/401f571c8e5ac270013f08f5bb922b291a143fc9",,,,,"ADVANCED GUIDE","https://www.deadwoodjedi.com/easy-unkillable-guide-by-rust","https://youtu.be/Zbfkp74dyOM","https://youtu.be/2S4J3jWF5VM","https://youtu.be/CAoDIppQaWc",1,"Maneater, Pain Keeper",,,"Maneater",,,,,,,,"/speed-tunes-13/maneater",,,,,,
+,,"x",,41,"4:3 Ratio",,,,,"2x 43 Champs v1","225-238 champs take a double turn.
+ 
+ Slowest champ is last.
+ 
+ This is useful for having two champs on a 4-turn cooldown using their abilities every cycle while allowing your CA champion to still go last. As always, variations within ranges may alter the turn order.
+ 
+ Play with the numbers and find a comp that works for you!","Various speed ranges for two champions running at a 4:3","Various Speed ranges","225-238","225-238","171-189","171-175","171-175",,"UNM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/0ebcc3cd3207fb0fef338d35d4eff9012d333e1f",,,,,,,"https://youtu.be/B5EqRs3AWPM","https://youtu.be/VKOCMvWH1iI","https://youtu.be/vH9-Ha9bTRo",1,,,,,,,,,,,,,,,,,,
+,,,,142,"Unkillable",,,,"x","Ultimate Budget Unkillable","Works on UNM and NM, all affinities, using the same speeds.
+NO MORE GEAR SWAPPING!
+
+256 - Maneater
+223 - Pain Keeper
+188 - DPS1
+180 - DPS2
+129 - Stun Target/DPS
+
+Ally attack champions can work on UNM, but not NM.
+
+UNM Rotation (for all affinities):
+ Maneater - A3
+ Pain Keeper - A1, A2, A1, auto
+
+NM Rotation (for all affinities):
+ Maneater - A2, A3
+ Pain Keeper - A1, A1, auto
+
+Same stun targeting principles apply:
+- HP of Stun Target should be the highest of the team, but not more than 125% of PK's HP.
+- PK should be second highest HP.
+(ex. If PK has 40K HP, then your Stun Target needs to be between 41K-50K).
+- A good target to aim for is 5-10% more than PK. (so 42-44K in the above example)
+- Stun Target's DEF should be as low as possible, at least several hundred lower than anyone else on the team.
+- When facing affinities, the Stun Target ideally should be the weak affinity (vs Magic have a spirit one), or otherwise there should be no weak affinity champions on the team.
+*Avoid having a strong affinity Stun Target! It's just not worth it.
+
+Example HP/DEF Tuning:
+Aim for 1k DEF and 35k-40k HP on the Stun Target, at least 2k DEF and 30-35k HP on the rest. Pain Keeper should have 2nd highest HP on team.
+Affinities will screw up your run - use a weak affinity for the Stun Target!
+Watch your runs! Hard to know how to fix it if you don't know where it went wrong...
+
+==============
+Advanced Notes
+==============
+ME:
+    < 2*Slow
+    > 255.00
+
+PK:
+    < (8*DPS1-1000/7)/6
+    > (9*DPS1-1000/7)/7
+    > (8*DPS2-1000/7)/6
+    > 12/7*Slow
+
+DPS1:
+    < (7*PK+1000/7)/9
+    < 12/8*Slow
+    > (6*PK+1000/7)/8
+    > 13/9*Slow
+
+DPS2:
+    < (6*PK+1000/7)/8
+    < 13/9*Slow
+    > 178.572
+
+Slow:
+    < 7/12*PK
+    < 131.53
+    < 8/12*DPS1
+    > 1/2*ME
+    > 126.67
+    > 9/13*DPS2","Budget Maneater team that works on UNM and NM with NO gear swaps!","Budget Maneater team that works on UNM and NM with NO gear swaps!","256","223","188","180","129","KebaanDK, Bobo","UNM / NM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/657c590d00dafc8cb52d0aceeefbdbdd8f2d490e","NIGHTMARE","https://deadwoodjedi.info/cb/b197553ac2940e7e8584d532372304c53a3346a4",,,"Original Guide by u/KebaanDK","https://www.reddit.com/r/RaidShadowLegends/comments/johfam/ultimate_budget_unkillable_nmunm_works_on_spirit/",,,,1,"Maneater, Pain Keeper",,,"Maneater",,,,,,,,"/speed-tunes-13/maneater",,,,,,
+,,"x",,52,"4:3 Ratio",,,,,"3x 43 Champs v2","222-239 Champions will go at a 4:3 turn ratio. Syncs up on turn count 9.
+ 
+ UNM
+ 239 champ goes Twice/Last after AOE1.
+ 222 champ goes Twice/First after AOE1.
+ 223 champ goes Twice/First after Stun
+ 
+ NM
+ 239 First/Last after stun.
+ 223 First/Last after AOE1.
+ 222 Twice/Last after AOE2.
+ 
+ This is useful for having three champs on a 4-turn cooldown using their abilities every cycle and having their buffs cover multiple clan boss turns. As always variations within ranges may alter the turn order.","Three 4:3 turn ratio champions: Twice/First after AOE1, Twice/Last after AOE1, and Twice/First after Stun.","Three 4:3 turn ratio champions: First/Last after stun, First/Last after AOE1, Twice/Last after AOE2.","239","223","222","180","172",,"UNM / NM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/7bed76326b532072ec8e3fa5c3681c4bc8770eed","NIGHTMARE","https://deadwoodjedi.info/cb/8c5f5f8172c765eba96b0869d0358958b322f31e",,,,,"https://youtu.be/B5EqRs3AWPM","https://youtu.be/VKOCMvWH1iI","https://youtu.be/vH9-Ha9bTRo",1,,,,,,,,,,,,,,,,,,
+,,"x",,51,"4:3 Ratio",,,,,"3x 43 Champs v1","222-239 Champions will go at a 4:3 turn ratio. Syncs up on turn count 6.
+ 
+ UNM
+ 239 champ goes Twice/Last after Stun.
+ 222 champ goes Twice/First after Stun.
+ 223 champ goes First/Last after AOE1.
+ 
+ NM
+ 239 champ goes Twice/Last after AOE2.
+ 222 champ goes Twice/First after AOE2.
+ 223 champ goes Twice/Last after AOE1.
+ 
+ This is useful for having three champs on a 4-turn cooldown using their abilities every cycle and having their buffs cover multiple clan boss turns. As always variations within ranges may alter the turn order.","Three 4:3 turn ratio champions: Twice/First after Stun, Twice/Last after Stun, and First/Last after AOE1.","Three 4:3 turn ratio champions: Twice/First after AOE2, Twice/Last after AOE2, Twice/Last after AOE1.","239","223","222","172","171",,"UNM / NM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/68cffdddb76cb5def422ac39763ab261f1426c7b","NIGHTMARE","https://deadwoodjedi.info/cb/f0b549018970a698ee49b9e531140fd6fd3bb2cf",,,,,"https://youtu.be/B5EqRs3AWPM","https://youtu.be/VKOCMvWH1iI","https://youtu.be/vH9-Ha9bTRo",1,,,,,,,,,,,,,,,,,,
+,,"x",,69,"Slow Tune",,,"x",,"Slow 3x 43 Champs v2","Three 4:3 champions with a speed booster.
+ 218-225 (4:3)
+ 193-200 (4:3)
+ 193-200 (4:3)
+ 152-159 (CA) 
+ 130-137 (Booster)
+  
+ UNM
+ 218-225 champ goes First/Last after Stun.
+ 193-200 champs both go twice after AOE2: one first, one last.
+ Syncs on turn count 7.
+ 
+ NM
+ 218-225 goes Twice/Last after AOE1. If 1-turn delay on speed boost, then this occurs after AOE2 instead.
+ 193-200 champs: one goes First/Last after AOE2; one goes twice after AOE1. If 1-turn delay on speed boost, then this occurs after Stun and after AOE2, respectively.
+ 
+ Conditions:
+ * Need at least 40 speed between CA champ and slowest 4:3 champ.
+ * No more than 26 speed between slowest 4:3 champ and fastest 4:3 champ.
+ 
+ As always variations within ranges may alter the turn order.","Use a speed booster to run at slower speeds and still achieve three 4:3 turn ratio champions.","Use a speed booster to run at slower speeds and still achieve three 4:3 turn ratio champions.","218-225","193-200","193-200","152-159","130-137","Cyborg","UNM / NM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/059e12a443dcaab6d99ba7ac9f20cb9e4e326049","NIGHTMARE","https://deadwoodjedi.info/cb/7ed820ecb84fb96015e47db365db32bbec8a9636",,,,,"https://youtu.be/zLJLqN1lmd4",,"https://youtu.be/vH9-Ha9bTRo",1,"Apothecary/High Khatun",,,,,,,,,,,,,,,,,
+"x",,,,234,"2:1 Ratio",,,,"x","Bat-less - 21","326 - Maneater 1
+ 299 - Maneater2
+ 272 - DPS
+ 245 - DPS
+ 218 - Pain Keeper
+ 
+ Setup is NOT optimized. Falls into sync turn 7:
+ PK: A2, A1, A3
+ ME 1: A2, A1, A1, A2, A1, A1, A3 (7 turn delay)
+ ME 2: A2, A1, A1, A2, A1, A1, A2, A3 (8 turn delay)
+ 
+ You can easily bring in a Speed Aura lead to reduce these speeds. Faster speeds than the Batman comps, but frees up a damage slot from Seeker.
+ 
+ As always check speeds and setup in the calculator! All listed speeds are calculator speeds, not the in-game displayed speeds.","2:1 turn ratio Double Maneater Unkillable with NO speed booster!",,"326","299","272","245","218","Napoleon Camembert","UNM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/221190e33307f3a2072d69d50152a4f543c02688",,,,,,,"https://youtu.be/lhS2TLJ81Lg",,"https://youtu.be/vH9-Ha9bTRo",1,"2x Maneater, Pain Keeper",,,"Maneater",,,,,,,,"/speed-tunes-13/maneater",,,,,,
+,,,,137,"Unkillable",,,,"x","Slow Double Maneater","*Please consider using the ""Easy Double Maneater"" (link to the right) over this build.  It has the advantage of not needing to swap any gear between UNM and NM.
+
+ 218 - Maneater 1
+ 215 / 207 - Maneater 2 (UNM/NM)
+ The rest - DPS
+ 
+ Advantages of this setup is you can switch between UNM and NM clan boss by changing speed on your Slow Maneater with one gear piece. It also is viable on all affinities. Also with lower speed requirement you may be able to not use speed boots giving your champions higher damage. Even though the speeds are slower you will have the same number of attacks as the Fast Maneater Comps after Clan Boss Turn 0. Disadvantes of this setup is your not unkillible until round 6-7 and must have enough sustain to make it to those rounds.
+ 
+ *Speeds for the Slow Maneater can be different, but is relative to the speed of the fastest DPS. CHECK IN THE CALCULATOR!
+ 
+ For UNM - Manual Setup:
+ Clan Boss Turn 0 - Do not use Ancient Blood
+ Clan Boss Turn 1 - Apply Ancient Blood on Fast Maneater (will block debuff)
+ Clan Boss Turn 4 - Apply Ancient Blood on Slow Maneater (will block debuff)
+ Clan Boss Turn 7 - Apply Ancient Blood on 2nd hit of Fast Maneater
+ Clan Boss Turn 9 - Apply Ancient Blood on 2nd hit of Slow Maneater
+ Auto
+ You will not be fully unkillible until Turn 7 so you must be able to sustain the first 6 rounds.
+ 
+ For NM - Manual Setup:
+ Clan Boss Turn 0 - Do not use Ancient Blood
+ Clan Boss Turn 1 - Apply Ancient Blood on Fast Maneater (will block debuff)
+ Clan Boss Turn 4 - Apply Ancient Blood on Slow Maneater (will block debuff)
+ Clan Boss Turn 6 - Apply Ancient Blood on 2nd hit of Fast Maneater
+ Clan Boss Turn 8 - Apply Ancient Blood on 2nd hit of Slow Maneater
+ Auto
+ You will not be fully unkillible until Turn 6 so you must be able to sustain the first 5 rounds. 
+ 
+ With the shown speeds, 218 for the Fast Maneater with 3 speed sets and Lore of Steel mastery will be too fast - DOUBLE CHECK IN THE CALCULATOR!","Double Maneater Unkillable team that is fully affinity friendly, with one simple change to make viable for NM","Double Maneater Unkillable team that is fully affinity friendly, with one simple change to make viable for UNM","218","215 / 207","182","172-178","172-178","Zomb13Lord","UNM / NM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/21ab67fd57d74fd540113c307ffb34eee308c18f","NIGHTMARE","https://deadwoodjedi.info/cb/774b0888e6675cef0bbb372991ff5700f6896eee",,,"Easy Double Maneater","https://www.deadwoodjedi.com/speed-tunes-4/Easy-Double-Maneater","https://youtu.be/cCZxxtw-HQs","https://youtu.be/iyeUkVQTURs","https://youtu.be/vH9-Ha9bTRo",1,"Double Maneaters",,,"Maneater",,,,,,,,"/speed-tunes-13/maneater",,,,,,
+"x",,,,241,"2:1 Ratio",,,,"x","HellBatEater","Archmage Hellmut needs to reliably crit on his A1 in order for this tune to work.  
+As such, this will not work against Force affinity.
+
+Archmage Hellmut is going at a 3:1 turn ratio.
+Both Maneaters are going at a 5:2 turn ratio.
+Seeker and your DPS are going at a 2:1 turn ratio.
+
+306 - Archmage Hellmut
+287 - Fast Maneater
+286 - Slow Maneater
+222 - Seeker
+220 - DPS (No extra turns)
+
+UNM/NM Rotation:
+Archmage - A3, A1, A2, auto
+Fast ME* - A2, A1, A1, A2, A3, A1, A2, A1, A1, A2, A3
+Slow ME - A2, A1, A3, auto
+Seeker - A1, A2, auto
+DPS - auto
+*   (First use A3 on second action of Turn 2, can auto until start of Turn 5; second use of A3 on second action of Turn 5 for UNM, second action of Turn 4 for NM)
+
+Brutal Rotation:
+Same as above, except you can auto after Fast ME's first A3.","Hellmut-Seeker-Double ME Unkillable team that doesn't work on Force","Works the same for UNM - Hard","306","287","286","222","220","Toshy, Bobo","UNM / NM / Brutal","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/0e5fcf6c55816ed89cc3d9f64caecc4319c030d2","NIGHTMARE","https://deadwoodjedi.info/cb/72d69b2876c632b741fccda029bc3dc20ef61e9d","BRUTAL","https://deadwoodjedi.info/cb/4da28843062c74ab717696789771dcb08ace7de2",,,,,,1,"Archmage Hellmut, Seeker, 2xManeater",,,"Maneater",,,,,"Seeker",,,"/speed-tunes-13/maneater",,,"/speed-tunes-16/seeker",,,
+,"x",,,94,"3:2 Ratio",,,,,"32 Team with Speed Booster","3:2 Turn Ratio
+ 169-174 is speed booster
+ 
+ Apothecary/High Khatun makes the whole team go at a 3:2 turn ratio. 
+ Speed Booster alternates double turns with the rest of the team.
+ 
+ *The 250-253 champion needs to be at least 35 speed faster than the 215-217 champion.
+ 
+ As always variations within ranges may alter the turn order.","Speed booster makes the whole team go at a 3:2 turn ratio","Speed booster makes the whole team go at a 3:2 turn ratio","250-253","238","224-237","215-217","169-174","Cyborg","UNM / NM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/2b4b678fbc28651f0d562d2118d65a0901a9f08e","NIGHTMARE","https://deadwoodjedi.info/cb/c1da452b3d87b6e51f5ad0804c72311f8037891b",,,,,,,"https://youtu.be/vH9-Ha9bTRo",1,"Apothecary/High Khatun",,,,,,,,,,,,,,,,,
+,,"x",,16,"4:3 Ratio",,,,,"1 Champ Last after Stun","239-245 takes a double turn, going First/Last after the stun
+ 191 goes last after AOEs.
+ 
+ Syncs right away.
+ 
+ This is useful for having one champ on a 4-turn cooldown using their abilities every cycle and go last to place their buffs to cover both AOEs. 
+ 
+ The numbers have more leeway than shown. As always variations within ranges may alter the turn order.","First/Last after Stun","3:2 Ratio alternating double turns","239-245","191","172-178","172-178","172-178",,"UNM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/60afff2cef8f61be441169ec420af7775968f80d",,,,,,,,,,1,,,,,,,,,,,,,,,,,,
+,,"x",,56,"4:3 Ratio",,,,,"Sepulcher Build","UNM
+ 239-241 champ goes First/Last after AOE1, ideal for Sepulcher of Duchess.
+ Delay Sepulcher's A2 by 1 turn.
+ 191 champ is not protected from the first stun--if you run a CA champ, you may need to delay the CA ability until after this.
+ 
+ NM
+ 239-241 champ goes First/Last after AOE2. Syncs up on turn count 8.
+ 
+ As always rotation may vary if true speeds differ.","First/Last after AOE1.","First/Last after AOE2.","239-241","191-192","181-184","181-184","172-177","Bobo","UNM / NM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/306f7592d4f7477356ab25dd51567048200a4209","NIGHTMARE","https://deadwoodjedi.info/cb/9137188257a718a260f573bfbf1884463ba5e767",,,,,"https://youtu.be/B5EqRs3AWPM","https://youtu.be/VKOCMvWH1iI","https://youtu.be/vH9-Ha9bTRo",1,,,,,,,,,,,,,,,,,,
+,,"x",,68,"Slow Tune",,,"x",,"Slow 2x 43 Champs v2","197-204 champs will go at 4:3 turn ratio.
+ 134-139 champ is speed booster.
+ 157-159 slot is good for counter-attack champ.
+ Syncs up rather late.
+ 
+ UNM
+ Double turn after AOE2.
+ 
+ NM
+ Double turn after AOE1.
+ 
+ Use appropriate delays for 4:3 champion skills. 
+ As always variations within ranges may alter the turn order.
+ 
+ Conditions: 
+ *Speed booster and slowest champion within 10 speed of each other.
+ *CA and slowest 4:3 champion need at least 40 speed difference from each other.","Use a speed booster to run at slower speeds and still achieve two 4:3 turn ratio champions.","Use a speed booster to run at slower speeds and still achieve two 4:3 turn ratio champions.","197-204","197-204","157-159","134-139","124-129","Cyborg","UNM / NM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/d4028304bf2041b920e3c71b227083fd3838c492","NIGHTMARE","https://deadwoodjedi.info/cb/93bdfad05015c20b336a1f34d067794a12d0f7b2",,,,,"https://youtu.be/zLJLqN1lmd4",,"https://youtu.be/vH9-Ha9bTRo",1,"Apothecary/High Khatun",,,,,,,,,,,,,,,,,
+"x",,,,235,"2:1 Ratio","DWJ Recommended",,,,"Endless Buffs Krisk 21","Using the extend buff ability of both Krisk and Sandlashed Survivor, we're able to keep the buffs up in an endless cycle!
+ 
+ UNM and NM setup:
+ 269 - Sepulcher - A1, A1, A2, auto
+ 244 - Sandlashed - auto
+ 239 - Krisk - A2, A3, auto
+ 227 - DPS - auto
+ 195 - Counter-attacker - A1, A2, auto
+ Syncs on turn count 6
+ 
+ Very easy to setup and run. Works with Valkyrie (syncs slightly later) on affinity as well. Works the same on NM and UNM.","Affinity Friendly 2:1 team using Krisk and Sandlashed to extend block debuffs endlessly","Affinity Friendly 2:1 team using Krisk and Sandlashed to extend block debuffs endlessly","269","244","239","227","195","Victor TES","UNM / NM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/e78c91616208e47f629cf6d9116eba0045d888f4","NIGHTMARE","https://deadwoodjedi.info/cb/711f97c62f62438ab1981fad9a7c60f4ab0bce6c",,,,,"https://youtu.be/dxwiYZhLYzw","https://www.youtube.com/watch?v=_LOiTGn3F3o&feature=youtu.be","https://youtu.be/vH9-Ha9bTRo",1,"Krisk, Sandlashed Survivor",,,,,,"Krisk",,,"/speed-tunes-11/dwj-recommended",,,,,,,"/speed-tunes-18/krisk",
+,,"x",,5,"Slow Tune","DWJ Recommended",,"x",,"43 - Krisk Slow Tune","206 - 4:3 Champion
+ 191 - Krisk
+ Rest - 1:1 Champions
+ 
+ The 4:3 champion slot is a great spot for a Sepulcher Sentinel. 
+ 
+ There is a TON of variation in this composition. These speed ranges are just that - ranges. Within those there is plenty of variation as far as timing and turn order, so test, test, TEST before gearing to choose the optimal set up. Even the 4:3 champ speed has plenty of room for maneuvering.
+ 
+ Krisk is a very difficult champion to tune around because of his unique kit - it's highly recommended to test any build in the calculator first! The timing of his skills will also be important!","Uses Krisks ally speed buff and extend buff ability to let everyone have less speed to move faster, with one champ moving at 4:3","Uses Krisks ally speed buff and extend buff ability to let everyone have less speed to move faster, with one champ moving at 4:3","206","191","137-160","137-160","137-160",,"UNM / NM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/8e4b183b6a4991f09456096eb2268b9d36c068be","NIGHTMARE","https://deadwoodjedi.info/cb/9375138946e17b4d91145f6ae3e305047d6d9ba4",,,,,"https://youtu.be/bBblXmf9FPI","https://youtu.be/zLJLqN1lmd4","https://youtu.be/nhVfyoPnb3M",1,"Krisk",,,,,,"Krisk",,,"/speed-tunes-11/dwj-recommended",,,,,,,"/speed-tunes-18/krisk",
+,,,,136,"Unkillable","DWJ Recommended",,,"x","Easy Double Maneater","Easy Double Maneater team that works for UNM, NM, and Brutal Clan Boss all with zero speed changes.
+ (Rotations listed are to accommodate Spirit affinity; can be simplified for non-Spirit.)
+ 
+ 218.58-221 - Fast ME
+ 214-217 - Slow ME (To include Brutal: 214-215)
+ 173-178 DPS
+ 173-178 DPS
+ 159-169 DPS (To include Brutal: 168-169)
+
+ UNM Rotation: 
+ Fast ME - A3 on turn count 1, then second attack on turn count 6, auto
+ Slow ME - A3 on turn count 4, auto
+ If this rotation is followed, ME getting stunned is not an issue.
+ Auto after turn 6
+ 
+ NM Rotation:
+ Fast ME - A3 on turn count 1, second attack of turn count 5 (delayed 1 turn)
+ Slow ME - A3 on second attack of turn count 3, auto
+ If this rotation is followed, ME getting stunned is not an issue.
+ Auto after turn 5
+ 
+ Brutal Rotation:
+ Fast ME - A3 on turn count 4, second attack of turn count 8 (delayed 1 turn), auto
+ Slow ME - A3 on turn count 1, second attack of turn count 6 (delayed 2 attacks), auto
+ If this rotation is followed, ME getting stunned is not an issue.
+ Auto after turn 8
+ 
+ There is lots of variance in the speeds of the DPS, even outside these listed ranges, but be careful with the MEs as their speeds can be tight. 
+ The ranges listed here all work with each other (keeping in mind hidden decimal values).","Double Maneater team that works UNM, NM, and Brutal, all with no speed changes.","Double Maneater team that works UNM, NM, and Brutal, all with no speed changes.","219","215","173-178","173-178","159-169","Frugus","UNM / NM / Brutal","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/e45fe7b976359f36d229b89f33cca06fc8f11473","NIGHTMARE","https://deadwoodjedi.info/cb/aa6428723d8657aef0192993ee43487338f29257","BRUTAL","https://deadwoodjedi.info/cb/879ab400b21ff8f94885b453df13a94da3fdf4d1",,,"https://youtu.be/mr7RYcXJohE","https://www.youtube.com/watch?v=_1dtOmqs3eE&t=212s","https://youtu.be/g6XXZF7Wbfg",,"Double Maneaters",,,"Maneater",,,,,,"/speed-tunes-11/dwj-recommended",,"/speed-tunes-13/maneater",,,,,,
+,,"x",,42,"4:3 Ratio",,,,,"2x 43 Champs v2","225-238 champs take a double turn.
+ 
+ All champ speeds affect each other and can determine when the double turns occur. 
+ 
+ If 191-197 champ is less than 20 speed faster than slowest champ, typically they will go last in turn order; double turn champs will go last on the double turn. If slowest champ is 20+ speed slower than the 191-197 champ, typically they will go last every turn.
+ 
+ This is useful for having two champs on a 4-turn cooldown using their abilities every cycle and have their buffs cover multiple clan boss turns.
+ 
+ Play with the numbers and find a comp that works for you! As always variations within ranges may alter the turn order.","Various speed ranges for two champions running at a 4:3","Double Turns vary depending on speeds","225-238","225-238","191-197","171-178","171-178",,"UNM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/bb9c0f20e53b420929ac2f5fa4f4dc4b8251fa55",,,,,,,"https://youtu.be/B5EqRs3AWPM","https://youtu.be/VKOCMvWH1iI","https://youtu.be/vH9-Ha9bTRo",1,,,,,,,,,,,,,,,,,,
+,,"x",,55,"4:3 Ratio",,,,,"3x 43 Champs with Cleanse or Block Debuffs","225-226 Champions will go at a 4:3 turn ratio. UNM syncs up on turn count 8. NM syncs up on turn count 7.
+ 
+ NM - version is for Cleanse
+ 226 champ goes Twice/Last between AOEs.
+ 225 champ goes Twice/Last before stun.
+ 225 champ goes Twice/Last after stun.
+ 182 goes first each turn.
+ 
+ UNM - version is for blocking debuffs
+ 226 champ goes Twice/First before stun.
+ 225 champ goes Twice/First after stun.
+ 225 champ goes Twice/First between AOEs.
+ 172 goes last each turn.
+ 
+ This is useful for having a dedicated cleanser along with three champs on a 4-turn cooldown using their abilities every cycle and haing their buffs cover multiple clan boss turns.","Three 4:3 turn ratio champions: Twice/First each turn; slowest goes last for Block Debuffs.","Three 4:3 turn ratio champions: Twice/Last each turn; cleanser goes first each turn.","226","225","225","182","172",,"UNM / NM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/075af98020141f20d4b6e45a07b33669b4569350","NIGHTMARE","https://deadwoodjedi.info/cb/c277124ccf77aec43a503e3c2c92a67205fa709f",,,,,"https://youtu.be/B5EqRs3AWPM","https://youtu.be/VKOCMvWH1iI","https://youtu.be/vH9-Ha9bTRo",1,,,,,,,,,,,,,,,,,,
+,,,,139,"Unkillable",,,,"x","Fast Double Maneater - NM Only","*For a team that can handle both UNM and NM, please consider using the ""Easy Double Maneater"" (link to the right).
+
+ 226 - Maneater 1
+ 224 - Maneater 2
+ 176-178 - DPS
+ 176-178 - DPS
+ 175 - DPS
+ 
+ Turn 5 is unprotected, so have to be able to survive that hit, but fully unkillable after that.
+ 
+ Rotation - Maneaters combined ability usage -
+ 
+ For non-Spirit:
+ Turn Count 0 - A2, A2
+ Turn Count 1 - A3, A1, A1
+ Turn Count 2 - A1, A2, A3
+ Auto
+ 
+ For Spirit (works for all as well):
+ Turn Count 0 - A2, A2
+ Turn Count 1 - A1, A3, A1
+ Turn Count 2 - A1, A2, A2
+ Turn Count 3 - A1, A1
+ Turn Count 4 - A3, A1
+ Turn Count 5 - A2, A2, A1
+ Turn Count 6 - A1, A1, A3
+ Turn Count 7 - A2, A2
+ Turn Count 8 - A1, A1, A3
+ Auto",,"Fast Double Maneater Unkillable team that is fully affinity friendly. Unkillable from Turn 5.","226","220-224","176-178","176-178","175",,"NM",,,"NIGHTMARE","https://deadwoodjedi.info/cb/466d53e6f01935379f55da212ec91f5884e76089",,,"Easy Double Maneater","https://www.deadwoodjedi.com/speed-tunes-4/Easy-Double-Maneater","https://www.youtube.com/watch?v=4SPDVppe25E&t=234s","https://youtu.be/6pdmt-ZBPtk","https://youtu.be/iyeUkVQTURs",1,"Double Maneaters",,,"Maneater",,,,,,,,"/speed-tunes-13/maneater",,,,,,
+,,,,116,"Unkillable",,,,"x","The Two Towers","*Note: This team relies on the AI of Tower to not cast Block Damage when it is up on some of the team. When entering it into the calculator, you will need to adjust Tower's A3 cooldown up to 5 to account for this.
+ 
+ Roschard 215-218
+ Roschard 215-217
+ DPS / Cleanser 182-188
+ DPS (fayne) 174-178
+ DPS (septimus) 174-178
+ 
+ This comp syncs on turn 7 for UNM and turn 6 for NM:
+ 
+ UNM
+ This should be a full auto start. HOWEVER, an errant stun on one of the towers in the first two cycles could potentially alter that. The main key is on turn count 7, when the Fast Tower takes two turns, to use his Block Damage ability on his second attack. After that it's full auto.
+ 
+ To adjust for Spirit affinity make the Fast Tower 218 (best just to leave him at that speed but can go as fast as 222) and the Slow Tower 218 (exactly). Cleanser then needs to be 182-189. Set up is the same: stay alive till turn 7 then begin using the block damage on fast Tower's second attack.
+ 
+ NM
+ This should be a full auto start. HOWEVER, an errant stun on one of the towers in the first two cycles could potentially alter that. The main key is on turn count 7, when the Fast Tower takes two turn, to use his Block Damage ability on his second attack. After that it's full auto.
+ 
+ To adjust for spirit affinity make the Fast Tower 218 and the Slow Tower 212-214. Cleanser then needs to be 188-189. Set up is the same: stay alive till turn 6 then begin using the block damage on fast Tower's second turn.","Two Roschard the Tower on a 5:4 turn ratio, alternating block damage to stay unkillable.","Two Roschard the Tower on a 5:4 turn ratio, alternating block damage to stay unkillable.","218","215","188","176","174","DeadwoodJedi","UNM / NM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/4c1c2de9b691b7696366c12f81be5bfdd36614a1","NIGHTMARE","https://deadwoodjedi.info/cb/a628290e7f3045303e4a41e6ce00de715133d9a8",,,,,"https://youtu.be/v2hjYQaK8rQ",,"https://youtu.be/vH9-Ha9bTRo",1,"Roschard the Tower","Roschard the Tower",,,,,,,,,"/speed-tunes-12/roschard-the-tower",,,,,,,
+"x",,,,240,"2:1 Ratio","DWJ Recommended",,,"x","DeaconEater","*These speeds work with all BATMAN setups and teams including the Dark Knight, Bateater, and Batman Forever. Make sure to follow the instructions for those teams and adjust skill delays to sync.
+
+226 - Deacon Armstrong (Leader for SPD aura)
+278 - Fast Maneater
+253 - Slow Maneater
+252 - Pain Keeper
+201 - DPS
+ 
+Ranges are actually slightly wider than what is shown above. As always, double-check your speeds the calculator!
+
+ UNM/NM/Brutal Setup:
+Deacon: A2, A1, A1, A2, auto
+Fast ME: A2, A1, A3, auto
+Slow ME: A2, A1, A2, A3, auto
+Pain Keeper: A3, A2, auto
+DPS: go pew pew
+Can go full auto after Turn 3.
+ 
+* Make sure Pain Keeper uses her A2 on turn count 1. If the team does not take enough damage from the first AOE, you might need to manually use PK's A2 before auto-ing.
+ 
+ ","2:1 Unkillable with Deacon Armstrong, Pain Keeper, and two Maneaters","2:1 Unkillable with Deacon Armstrong, Pain Keeper, and two Maneaters","226","278","253","252","201","Optilink","UNM / NM / Brutal","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/8dc9dc7207fc30fc055c9d3202ef60c23f34c2bc","NIGHTMARE","https://deadwoodjedi.info/cb/b025ea127b49b62fbc428b645b788cb42e9b1714","BRUTAL","https://deadwoodjedi.info/cb/1f72b172e8d4189adc976e1193ee19d102c8d8f9",,,"https://youtu.be/65tmVUKfxng","https://www.youtube.com/watch?v=VmSwjdy9XpM",,1,"Deacon Armstrong, 2x Maneater, Pain Keeper",,,"Maneater",,,,,,"/speed-tunes-11/dwj-recommended",,"/speed-tunes-13/maneater",,,,,,
+,,,,114,"Unkillable",,,,"x","Maneater and Tower or Santa","251 - Maneater
+ 191 - Tower/Santa
+ 198 - DPS (cleanser)
+ 194 - DPS 
+ 193 - DPS
+ 
+ Cleanser is advised to avoid stuns and required to stay Spirit affinity friendly.
+ 
+ 3-turn delay on Maneater's A3 should put the comp in sync starting turn 4. But to optimize watch the videos and get specific turn order advice.
+ 
+ As always, variations to true speeds can alter turn order.","Uses a drifting 5:4 Maneater and a 1:1 UK champ to become unkillable.",,"251","198","194","193","191","Skratch AK47","UNM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/d7bcaa9c5f8727fb471a906af2f4a78a1975483b",,,,,,,"https://youtu.be/Wq5HVwq-rI8",,"https://youtu.be/vH9-Ha9bTRo",1,"Maneater, Tower/Santa","Roschard the Tower","Sir Nicholas","Maneater","Warcaster",,,,,,"/speed-tunes-12/roschard-the-tower","/speed-tunes-13/maneater","/speed-tunes-14/sir-nicholas","/speed-tunes-15/warcaster",,,,
+,"x",,,95,"3:2 Ratio",,,,,"Endless Speed","3:2 Turn Ratio
+ - 227 is Apothecary.
+ - 197 is Sandlashed Survivor
+ 
+ Full Auto. Don't let Apothecary or Sandlashed get stunned. Can use another similar speed boost champion (e.g. High Khatun) in place of Apothecary. 
+ 
+ As always variations within ranges may alter the turn order.","Fully auto 3:2 turn ratio for the whole team with a speed booster and buff extender","Fully auto 3:2 turn ratio for the whole team with a speed booster and buff extender","232","229","227","197","178","DeadwoodJedi","UNM / NM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/efb710e1c6a23ecca060870c2b464b61fe999629","NIGHTMARE","https://deadwoodjedi.info/cb/fc80b4e8c485c2c2e140e6a24fc31edc56e230fb",,,,,"https://youtu.be/HWdSPO-BIFQ",,"https://youtu.be/vH9-Ha9bTRo",1,"Apothecary/High Khatun, Sandlashed Survivor",,,,,,,,,,,,,,,,,
+,,,,1,"STANDARD",,"x",,,"Basic","If you want your team starting before Clan Boss, All Champions: 191-209​
+ 
+ If you want your team starting after Clan Boss, All Champions: 171-189
+ 
+ These two ranges work with each other for both NM and UNM.​
+ 
+ When mixing these speeds, they are roughly equivalent to the speed with a 20 points difference. Between the two the higher one will go first. So 191 will go before 171, but both will go after 172 and higher.","1:1 turn ratio","1:1 turn ratio","171-189, 191-209​","171-189, 191-209​","171-189, 191-209​","171-189, 191-209​","171-189, 191-209​",,"UNM / NM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/0042dac2ec21fa00d0c5ff70f490c50b799aecaa","NIGHTMARE","https://deadwoodjedi.info/cb/316d86d42910e12b5d3cd094657970e4e6003818",,,,,"https://youtu.be/s9i4FDKJHBY","https://youtu.be/AJj9VPHEnvs","https://youtu.be/vH9-Ha9bTRo",1,,,,,,,,,,,,,,,,,,
+"x",,,,209,"2:1 Ratio",,,,,"White Whale - Lydia with Extender","WORK IN PROGRESS
+
+*Note: Hell Hades has a video for the same type of comp at slightly different speeds.  His speeds are listed in a pinned comment on his video.  Video is embedded on the right.","2:1 turn ratio using Lydia and a buff extender","2:1 turn ratio using Lydia and a buff extender","268","255","254","221","218",,"UNM / NM / Brutal","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/4a58fb06abfda85ce66aac7ab68f6171f420accb","NIGHTMARE","https://deadwoodjedi.info/cb/43fcfb4e7847413477cb0cb4d50fecfcc5831903","BRUTAL","https://deadwoodjedi.info/cb/6aedf51c67d52f54c5ddc25d0e2c05ffda741581",,,"https://www.youtube.com/watch?v=E9R3I2SG8YY",,,1,"Lydia",,,,,,,,,,,,,,,,,
+,,,,102,"Unkillable",,,,"x","Fast Skullcrusher and Tower","243-245 Skullcrusher
+ 241 - Tower
+ 195-196 DPS
+ 193 DPS
+ 191 DPS
+ 
+ For UNM sets in round 6, for NM sets by round 10
+ For UNM, use Tower's block damage and Skullcrusher's counter attack right from the beginning. Full auto after that.
+ For NM, it's the same, but on turns 8 and 9 you must manual a one turn delay on their skills and then they will fall back in sync.
+ 
+ The trick is getting the stun to land on Skullcrusher. He must have SOME HP or the CB won't target him - easiest way is to give him 1 set of Immortal gear, though it's possible without by using the Lifedrinker Mastery and having high crit rate and damage.","Use Tower to block the AOEs and a fast Skullcrusher to tank the stun.","Use Tower to block the AOEs and a fast Skullcrusher to tank the stun.","243-245","241","195-196","193","191",,"UNM / NM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/6af320c65b2fe28f8dfc963c60d85352241c0490","NIGHTMARE","https://deadwoodjedi.info/cb/1d0372c5ad89f6474446e04b022c6f5870143435",,,"Tower/Skullcrusher Affinity Guide","https://www.deadwoodjedi.com/tower-skullcrusher-affinity-guide","https://youtu.be/pYlaHpCksLg",,"https://youtu.be/vH9-Ha9bTRo",1,"Tower, Skullcrusher","Roschard the Tower",,,,,,,,,"/speed-tunes-12/roschard-the-tower",,,,,,,
+,,"x",,105,"Unkillable",,,,"x","Tower and Warcaster with 43 Champ","242 - Warcaster
+ 241 - Tower
+ 220 - DPS moving at 4:3
+ 191 - DPS
+ 171 - DPS
+ 
+ 241 blocks AOE2 and Stun; 242 blocks AOE1.
+ 
+ Not affinity friendly.
+ 
+ This comp allows adding a 4:3 champ into an Unkillable Team - either as a stun soak or as more DPS","Slow Tower + Warcaster Unkillable with a 4:3 champ to increase damage or debuffs.",,"242","241","221","172-179","171-172","DeadwoodJedi","UNM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/eb97d9e3de7a99ecfe85e0ce069ea2f855fb098a",,,,,,,"https://youtu.be/xNCCY_Lg2kw",,"https://youtu.be/vH9-Ha9bTRo",1,"Tower, Warcaster","Roschard the Tower",,,"Warcaster",,,,,,"/speed-tunes-12/roschard-the-tower",,,"/speed-tunes-15/warcaster",,,,
+,,,,4,"Slow Tune","DWJ Recommended","x","x",,"Krisk Slow Tune","191 - Krisk
+ Rest - DPS/Support
+ 
+ Krisk is a very difficult champion to tune around because of his unique kit - it's highly recommended to test any build in the calculator first! The timing of his skills will also be important! As always variations within ranges may alter the turn order.
+ 
+ For NM, keep all non-Krisk champions at 147 or lower.","Uses Krisks ally speed buff and extend buff ability to let everyone have less speed to move faster.","Uses Krisks ally speed buff and extend buff ability to let everyone have less speed to move faster.","191","137-166","137-166","137-166","137-166",,"UNM / NM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/25ad6569b894c1b1f5969514be168291e1655d0d","NIGHTMARE","https://deadwoodjedi.info/cb/43cd9dd141e732d62db54d875f46d9495b50611e",,,,,"https://youtu.be/nhVfyoPnb3M","https://youtu.be/zLJLqN1lmd4","https://youtu.be/bBblXmf9FPI",1,"Krisk",,,,,,"Krisk",,,"/speed-tunes-11/dwj-recommended",,,,,,,"/speed-tunes-18/krisk",
+"x",,,,202,"2:1 Ratio",,,,,"White Whale - Double Speed","With Speed Aura the needed speeds drop considerably.
+ 
+ 268 - Speed Booster
+ 244 - Speed Booster
+ 225 - DPS
+ 224 - DPS / Debuff Blocker (3-turn cooldown)
+ 193 - DPS / Cleanser
+ 
+ Setup:
+ Fast Speed Booster no delay
+ Slow Speed Booster 1-turn delay (First use on Turn Count 1)
+ Debuff Blocker 1-turn delay (First use on Turn Count 1)
+ 
+ Both Speed Boosters need to avoid being stunned.
+ Fastest champion goes last in turn order.
+ 
+ Cleanser can go in the 193 slot; works vs Spirit.","2:1 turn ratio for UNM using two speed boosters",,"268","244","224","224","193","DeadwoodJedi","UNM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/04f2c63b4388aac74de2bebeed1a1ae40a61c21e",,,,,,,,,"https://youtu.be/vH9-Ha9bTRo",1,"Apothecary/High Khatun",,,,,,,,,,,,,,,,,
+"x",,,,205,"2:1 Ratio",,,,,"White Whale - Ma'Shalled v2","For both UNM and NM:
+ 271 - Champ goes last before CB (Block debuff or CA)
+ 255 - Ma'Shalled goes second to last
+ 230 - Champ goes third
+ 228 - Champ goes second
+ 206 - Champ goes first after CB (Cleanser)
+ 
+ Setup (it can run full auto, but doing the below gets it into the 2:1 tune a turn faster):
+ Ma'Shalled - A1, A2
+ 
+ Ma'Shalled must not get stunned to stay in tune.","An alternate version of the Ma'Shalled White Whale comp","An alternate version of the Ma'Shalled White Whale comp","271","255","230","228","206","DeadwoodJedi","UNM / NM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/866ebe1b2aba9960f9572409afa819c5281dd53a","NIGHTMARE","https://deadwoodjedi.info/cb/06a6d39683726506bca3fd29fa7a9db0a9f6fa21",,,,,,,"https://youtu.be/vH9-Ha9bTRo",1,"Ma'Shalled",,,,,,,"Ma'Shalled",,,,,,,,"/speed-tunes-17/ma'shalled",,
+,,,,113,"Unkillable",,,,"x","Double Warcaster"," 255-256 - Warcaster
+ 255-256 - Warcaster
+ 211* - DPS (stun cleanser if used with Skullcrusher)
+ 210 - DPS 
+ 209 - Bushi or Skullcrusher
+ 
+*UPDATE: You can bring in Doompriest at 189 instead of 211 to be affinity-friendly with Skullcrusher (not checked with Bushi).
+
+ Warcasters will take hits on the first couple AOEs, so Immortal set is recommended.
+ 
+ For Bushi:
+ Bushi can die as early as turn count 2 for this tune.
+ Use Bushi's A2 on turn count 2.
+ Warcasters' A3 usage depends on what turn Bushi starts dying.
+ Bushi under 30k HP, must be lowest HP so he always gets targeted by the stun.","Double Warcaster blocks the AOEs and Bushi or Skullcrusher takes the stun.",,"255-256","255-256","211 / 189","210","209","Skratch AK47","UNM","UNM-SKULLCRUSHER","https://deadwoodjedi.info/cb/6ab012951c83794fec2c68bb4966191cd291aa54","BUSHI-TURN-2-OR-3-DEATH","https://deadwoodjedi.info/cb/0a78700d959fe911aa258d4d502b5984a4339c13",,,,,"https://www.youtube.com/watch?v=Y2hyJ3oshW4&t=6s",,"https://youtu.be/vH9-Ha9bTRo",1,"Double Warcaster, Bushi/Skullcrusher",,,,"Warcaster",,,,,,,,,"/speed-tunes-15/warcaster",,,,
+,,,,111,"Unkillable",,,,"x","Tower and Santa","* Requires Santa's A2 to NOT be booked, while A3 is booked.
+ 
+ 267 - Santa
+ 264 - Tower
+ 205 - Cleanser, like a Doompriest
+ 193 - DPS
+ 191 - DPS
+ 
+ Santa - A2, A3
+ Tower - A1, A1, A3
+ 
+ Unkillalble from Turn 1. 
+ The cleanser spot can allow for affinity friendly comp - either with a tank soak in one of the DPS roles, or with a doompriest cleansing all debuffs.","Tower + Santa Unkillable with slot for cleanser for affinity friendliness.",,"267","264","205","193","191",,"UNM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/76c40d1c06a32336ede474f464cea9b6680590ca",,,,,,,,,"https://youtu.be/vH9-Ha9bTRo",1,"Tower, Santa","Roschard the Tower","Sir Nicholas",,,,,,,,"/speed-tunes-12/roschard-the-tower",,"/speed-tunes-14/sir-nicholas",,,,,
+,,"x",,103,"Unkillable",,,,"x","Fast Skullcrusher and Tower with 43 Champ","This comp allows adding a 4:3 champ into an Unkillable Team.
+ Unkillable from Turn 1.
+ 
+ 257 - Tower
+ 241 - Skullcrusher
+ 240 - DPS moving at 4:3
+ 192 - DPS
+ 191 - DPS
+ 
+ 257 and 240 go twice after the Stun, with 257 going last.
+ Use Tower's A3 at the start of turn count 1.
+ Use Skullcrusher's A2 right rom the start.
+ 
+ The trick is getting the stun to land on Skullcrusher. He must have SOME HP or the CB won't target him - easiest way is to give him 1 set of Immortal gear, though it's possible without by using the Lifedrinker Mastery and having high crit rate and damage.","Fast Tower + Skullcrusher Unkillable with a 4:3 champ to increase damage or debuffs.",,"257","241","240","192","191",,"UNM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/44b25c8fe31c724984d6a48db922cb068cdbc059",,,,,"Tower/Skullcrusher Affinity Guide","https://www.deadwoodjedi.com/tower-skullcrusher-affinity-guide","https://youtu.be/pYlaHpCksLg",,"https://youtu.be/vH9-Ha9bTRo",1,"Tower, Skullcrusher","Roschard the Tower",,,,,,,,,"/speed-tunes-12/roschard-the-tower",,,,,,,
+"x",,,,201,"2:1 Ratio",,,,,"White Whale - NM speeds","With Speed Aura the needed speeds drop considerably.
+ 
+ 240 - DPS / Debuff Blocker (3-turn cooldown)
+ 225 - Speed Booster
+ 224 - Speed Booster
+ 223 - DPS
+ 195 - DPS
+ 
+ Setup:
+ Fast Speed Booster 6-turn delay (First use on Turn Count 4)
+ Slow Speed Booster 1-turn delay (First use on Turn Count 1)
+ Debuff Blocker 1-turn delay (First use on Turn Count 1)
+ 
+ Both Speed Boosters need to avoid being stunned.
+ Fastest champion goes last in turn order.
+ 
+ To use a cleanser, put the Fast Speed Booster at 240 and the cleanser at 225.",,"2:1 turn ratio for NM using two speed boosters","240","225","224","223","195","DeadwoodJedi","NM",,,"NIGHTMARE","https://deadwoodjedi.info/cb/c983fbe8d0be46af46b189a3bf9c11b01ae6396d",,,,,"https://youtu.be/oW-KKeM1gK4",,"https://youtu.be/vH9-Ha9bTRo",1,"High Khatun, Apothecary (can use other champs with same speed buff and cooldown)",,,,,,,,,,,,,,,,,
+,,"x",,13,"4:3 Ratio",,,,,"1 Champ after Stun","The 192-198 Champion must be 20-21 speed faster than the slowest Champion​.
+ 
+ UNM
+ 230-237 champ takes their double turn and goes first after Stun
+ Slowest champ is last
+ 
+ NM
+ 230-237 champ takes their double turn and goes First/Last between AOEs.
+ Slowest champ is last
+ 
+ This is useful for having one champ on a 4-turn cooldown using their abilities every cycle while allowing your CA champion to still go last. Also a good tune for a stun tank so they still get a chance to heal up with lifesteal once the stun wears off.
+ 
+ The numbers have more leeway than shown. As always variations within ranges may alter the turn order.","Double turn after stun","First/Last between AOEs","230-237","192-198","172-177","172-177","172-177",,"UNM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/50eb7d0083c146d412ae1991e63825e2a5b546bf",,,,,,,"https://youtu.be/B5EqRs3AWPM","https://youtu.be/VKOCMvWH1iI","https://youtu.be/vH9-Ha9bTRo",1,,,,,,,,,,,,,,,,,,
+,,"x",,57,"4:3 Ratio",,,,,"Valkyrie and Sepulcher","Note: Calculator currently does not show Valkyrie's passive TM gain.
+ 
+ Build designed to have Sepulcher block debuffs even with Valkyrie's passive vs Affinity CB. 
+ 
+ 241 champ goes First/Last after AOE1.
+ For Sepulcher, 1-turn delay on A2.
+ 191 champ will take 2 stuns, when weak affinity
+ 171 - Valkyrie, NO SPEED SETS
+ 
+ Works with Void AND affinity CB. Speeds are VERY specific.
+ 
+ As always rotation may vary if true speeds differ.","Sepulcher going First/Last after AOE1 to block debuffs and Stun,while accomodating Valkyrie's passive.",,"241","191-192","180-183","180-183","171-177","DeadwoodJedi","UNM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/4f69f5ca78f2080b51b7f3040b7d46fda764e901",,,,,,,"https://youtu.be/s-uKWPks0UA","https://youtu.be/B5EqRs3AWPM","https://youtu.be/vH9-Ha9bTRo",1,"Valkyrie",,,,,"Valkyrie",,,,,,,,,,,,"/speed-tunes-19/valkyrie"
+"x",,,,231,"2:1 Ratio",,,,,"Batman","This version is well documented in the videos, but its main appeal is--like the White Whale--it only requires one champion to execute; an epic one at that! Also, because there's no speed buffs, extra turn champions such as Rotos can be used without fear of breaking the speed tune - they may however throw off the stun targeting. As long as Seeker isn't stunned the tune should work just fine.
+ 
+ 265-285 - DPS / Support (goes last)
+ 248-254 - Seeker (goes second)
+ 245-247 - DPS / Support (goes third)
+ 245-247 - DPS / Support (goes second to last)
+ 218-227 - DPS / Support (goes first)
+ 
+ * DPS must be lead and take stun.
+ * Delay Seeker's A2 by one turn to get into tune faster
+
+============
+Advanced Notes
+============
+Champion 1 (C1)
+    > 264.490     (for UNM)
+    > C5 * 7/6
+    < C4 * 7/6
+    < 285.714
+Seeker
+    > 244.286     (for UNM)
+    < C5 * 7/6
+Champion 3 (C3)
+    > C4
+    < Seeker
+Champion 4 (C4)
+    > 238.096
+    > C1 * 6/7
+    > 244.20     (iff cleansing vs Spirit)
+    < C3
+Champion 5 (C5)
+    > 217.143     (for UNM)
+    > Seeker * 6/7
+    < C1 * 6/7
+    < 238.095
+","The original Batman compisition: a 2:1 turn ratio team using Seeker","The original Batman compisition: a 2:1 turn ratio team using Seeker","265","248","247","246","220","Napoleon Camembert","UNM / NM / Brutal","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/d6ddb1c511dcb86d17d1395a7ea65685b36a543c","NIGHTMARE","https://deadwoodjedi.info/cb/6fae49396fd630b27bfd3e88c91ab66649b3f9c9","BRUTAL","https://deadwoodjedi.info/cb/05269bee89aaf48e149c26b1d326768404852e3e",,,"https://youtu.be/KZW3L3OJXcY","https://youtu.be/gGIb5gsWx9M","https://youtu.be/Dfa5viMPbvo",1,"Seeker",,,,,,,,"Seeker",,,,,,"/speed-tunes-16/seeker",,,
+,,,,3,"STANDARD",,"x",,,"Affinity Friendly Valkyrie","Note: Calculator currently does not show Valkyrie's passive TM gain.
+ 
+ Vakyrie must be 171-172 and the rest of the team between 187 and 189, with one champion over 188. This will allow Valkyrie to go last each turn while the rest of the team goes before her. Speeds are pretty tight without a lot of leeway.
+ 
+ Regardless of affinity this turn order will maintain. 
+ 
+ Works the same on NM as on UNM","Speed ranges to maintain turn order with Valkyrie's Passive against affinity or void CB","Speed ranges to maintain turn order with Valkyrie's Passive against affinity or void CB","189","187-189","187-189","187-189","171","Beefeaterz","UNM / NM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/818476b217fdeb8534c8da68b62a508361c1ee39","NIGHTMARE","https://deadwoodjedi.info/cb/4ca67f87025a9f5e93aacc88161c76a6d6aa9003",,,,,"https://youtu.be/ltF5dDXkLC8","https://youtu.be/nRvXhBY1H44","https://youtu.be/iQAOKKEd3MM",1,"Valkyrie",,,,,"Valkyrie",,,,,,,,,,,,"/speed-tunes-19/valkyrie"
+,,,,140,"Unkillable",,,,"x","Turvold Double Maneater Unkillable","214-218 - Maneater 1
+ 214-218 - Maneater 2
+ 171-178 - DPS
+ 171-178 - DPS
+ 152-158 - Turvold
+ 
+ Affinity friendly for both NM and UNM difficulty. 
+ With lower speed requirement, you may be able to use non-speed boots giving your champions higher damage. Even though the speeds are slower you will have the same number of attacks as the Fast Maneater Comps after Clan Boss Turn 0. Disadvantages of this setup is you are not unkillible until turn count 6 and must have enough sustain to survive till then.
+ 
+ For UNM - Manual Setup:
+ Fast ME - A1, A3...then do NOT use A3 till 2nd attack on Turn Count 6.
+ Slow ME - do NOT use A3 till Turn Count 4.
+ Turvold - do NOT use A2 till Turn Count 6.
+ 
+ For NM - Manual Setup:
+ Fast ME - A1, A3...then do NOT use A3 till 2nd attack on Turn Count 6.
+ Slow ME - do NOT use A3 till Turn Count 4.
+ Turvold - do NOT use A2 till Turn Count 4.
+ 
+ *You will not be fully unkillible until Turn 6 so you must be able to sustain the first 5 rounds. 
+ *Fast ME with 3 speed sets AND Lore of Steel will be too fast!
+  DOUBLE CHECK YOUR TEAM IN THE CALCULATOR!","Adds Turvold to the slow double Maneater unkillable team to increase your damage","Adds Turvold to the slow double Maneater unkillable team to increase your damage","218","215","177","175","154","DeadwoodJedi","UNM / NM","ULTRA-NIGHTMARE","https://deadwoodjedi.info/cb/c7063bc84441ee3cf72cabe35b8733fd25b49c78","NIGHTMARE","https://deadwoodjedi.info/cb/2c9ac1f7469b935626fa1f7365c0c68633e28aa5",,,,,,,"https://youtu.be/vH9-Ha9bTRo",1,"Turvold, Maneater x2",,,"Maneater",,,,,,,,"/speed-tunes-13/maneater",,,,,,

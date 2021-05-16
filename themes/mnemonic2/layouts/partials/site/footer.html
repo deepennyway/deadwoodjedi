@@ -1,0 +1,45 @@
+<footer class="footer">
+  <ul>
+    {{ range .Site.Menus.footer }}<li><a href="{{ .URL }}">{{ .Name }}</a></li>{{ end }}
+  </ul>
+  <small>&copy; Copyright {{ .Site.Params.copyright }}</small>
+  <!-- Short Codes -->
+  <script src="{{"js/shortcodes/rolltable.js"| relURL}}{{ if not .Site.Params.disableAssetsBusting }}?{{ now.Unix }}{{ end }}"></script>
+  <!-- Site Navigation -->
+  <script src="https://cdn.jsdelivr.net/npm/accessible-menu/dist/accessibleMenu.js"></script>
+  <script>
+    const navs = document.querySelectorAll("nav");
+    const menuSettings = {
+      menuItemSelector: ".menu-item",
+      submenuItemSelector: ".menu-item.dropdown",
+      submenuToggleSelector: ".dropdown-toggle",
+      submenuSelector: ".menu.dropdown",
+    };
+    const whitelistNavs = ["site-nav", "game-nav", "blog-nav"]
+
+    function openMenuItem(element) {
+      element.classList.remove("hide");
+      element.classList.add("show");
+      element.setAttribute("aria-expanded", true);
+    }
+
+    navs.forEach(nav => {
+      const menuElement = nav.querySelector(".menu");
+
+      if (whitelistNavs.includes(nav.id)) {
+        const controllerElement = nav.querySelector(".menu-toggle");
+        <!-- const lists = nav.querySelectorAll(ul[role=menubar]) -->
+        const menu = new AccessibleMenu.Menubar({
+          menuElement,
+          ...menuSettings,
+          controllerElement,
+          containerElement: nav
+        });
+        const currentTreeElements = nav.querySelectorAll("ul.current");
+        for (let element of currentTreeElements) {
+          openMenuItem(element);
+        }
+      }
+    });
+  </script>
+</footer>

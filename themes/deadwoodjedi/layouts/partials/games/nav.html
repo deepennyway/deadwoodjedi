@@ -1,0 +1,91 @@
+{{- $activeNode := . -}}
+{{/* Find the current game so only that game's nav menu is displayed when selected*/}}
+{{- range (.GetPage .Section).Pages -}}
+  {{- if .IsAncestor $activeNode -}}{{- $activeNode.Scratch.Set "game" . -}}{{- end -}}
+{{- end -}}
+{{- $game := $activeNode.Scratch.Get "game" -}}
+
+<nav id="game-nav" aria-label="Game Navigation">
+  {{ template "game-nav-menu" dict "activeNode" $activeNode "game" $game -}}
+  <footer>
+    <script>
+      var gameNavButton = document.querySelector('nav#game-nav > button');
+      var gameNavAside = document.querySelector('aside.game-nav');
+      gameNavButton.addEventListener("click", function(){
+        if (this.ariaExpanded === "true") {
+          gameNavAside.classList.add("wide");
+        } else {
+          gameNavAside.classList.remove("wide");
+        }
+      });
+    </script>
+  </footer>
+</nav>
+
+{{- define "game-nav-menu" -}}
+  {{- $activeNode := .activeNode -}}
+  {{- $game       := .game -}}
+  {{- with $game -}}
+    {{/* Combine child pages and sections to iterate over */}}
+    {{- .Scratch.Set "children" .Pages -}}
+    {{- if .Sections -}}
+      {{- .Scratch.Set "children" (.Pages | union .Sections) -}}
+    {{- end -}}
+    {{ $children := (.Scratch.Get "children") }}
+    <button href="" class="menu-toggle"><i class="fa fa-book"></i><span class="visually-hidden"> Toggle Game Menu</span></button>
+    <span class="branding" aria-hidden="true"><a href="{{ .RelPermalink }}" title="{{ .Title }}"><img class="logo" src="/images/{{ .Title }}/logo.png" alt="{{ .Title }}"></a></span>
+    <hr>
+    <ul id="game-nav-list" class="menu">
+      {{- range $children.ByWeight -}}
+        {{ template "game-nav-item" dict "activeNode" $activeNode "game" $game "nodeToProcess" . }}
+      {{- end -}}
+    </ul>
+  {{- end -}}
+{{- end -}}
+
+{{- define "game-nav-item" -}}
+  {{- $activeNode := .activeNode -}}
+  {{- $game       := .game -}}
+  {{- with .nodeToProcess -}}
+    {{- $isActivePage  := eq $activeNode.Title .Title -}}
+    {{- $isActivePageAncestor := .IsAncestor $activeNode -}}
+    {{- $isPage        := eq .Kind "page" -}}
+    {{- $numberOfPages := (add (len .Pages) (len .Sections)) -}}
+    {{/* Build TOC */}}
+      {{/* Strip uneccesary nav*/}}
+      {{- $toc    := .TableOfContents | replaceRE `<nav id="TableOfContents">` "" | replaceRE "</nav>" "" -}}
+      {{/* Add menu dropdown classes to ul*/}}
+      {{- $topTOC := printf "<ul class=%v>" `"menu dropdown current"` -}}
+      {{- $toc    := $toc | replaceRE "<ul>" $topTOC -}}
+      {{/* Add menu-item class to li*/}}
+      {{- $toc    := $toc | replaceRE "<li>" `<li class="menu-item">` -}}
+      {{/* Add menu-link class to a*/}}
+      {{- $toc    := $toc | replaceRE `<a href=?(".*")>` `<a href=$1 class="menu-link">` -}}
+    {{/* End TOC Build */}}
+    {{- if ne $numberOfPages 0 -}}
+      {{/* Combine child pages and sections to iterate over */}}
+      {{- .Scratch.Set "children" .Pages -}}
+      {{- if .Sections -}}
+        {{- .Scratch.Set "children" (.Pages | union .Sections) -}}
+      {{- end -}}
+      {{- $children := (.Scratch.Get "children") -}}
+      <li class="menu-item dropdown">
+        <a href="#" class="menu-link dropdown-toggle">{{ .Title }}</a>
+        <ul class="{{ cond $isActivePageAncestor "menu dropdown current" "menu dropdown" }}">
+          <li class="menu-item"><a href="{{ .RelPermalink }}" class="menu-link">Overview</a></li>
+          {{- range $children.ByWeight -}}
+          {{ template "game-nav-item" dict "activeNode" $activeNode "game" $game "nodeToProcess" . }}
+          {{- end -}}
+        </ul>
+      </li>
+    {{- else if (and (and $isActivePage $isPage) $toc) -}}
+      {{/* Only show TOC (if it exists) on single page, not on section index */}}
+      <li class="menu-item dropdown">
+        <a href="#" class="menu-link dropdown-toggle">{{ .Title}}</a>
+        {{ $toc | safeHTML }}
+      </li>
+    {{- else -}}
+      <li class="menu-item"><a href="{{ .RelPermalink}}" class="menu-link">{{ .Title}}</a></li>
+    {{- end -}}
+  {{- end -}}
+{{- end -}}

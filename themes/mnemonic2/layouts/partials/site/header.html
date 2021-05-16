@@ -1,0 +1,31 @@
+{{- $site := .Site -}}
+<header id="site-header">
+  <nav id="site-nav" aria-label="Site Navigation">
+    <span class="branding" aria-hidden="true"><a href="/" title="Home"><img class="logo" src="/images/logo.svg" alt="{{ .Site.Title }}"></a></span>
+    <button href="" class="menu-toggle">☰<span class="visually-hidden"> Toggle Menu</span></button>
+    {{/*  <h1><a href="/" title="Home">{{ .Site.Title }}</a></h1>  */}}
+    {{/*  <button type="submit" id="site-nav-toggle">☰</button>  */}}
+    <ul id="site-nav-list" class="menu">
+      {{- range .Site.Menus.main -}}
+        {{- if eq .Name "Games" -}}
+        <li class="menu-item dropdown">
+          <a href="#" title="{{ .Name }}" class="menu-link dropdown-toggle">{{ .Name }}</a>
+          <ul class="menu dropdown">
+            <li class="menu-item">
+              <a href="{{ .URL }}" title="All" class="menu-link dropdown-toggle">All</a>
+            </li>
+          {{- range where ($site.GetPage .URL).Pages "Params.publish" "true" -}}
+            <li class="menu-item">
+              <a href="{{ .RelPermalink }}" title="{{ .Title }}" class="menu-link"><img class="logo" src="/images/{{ .Title }}/logo.png" alt="{{ .Title }}"></a>
+            </li>
+          {{- end -}}
+          </ul>
+        {{- else -}}
+          <li class="menu-item">
+            <a href="{{ .URL }}" title="{{ .Name }}" class="menu-link">{{ .Name }}</a>
+          </li>
+        {{- end -}}
+      {{- end -}}
+    </ul>
+  </nav>
+</header>

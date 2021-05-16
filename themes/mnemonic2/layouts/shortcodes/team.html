@@ -1,0 +1,25 @@
+{{if $.Page.Params.team }}
+
+    	{{ range .Page.Params.team }}
+        {{$code := . }}
+	        {{ range where $.Site.Data.authors.list "code" $code  }}
+	    	{{ if ne .show false }}
+		    	{{ if .bio }}
+		        <table class="bio" >
+		        	<thead>
+		        		<tr>
+		        			<th>{{ .fullname }} {{with .pronouns }}({{ . }}){{ end }}</th>
+		        			{{ if .role }}<th>{{ .role }}</th>{{ end }}
+		        		</tr>
+		        	</thead>
+		        	<tbody>
+		        		<tr>
+		        			<td colspan="2">{{ if .headshot }}<img src="{{ .headshot }}">{{ end }}{{ markdownify .bio }}</td>
+		        		</tr>
+		        	</tbody>
+		         </table>
+		    	{{ end }}
+	    	{{ end }}
+    	{{ end }}
+	{{ end}}
+{{ end }}

@@ -1,0 +1,9 @@
+{{- if .IsNamedParams -}}
+  {{- $.Scratch.Set "icon"  (.Get "icon") -}}
+{{- else -}}
+  {{- $.Scratch.Set "icon"  (.Get 0) -}}
+{{- end -}}
+
+{{- $icon   := $.Scratch.Get "icon" -}}
+
+<img src="/icons/{{$icon}}.svg" alt="{{$icon}}" class="icons"/>

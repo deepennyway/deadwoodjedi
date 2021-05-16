@@ -1,0 +1,56 @@
+{{/* Find the current game so the main tag can be appropriately classified*/}}
+{{- $activeNode := . -}}
+{{- range (.GetPage .Section).Pages -}}
+  {{- if .IsAncestor $activeNode -}}{{- $activeNode.Scratch.Set "game" . -}}{{- end -}}
+{{- end -}}
+{{- $game := $activeNode.Scratch.Get "game" -}}
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+    {{- partial "site/head.html" . -}}
+    <body>
+        {{- partial "site/header.html" . -}}
+        <aside class="game-nav">
+          {{- partial "games/nav.html" . -}}
+        </aside>
+
+          {{ if ne .Params.ads "no" }}
+              {{- partial "site/ad.html" . -}}
+          {{ end }}
+
+        <main id="content" class="{{ lower (urlize $game.Title) }}">
+          <article class="game">
+            <header>
+              {{ partial "games/breadcrumbs" . }}
+
+              {{ if .Params.art }}
+                <figure class="art header">
+                  <img src="{{ .Params.art }}"
+                       alt="{{ .Params.arttext }}"
+                       title="{{ .Params.arttext }}">
+                </figure>
+              {{ end }}
+              
+              <h1>{{ .Title }}</h1>
+
+            </header>
+              {{ if .Params.byline }}
+              {{$code := .Params.byline }}
+                  <byline class="byline">written by 
+                    {{ range where $.Site.Data.authors.list "code" $code }}
+                        {{ .byline }}
+                    {{ end}}
+                  </byline>
+                {{ end }}
+              {{ if .Params.artist }}
+              {{$code := .Params.artist }}
+                  <byline class="byline">illustrated by 
+                    {{ range where $.Site.Data.authors.list "code" $code }}
+                        {{ .byline }}
+                    {{ end}}
+                  </byline>                {{ end }}
+            {{- block "main" . }}{{- end }}
+          </article>
+        </main>
+        {{- partial "site/footer.html" . -}}
+    </body>
+</html>

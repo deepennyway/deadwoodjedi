@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+    {{- partial "site/head.html" . -}}
+    <body>
+        {{- partial "site/header.html" . -}}
+          {{ if ne .Params.ads "no" }}
+              {{- partial "site/ad.html" . -}}
+          {{ end }}
+          <aside class="blog-nav">
+            {{ partial "blog/nav.html" . }}
+          </aside>
+        <main id="content" class="blog">
+          <article class="blog">
+            <h1>{{ .Title }}</h1>
+            {{ .Content }}
+            {{- block "main" . }}{{- end }}
+            
+          </article>
+        </main>
+        {{- partial "site/footer.html" . -}}
+    </body>
+</html>

@@ -1,0 +1,12 @@
+{{ define "main" }}
+  {{ .Content }}
+  <dl>
+    {{ range .Pages }}
+    <dt><a href="{{ .Permalink }}">{{ .Title }}</a>
+    		{{ if .Params.byline }}
+    		<span class="byline">by {{ .Params.byline }}</span>
+    		{{ end }}</dt>
+		<dd>{{ .Description }}</dd>
+    {{ end }}
+  </dl>
+{{ end }}

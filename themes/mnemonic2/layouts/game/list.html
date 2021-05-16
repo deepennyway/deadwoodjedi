@@ -1,0 +1,14 @@
+{{ define "main" }}
+    <header>
+        {{ partial "games/breadcrumbs" . }}
+        <h1>{{ .Title }}</h1>
+        <hr>
+    </header>
+
+
+    {{ .Content }}
+
+
+    <footer>
+    </footer>
+{{ end }}

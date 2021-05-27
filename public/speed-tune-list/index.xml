@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Speed Tune List on Deadwood Jedi</title>
-    <link>https://mnemonicrpg.com/speed-tune-list/</link>
+    <link>/speed-tune-list/</link>
     <description>Recent content in Speed Tune List on Deadwood Jedi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://mnemonicrpg.com/speed-tune-list/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="/speed-tune-list/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

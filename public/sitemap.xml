@@ -2,66 +2,64 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://mnemonicrpg.com/speed-tune-list/general/</loc>
+    <loc>/speed-tune-list/general/</loc>
   </url><url>
-    <loc>https://mnemonicrpg.com/speed-tune-list/champion/</loc>
+    <loc>/speed-tune-list/champion/</loc>
   </url><url>
-    <loc>https://mnemonicrpg.com/speed-tune-list/all/</loc>
+    <loc>/speed-tune-list/all/</loc>
   </url><url>
-    <loc>https://mnemonicrpg.com/speed-tune-list/general/2-1/</loc>
+    <loc>/speed-tune-list/general/2-1/</loc>
   </url><url>
-    <loc>https://mnemonicrpg.com/speed-tune-list/general/3-1/</loc>
+    <loc>/speed-tune-list/general/3-1/</loc>
   </url><url>
-    <loc>https://mnemonicrpg.com/speed-tune-list/general/3-2/</loc>
+    <loc>/speed-tune-list/general/3-2/</loc>
   </url><url>
-    <loc>https://mnemonicrpg.com/speed-tune-list/general/4-3/</loc>
+    <loc>/speed-tune-list/general/4-3/</loc>
   </url><url>
-    <loc>https://mnemonicrpg.com/blog/</loc>
+    <loc>/blog/</loc>
   </url><url>
-    <loc>https://mnemonicrpg.com/calculator/</loc>
+    <loc>/calculator/</loc>
   </url><url>
-    <loc>https://mnemonicrpg.com/categories/</loc>
+    <loc>/categories/</loc>
   </url><url>
-    <loc>https://mnemonicrpg.com/contact/</loc>
+    <loc>/speed-tune-list/recommended/</loc>
   </url><url>
-    <loc>https://mnemonicrpg.com/speed-tune-list/recommended/</loc>
+    <loc>/resources/</loc>
   </url><url>
-    <loc>https://mnemonicrpg.com/resources/</loc>
+    <loc>/help/</loc>
   </url><url>
-    <loc>https://mnemonicrpg.com/help/</loc>
+    <loc>/speed-tune-list/champion/krisk/</loc>
   </url><url>
-    <loc>https://mnemonicrpg.com/speed-tune-list/champion/krisk/</loc>
+    <loc>/speed-tune-list/champion/mashalled/</loc>
   </url><url>
-    <loc>https://mnemonicrpg.com/licensing/</loc>
+    <loc>/speed-tune-list/champion/maneater/</loc>
   </url><url>
-    <loc>https://mnemonicrpg.com/speed-tune-list/champion/mashalled/</loc>
+    <loc>/privacy/</loc>
   </url><url>
-    <loc>https://mnemonicrpg.com/speed-tune-list/champion/maneater/</loc>
+    <loc>/speed-tune-list/champion/tower/</loc>
   </url><url>
-    <loc>https://mnemonicrpg.com/privacy/</loc>
+    <loc>/speed-tune-list/champion/seeker/</loc>
   </url><url>
-    <loc>https://mnemonicrpg.com/speed-tune-list/champion/tower/</loc>
+    <loc>/speed-tune-list/champion/sir-nicholas/</loc>
   </url><url>
-    <loc>https://mnemonicrpg.com/speed-tune-list/champion/seeker/</loc>
+    <loc>/speed-tune-list/general/slow/</loc>
   </url><url>
-    <loc>https://mnemonicrpg.com/speed-tune-list/champion/sir-nicholas/</loc>
+    <loc>/speed-tune-list/</loc>
   </url><url>
-    <loc>https://mnemonicrpg.com/speed-tune-list/general/slow/</loc>
+    <loc>/speedtunes/</loc>
   </url><url>
-    <loc>https://mnemonicrpg.com/speed-tune-list/</loc>
+    <loc>/speed-tune-list/general/standard/</loc>
   </url><url>
-    <loc>https://mnemonicrpg.com/speedtunes/</loc>
+    <loc>/tags/</loc>
   </url><url>
-    <loc>https://mnemonicrpg.com/speed-tune-list/general/standard/</loc>
+    <loc>/todo/</loc>
   </url><url>
-    <loc>https://mnemonicrpg.com/tags/</loc>
+    <loc>/speed-tune-list/general/unkillable/</loc>
   </url><url>
-    <loc>https://mnemonicrpg.com/speed-tune-list/general/unkillable/</loc>
+    <loc>/speed-tune-list/champion/valkyrie/</loc>
   </url><url>
-    <loc>https://mnemonicrpg.com/speed-tune-list/champion/valkyrie/</loc>
+    <loc>/speed-tune-list/champion/warcaster/</loc>
   </url><url>
-    <loc>https://mnemonicrpg.com/speed-tune-list/champion/warcaster/</loc>
-  </url><url>
-    <loc>https://mnemonicrpg.com/</loc>
+    <loc>/</loc>
   </url>
 </urlset>

@@ -11,6 +11,10 @@ html {
   line-height: 1.2rem;
 }
 
+svg {
+  --accent-color: white;
+}
+
 pre {
   padding-left: 1em;
   margin: .5em 0;
@@ -180,7 +184,7 @@ table .video {
   border-image-width: 1em;
   border-image-outset: 1em;
   border-image-repeat: repeat;
-  margin: 1.5em 0 2em 0;
+  margin: 1.5em 0 4em 0;
   color: $body-color;
   text-align: center;
   filter: drop-shadow(2px 2px 2px $shadow);
@@ -377,8 +381,12 @@ dt {
 
 body {
   margin: 0;
-  background: $body-bg;
-  background-size: cover;
+  background: url(/images/background2.png), $body-bg, black;
+  background-blend-mode: multiply, normal;
+  background-repeat: no-repeat;
+  background-position: left 0 bottom 0;
+  background-attachment: fixed;
+  background-size: contain;
   // border-image: $body-texture;
   border-image-width: 0 5em;
   border-image-outset: .5em;
@@ -408,8 +416,33 @@ body {
     border-image-width: .5em;
     border-image-outset: 0em;
     filter: drop-shadow(0 0 0.3em black);
+    h2, h3 {
+      font-family: $header-font;
+      font-variant: small-caps;
+      margin-bottom: 0;
+    }
+    h3 {
+      text-align: center;
+      border-bottom: 1px solid $accent-color;
+      margin-top: 0;
+    }
+    ul {
+      padding-left: 0;
+      margin-top: 0;
+      &.social {
+        display: flex;
+        justify-content: space-between;
+      }
+      li {
+        list-style: none;
+        margin-top: .4em;
+      }
+      ul {
+        padding-left: 1em;
+      }
+    }
     a {
-      color: $article-bg;
+      color: $accent-color;
       opacity: .8;
       transition: .4s ease;
       &:hover {
@@ -596,6 +629,7 @@ header#site-header {
 footer.footer {
   border-image-outset: 15em 0 0 0;
   border-image-width: 15em 15em 0 0;
+  border-image: none;
   height: 0;
   filter: drop-shadow(0 0 5px $shadow) invert(100%);
 }

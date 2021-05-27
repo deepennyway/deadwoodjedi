@@ -69,6 +69,7 @@
 	{{ end }}
 
 	{{ if eq ($.Scratch.Get "show") "true" }}
+	<section loading="lazy">
 		<h2>{{ index $r 10 }}</h2>
 		<ul class="categories">
 			{{ if ne (index $r 6) ""}}
@@ -95,9 +96,9 @@
 			{{ if ne (index $r 3) ""}}
 				<li>3:1 Ratio</li>
 			{{ end }}
-		</ul>
+<!-- 		</ul>
 		<ul class="categories c-champions">
-			{{ if ne (index $r 34) "" }}
+ -->			{{ if ne (index $r 34) "" }}
 				<li>{{ index $r 34 }}</li>
 			{{ end }}
 			{{ if ne (index $r 35) "" }}
@@ -127,25 +128,13 @@
 				<iframe loading="lazy" class="video" src="https://www.youtube-nocookie.com/embed/{{$youtube}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>		
 		{{end}}
 		<table>
-				<tbody>
-					<tr>
-						<td>Difficulty:</td><td>{{ index $r 20 }}</td>
-					</tr>
-					<tr>
-						<td>Found By:</td><td>{{ index $r 10 }}</td>
-					</tr>
-					<tr>
-						<td>UNM Description:</td><td>{{ index $r 12 }}</td>
-					</tr>
-					<tr>
-						<td>NM Description:</td><td>{{ index $r 13 }}</td>
-					</tr>
-					<tr>
-						<td>Specific Champions:</td>
-						<td>{{ index $r 33 }}</td>
-					</tr>
-				</tbody>
-			</table>
+			<tbody>
+				<tr>
+					<td>Difficulty: {{ index $r 20 }}</td><td  style="text-align: right;">Found By: {{ index $r 19 }}</td>
+				</tr>
+			</tbody>
+		</table>
+		{{ markdownify (index $r 12)}}
 			<script>
 				$(document).ready(function(){
 				  $("#{{urlize (index $r 10)}}toggle").click(function(){
@@ -179,6 +168,7 @@
 					<iframe class="video" src="https://www.youtube-nocookie.com/embed/{{$youtube}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>		
 				{{ end }}
 			</section>
+		</section>
 	{{ end }}
 {{end }}
 

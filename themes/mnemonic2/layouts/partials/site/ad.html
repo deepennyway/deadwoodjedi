@@ -1,3 +1,21 @@
-<aside class="ad-vertical">
-  	This is where a vertical ad would be.
+<aside class="ad-vertical" style="text-align: left; color: white;">
+	<h3>Follow Me On:</h3>
+	{{ partial "site/social.html" . }}
+
+	{{if .Page.Params.toc }}
+		<h2>On this page:</h2>
+		{{ .TableOfContents }}
+		{{ else }}
+			<script src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<!-- SiteName Sidebar -->
+			<ins 	class="adsbygoogle"
+					style="display: block;"
+					data-ad-client="ca-pub-7793349645436222"
+					data-ad-slot="8526812191"
+					data-ad-format="auto"></ins>
+			<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+	{{ end }}
+
 </aside>

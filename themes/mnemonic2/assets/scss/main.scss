@@ -79,6 +79,10 @@ $body-color: #ccc;
 $body-bg: url(/images/background.png);
 $body-shade: rgba(120,40,0,.2);
 $shadow: rgba(0,0,0,.7);
+$accent-color: orange;
+:root {
+  --accent-color: #FCC201;
+}
 
 $link-color: #FCC201;
 

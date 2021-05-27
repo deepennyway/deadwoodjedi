@@ -1,0 +1,13 @@
+<ul class="social">
+	
+	{{with .Site.Params.twitter }}<li><a title="Twitter" href="{{ . }}">{{ partial "site/twitter.svg" (dict "size" "1em") }}</a></li>{{ end }}
+
+	{{with .Site.Params.twitch }}<li><a title="Twitch" href="{{ . }}">{{ partial "site/twitch.svg" (dict "size" "1em") }}</a></li>{{ end }}
+
+	{{with .Site.Params.instagram }}<li><a title="Instagram" href="{{ . }}">{{ partial "site/patreon.svg" (dict "size" "1em") }}</a></li>{{ end }}
+
+	{{with .Site.Params.patreon }}<li><a title="Patreon" href="{{ . }}">{{ partial "site/patreon.svg" (dict "size" "1em") }}</a></li>{{ end }}
+
+	{{with .Site.Params.youtube }}<li><a title="YouTube" href="{{ . }}">{{ partial "site/youtube.svg" (dict "size" "1em") }}</a></li>{{ end }}
+
+</ul>

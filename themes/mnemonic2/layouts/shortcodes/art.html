@@ -14,10 +14,10 @@
 {{- $caption := .Inner | default nil -}}
 
 {{- if eq $alt nil -}}
-  {{- if $.Site.Params.warnOnMissingAltText -}}
+  {{- if eq $.Site.Params.warnOnMissingAltText "true" -}}
     {{- warnf (printf "Missing alt text for '%v'" $src) -}}
   {{- else -}}
-  {{- errorf (printf "Missing alt text for '%v'" $src) -}}
+    {{- errorf (printf "Missing alt text for '%v'" $src) -}}
   {{- end -}}
 {{- end -}}
 

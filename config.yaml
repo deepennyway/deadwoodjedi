@@ -1,13 +1,10 @@
-baseURL: 'https://mnemonicrpg.com/'
+baseURL: '/'
 languageCode: en-us
 title: Deadwood Jedi
 theme: mnemonic2
 googleAnalytics: UA-123-45
 year: 2020
 copyrightHolder: Deadwood Jedi
-module:
-  imports:
-    - path: github.com/platenio/hugo-platen
 paginatePath: blog
 privacy:
   disqus:
@@ -32,10 +29,14 @@ privacy:
     disable: false
     privacyEnhanced: true
 params:
-  description: The world of memory, a fantasy setting for stories and games.
+  description: 
   # stain: https://images.pexels.com/photos/5556698/pexels-photo-5556698.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260
   copyright:   '2020, Deadwood Jedi'
   warnOnMissingAltText: false
+  twitter: https://www.twitter.com/deadwoodjedi
+  twitch: https://www.twitch.tv/deadwoodjedi
+  patreon: https://www.patreon.com/deadwoodjedi
+  youtube: https://www.youtube.com/deadwoodjedi
   scss:
     # Default site variables
     site:
@@ -68,13 +69,16 @@ menu:
   main:
     - name: Speed Tunes
       url: /speed-tune-list/
-    - name: Clan Boss Calculator
-      url: https://deadwoodjedi.info/cb
+      weight: 1
     - name: Resources
       url: /resources/
+      weight: 4
     - name: Arena Calculator
       url: /calculator/
+      weight: 2
     - name: FAQ
       url: /help/
+      weight: 5
     - name: Privacy Policy
       url: /privacy/
+      weight: 6
